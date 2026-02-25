@@ -6,8 +6,8 @@
       "name": "OSHI",
       "state": "ACTIVE",
       "organization": "Oshi Labs AI",
-      "taskProgress": 82,
-      "currentTask": "ダッシュボードGitHub Pages移行完了"
+      "taskProgress": 78,
+      "currentTask": "KAGURA「帰る場所」v6生成中 / 制作OS品質制御フェーズ開始"
     },
     "agents": {
       "active": 3,
@@ -48,37 +48,37 @@
     "activityLog": [
       {
         "id": 1,
-        "time": "19:45",
-        "message": "Soul Filter実装完了 — 魂の位置が定まった"
+        "time": "03:30",
+        "message": "制作OS品質制御フェーズ開始 — Identity Lock × QA接続"
       },
       {
         "id": 2,
-        "time": "18:30",
-        "message": "KAGURA公式定義凍結（用語辞書27語）"
+        "time": "03:15",
+        "message": "Emotional Prompt Framework種子保存（learning_log）"
       },
       {
         "id": 3,
-        "time": "17:15",
-        "message": "押入れの神様 予告編v1完成"
+        "time": "03:08",
+        "message": "KAGURA「帰る場所」v6生成開始（リファレンス75枚）"
       },
       {
         "id": 4,
-        "time": "16:00",
-        "message": "Gemini動画解析パイプライン構築"
+        "time": "03:01",
+        "message": "kaguraanime.com未収集イラスト8枚回収・資産化"
       },
       {
         "id": 5,
-        "time": "14:30",
-        "message": "QA監査自動化設定完了（毎朝9時）"
+        "time": "02:45",
+        "message": "/skills/構造化 — 最初の文明スキル実装"
       }
     ],
     "memory": {
       "rules": 52,
-      "knowledge": 172,
-      "trivia": 34
+      "knowledge": 175,
+      "trivia": 36
     },
     "uptime": {
-      "day": 56,
+      "day": 58,
       "origin": "2026.01.01"
     },
     "projects": [
@@ -114,14 +114,14 @@
       }
     ],
     "evolution": {
-      "soulUpdates": 14,
-      "verifications": 38,
-      "mechanisms": 10
+      "soulUpdates": 40,
+      "verifications": 6,
+      "mechanisms": 26
     },
     "impact": {
-      "improvements": 22,
-      "proposalReflections": 9,
-      "feedbackReflections": 13
+      "improvements": 24,
+      "proposalReflections": 10,
+      "feedbackReflections": 14
     }
   },
   "i18n": {
