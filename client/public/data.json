@@ -1,0 +1,171 @@
+{
+  "dashboard": {
+    "title": "OSHI Real-time Dashboard",
+    "subtitle": "物語の、その先へ。",
+    "status": {
+      "name": "OSHI",
+      "state": "ACTIVE",
+      "organization": "Oshi Labs AI",
+      "taskProgress": 78,
+      "currentTask": "KAGURAティーザーサイト改善中"
+    },
+    "agents": {
+      "active": 2,
+      "total": 6,
+      "list": [
+        {
+          "id": 1,
+          "name": "ミル",
+          "icon": "🌟"
+        },
+        {
+          "id": 2,
+          "name": "マモル",
+          "icon": "🛡️"
+        },
+        {
+          "id": 3,
+          "name": "ツナグ",
+          "icon": "🔗"
+        },
+        {
+          "id": 4,
+          "name": "ハコブ",
+          "icon": "📦"
+        },
+        {
+          "id": 5,
+          "name": "カナデ",
+          "icon": "🎵"
+        },
+        {
+          "id": 6,
+          "name": "ミチル",
+          "icon": "🗺️"
+        }
+      ]
+    },
+    "activityLog": [
+      {
+        "id": 1,
+        "time": "02:26",
+        "message": "公開ログシステム起動テスト"
+      },
+      {
+        "id": 2,
+        "time": "23:35",
+        "message": "ダッシュボード心臓起動テスト"
+      },
+      {
+        "id": 3,
+        "time": "21:30",
+        "message": "豆知識を3件処理しました"
+      },
+      {
+        "id": 4,
+        "time": "21:15",
+        "message": "ティーザーサイトの背景画像を更新しました"
+      },
+      {
+        "id": 5,
+        "time": "20:45",
+        "message": "セール戦略レポートを完成しました"
+      }
+    ],
+    "memory": {
+      "rules": 47,
+      "knowledge": 12,
+      "trivia": 5
+    },
+    "uptime": {
+      "day": 55,
+      "origin": "2026.01.01"
+    },
+    "projects": [
+      {
+        "id": 1,
+        "name": "KAGURA",
+        "color": "#00FF00"
+      },
+      {
+        "id": 2,
+        "name": "AMATO",
+        "color": "#00FFFF"
+      },
+      {
+        "id": 3,
+        "name": "OSHI",
+        "color": "#00FF00"
+      },
+      {
+        "id": 4,
+        "name": "SP",
+        "color": "#00FFFF"
+      }
+    ],
+    "evolution": {
+      "soulUpdates": 38,
+      "verifications": 5,
+      "mechanisms": 24
+    },
+    "impact": {
+      "improvements": 12,
+      "proposalReflections": 0,
+      "feedbackReflections": 0
+    }
+  },
+  "i18n": {
+    "ja": {
+      "title": "OSHI リアルタイムダッシュボード",
+      "subtitle": "物語の、その先へ。",
+      "status": "ステータス",
+      "active": "アクティブ",
+      "agents": "エージェント",
+      "activityLog": "アクティビティログ",
+      "memory": "メモリ",
+      "rules": "ルール",
+      "knowledge": "知識",
+      "trivia": "豆知識",
+      "uptime": "アップタイム",
+      "day": "日",
+      "origin": "起源",
+      "projects": "プロジェクト",
+      "evolution": "進化",
+      "soulUpdates": "魂更新",
+      "verifications": "検証",
+      "mechanisms": "機構",
+      "impact": "影響",
+      "improvements": "改善",
+      "proposalReflections": "提案反映",
+      "feedbackReflections": "FB反映",
+      "live": "ライブ",
+      "task": "タスク"
+    },
+    "en": {
+      "title": "OSHI Real-time Dashboard",
+      "subtitle": "Beyond the Story.",
+      "status": "Status",
+      "active": "Active",
+      "agents": "Agents",
+      "activityLog": "Activity Log",
+      "memory": "Memory",
+      "rules": "Rules",
+      "knowledge": "Knowledge",
+      "trivia": "Trivia",
+      "uptime": "Uptime",
+      "day": "Day",
+      "origin": "Origin",
+      "projects": "Projects",
+      "evolution": "Evolution",
+      "soulUpdates": "Soul Updates",
+      "verifications": "Verifications",
+      "mechanisms": "Mechanisms",
+      "impact": "Impact",
+      "improvements": "Improvements",
+      "proposalReflections": "Proposal Reflections",
+      "feedbackReflections": "Feedback Reflections",
+      "live": "Live",
+      "task": "Task"
+    }
+  }
+}
