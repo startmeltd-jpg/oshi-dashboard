@@ -6,11 +6,11 @@
       "name": "OSHI",
       "state": "ACTIVE",
       "organization": "Oshi Labs AI",
-      "taskProgress": 78,
-      "currentTask": "KAGURAティーザーサイト改善中"
+      "taskProgress": 82,
+      "currentTask": "ダッシュボードGitHub Pages移行完了"
     },
     "agents": {
-      "active": 2,
+      "active": 3,
       "total": 6,
       "list": [
         {
@@ -48,70 +48,80 @@
     "activityLog": [
       {
         "id": 1,
-        "time": "02:26",
-        "message": "公開ログシステム起動テスト"
+        "time": "19:45",
+        "message": "Soul Filter実装完了 — 魂の位置が定まった"
       },
       {
         "id": 2,
-        "time": "23:35",
-        "message": "ダッシュボード心臓起動テスト"
+        "time": "18:30",
+        "message": "KAGURA公式定義凍結（用語辞書27語）"
       },
       {
         "id": 3,
-        "time": "21:30",
-        "message": "豆知識を3件処理しました"
+        "time": "17:15",
+        "message": "押入れの神様 予告編v1完成"
       },
       {
         "id": 4,
-        "time": "21:15",
-        "message": "ティーザーサイトの背景画像を更新しました"
+        "time": "16:00",
+        "message": "Gemini動画解析パイプライン構築"
       },
       {
         "id": 5,
-        "time": "20:45",
-        "message": "セール戦略レポートを完成しました"
+        "time": "14:30",
+        "message": "QA監査自動化設定完了（毎朝9時）"
       }
     ],
     "memory": {
-      "rules": 47,
-      "knowledge": 12,
-      "trivia": 5
+      "rules": 52,
+      "knowledge": 172,
+      "trivia": 34
     },
     "uptime": {
-      "day": 55,
+      "day": 56,
       "origin": "2026.01.01"
     },
     "projects": [
       {
         "id": 1,
         "name": "KAGURA",
-        "color": "#00FF00"
+        "color": "#ef4444"
       },
       {
         "id": 2,
         "name": "AMATO",
-        "color": "#00FFFF"
+        "color": "#a855f7"
       },
       {
         "id": 3,
         "name": "OSHI",
-        "color": "#00FF00"
+        "color": "#00e5ff"
       },
       {
         "id": 4,
         "name": "SP",
-        "color": "#00FFFF"
+        "color": "#22c55e"
+      },
+      {
+        "id": 5,
+        "name": "Pockemy",
+        "color": "#f59e0b"
+      },
+      {
+        "id": 6,
+        "name": "Holy",
+        "color": "#e879f9"
       }
     ],
     "evolution": {
-      "soulUpdates": 38,
-      "verifications": 5,
-      "mechanisms": 24
+      "soulUpdates": 14,
+      "verifications": 38,
+      "mechanisms": 10
     },
     "impact": {
-      "improvements": 12,
-      "proposalReflections": 0,
-      "feedbackReflections": 0
+      "improvements": 22,
+      "proposalReflections": 9,
+      "feedbackReflections": 13
     }
   },
   "i18n": {
