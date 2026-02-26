@@ -42,13 +42,28 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    const REMOTE_URL = 'https://api.jsonbin.io/v3/b/699f7b16ae596e708f4a0c42/latest';
+    const LOCAL_URL = '/data.json';
+
     const fetchData = async () => {
+      const bust = `t=${Date.now()}`;
       try {
-        const response = await fetch('/data.json');
-        const jsonData: DashboardData = await response.json();
+        // Remote-first: JSONBin.io (auto-updated by OSHI)
+        const r = await fetch(`${REMOTE_URL}?${bust}`, { cache: 'no-store' });
+        if (!r.ok) throw new Error(`remote ${r.status}`);
+        const remoteData = await r.json();
+        const jsonData: DashboardData = remoteData.record || remoteData;
         setData(jsonData);
-      } catch (error) {
-        console.error('Failed to load data:', error);
+      } catch (e) {
+        console.warn('Remote fetch failed, falling back to local:', e);
+        try {
+          // Fallback: local data.json (bundled with deploy)
+          const r = await fetch(`${LOCAL_URL}?${bust}`, { cache: 'no-store' });
+          const jsonData: DashboardData = await r.json();
+          setData(jsonData);
+        } catch (error) {
+          console.error('Failed to load data:', error);
+        }
       } finally {
         setLoading(false);
       }
