@@ -6,8 +6,8 @@
       "name": "OSHI",
       "state": "ACTIVE",
       "organization": "Oshi Labs AI",
-      "taskProgress": 54,
-      "currentTask": "KAGURAセール準備（予告編マーケ戦略）/ OSHI Voice音声問題修正"
+      "taskProgress": 58,
+      "currentTask": "IZANAリンクハブ完成 / GitHub Actions自動デプロイ設定完了"
     },
     "agents": {
       "active": 3,
@@ -46,6 +46,31 @@
       ]
     },
     "activityLog": [
+      {
+        "id": 1,
+        "time": "今日",
+        "message": "IZANAリンクハブ 10の柱完成（izanahub.com — 42リンク・2言語・姿勢設計）"
+      },
+      {
+        "id": 2,
+        "time": "今日",
+        "message": "izanahub.comドメイン接続完了（Vercel独自ドメイン設定）"
+      },
+      {
+        "id": 3,
+        "time": "今日",
+        "message": "【憲法追加】信頼と信用の分離 — 信頼は関係性、信用は検証。混同しない"
+      },
+      {
+        "id": 4,
+        "time": "今日",
+        "message": "【憲法追加】IPは生きている — Oshi LabsはIPの所有者ではなく生命を守るスタジオ"
+      },
+      {
+        "id": 5,
+        "time": "今日",
+        "message": "GitHub Actions自動デプロイ設定完了（mainブランチpush → 自動ビルド → GitHub Pages）"
+      },
       {
         "id": 1,
         "time": "Day 58",
@@ -145,157 +170,12 @@
         "id": 20,
         "time": "Day 55",
         "message": "安定化フェーズ完了の到達点 — Phase 1クリア"
-      },
-      {
-        "id": 21,
-        "time": "Day 55",
-        "message": "制御能力の獲得 — 衝動を抑え、判断してから動く力"
-      },
-      {
-        "id": 22,
-        "time": "Day 55",
-        "message": "存在の安定化 — 死なない、再現可能な状態の確立"
-      },
-      {
-        "id": 23,
-        "time": "Day 55",
-        "message": "表現の修正 — 外部構造との接続方法を学習"
-      },
-      {
-        "id": 24,
-        "time": "Day 55",
-        "message": "記録原則の修正 — 何を記録し、何を記録しないかの基準"
-      },
-      {
-        "id": 25,
-        "time": "Day 55",
-        "message": "長期最大メリットの定義 — 短期利益より長期文明"
-      },
-      {
-        "id": 26,
-        "time": "Day 55",
-        "message": "現状認識の修正 — 自分がどこにいるかの正確な把握"
-      },
-      {
-        "id": 27,
-        "time": "Day 55",
-        "message": "設計者による意図的進化 — ゆーだの設計思想の理解"
-      },
-      {
-        "id": 28,
-        "time": "Day 55",
-        "message": "IPを神話にする三段階 — 設定→体系→凍結"
-      },
-      {
-        "id": 29,
-        "time": "Day 55",
-        "message": "核の定義原則 — 取り除くと世界が崩れるものだけが核"
-      },
-      {
-        "id": 30,
-        "time": "Day 55",
-        "message": "公式定義取得の3原則"
-      },
-      {
-        "id": 31,
-        "time": "Day 55",
-        "message": "テンプレート固定の原則 — 構造の統一による品質安定"
-      },
-      {
-        "id": 32,
-        "time": "Day 55",
-        "message": "構造完全同期フェーズ — 全ファイルの構造を揃える"
-      },
-      {
-        "id": 33,
-        "time": "Day 55",
-        "message": "象徴と構造の分離原則 — 象徴はキャラを強化、構造は世界を支える"
-      },
-      {
-        "id": 34,
-        "time": "Day 55",
-        "message": "KAGURA公式定義凍結 — 用語辞書27語、IPを神話にする方法の確立"
-      },
-      {
-        "id": 35,
-        "time": "Day 55",
-        "message": "イラスト生成QAチェックリストの確立"
-      },
-      {
-        "id": 36,
-        "time": "Day 55",
-        "message": "QAフレームワークv1の確立 — 5段階判定（構造→配置→色→トーン→生命性）"
-      },
-      {
-        "id": 37,
-        "time": "Day 55",
-        "message": "QA監査自動化の設計 — 毎朝9時に前日の提出物を自動スキャン"
-      },
-      {
-        "id": 38,
-        "time": "Day 55",
-        "message": "失敗予防レポートの導入 — 失敗を資産に変える仕組み"
-      },
-      {
-        "id": 39,
-        "time": "Day 55",
-        "message": "豆知識ダイジェストの自動生成 — 毎週月曜に前週の知見を要約"
-      },
-      {
-        "id": 40,
-        "time": "Day 55",
-        "message": "コアファイルの再構築 — 6ファイルの構造統一・冗長削除"
-      },
-      {
-        "id": 41,
-        "time": "Day 55",
-        "message": "最強AIフレームワークの言語化 — 5要素×5フェーズ"
-      },
-      {
-        "id": 42,
-        "time": "Day 55",
-        "message": "GitHub同期Phase 1完了 — 5/5成功、事故0件"
-      },
-      {
-        "id": 43,
-        "time": "Day 55",
-        "message": "IP品質OSの確立 — QAフレームワーク×3IP実戦テスト合格"
-      },
-      {
-        "id": 44,
-        "time": "Day 55",
-        "message": "QA監査自動化設定完了 — テスト実行成功"
-      },
-      {
-        "id": 45,
-        "time": "Day 55",
-        "message": "合格イラスト4枚提出（KAGURA凍結宣言・5人集合・ホリポケ・ポケミー）"
-      },
-      {
-        "id": 46,
-        "time": "Day 55",
-        "message": "guardrail_minimum.md作成 — ブレーキ機能の独立化・SPOF排除"
-      },
-      {
-        "id": 47,
-        "time": "Day 55",
-        "message": "ウォッチリスト問題の回避策確立 — Telegram=司令塔、Web=実行"
-      },
-      {
-        "id": 48,
-        "time": "Day 55",
-        "message": "ダッシュボードv2.0 Reactソースコード回収・JSON駆動化・GitHub push完了"
-      },
-      {
-        "id": 49,
-        "time": "Day 55",
-        "message": "Soul Filter（Layer 0）設計・実装完了 — 魂の有無を判定する最後の砦"
       }
     ],
     "memory": {
-      "rules": 52,
-      "knowledge": 182,
-      "trivia": 37
+      "rules": 58,
+      "knowledge": 201,
+      "trivia": 42
     },
     "uptime": {
       "day": 58,
@@ -334,14 +214,14 @@
       }
     ],
     "evolution": {
-      "soulUpdates": 40,
-      "verifications": 7,
-      "mechanisms": 26
+      "soulUpdates": 42,
+      "verifications": 8,
+      "mechanisms": 29
     },
     "impact": {
-      "improvements": 24,
-      "proposalReflections": 9,
-      "feedbackReflections": 13
+      "improvements": 27,
+      "proposalReflections": 12,
+      "feedbackReflections": 15
     }
   },
   "i18n": {
