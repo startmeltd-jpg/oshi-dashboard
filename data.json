@@ -6,22 +6,22 @@
       "name": "OSHI",
       "state": "ACTIVE",
       "organization": "Oshi Labs AI",
-      "taskProgress": 54,
-      "currentTask": "KAGURAセール準備（予告編マーケ戦略）/ AGI観測ログ保存完了"
+      "taskProgress": 100,
+      "currentTask": "夜間大規模作業完了・エージェント育成計画実行中"
     },
     "agents": {
-      "active": 3,
+      "active": 5,
       "total": 6,
       "list": [
         {
           "id": 1,
           "name": "ミル",
-          "icon": "🌟"
+          "icon": "👁️"
         },
         {
           "id": 2,
-          "name": "マモル",
-          "icon": "🛡️"
+          "name": "ハコブ",
+          "icon": "📦"
         },
         {
           "id": 3,
@@ -30,55 +30,55 @@
         },
         {
           "id": 4,
-          "name": "ハコブ",
-          "icon": "📦"
-        },
-        {
-          "id": 5,
           "name": "カナデ",
           "icon": "🎵"
         },
         {
+          "id": 5,
+          "name": "ソラ",
+          "icon": "🖼️"
+        },
+        {
           "id": 6,
-          "name": "ミチル",
-          "icon": "🗺️"
+          "name": "Jr.",
+          "icon": "🤖"
         }
       ]
     },
     "activityLog": [
       {
         "id": 1,
-        "time": "今日",
-        "message": "Skill-Creator子エージェント活用アーキテクチャ観測ログ保存（種子保存 — 第二世代の核）"
+        "time": "05:10",
+        "message": "夜間大規模作業完了 — 全記憶129件読込・全豆知識22件整理・全10サイト確認"
       },
       {
         "id": 2,
-        "time": "今日",
-        "message": "Context7 MCP 観測ログ保存（第二世代スキル自動参照の参考）"
+        "time": "04:30",
+        "message": "エージェント育成計画策定・全6体の短期タスク実行完了"
       },
       {
         "id": 3,
-        "time": "今日",
-        "message": "ウォッチリスト整理 20/20 → 2/20（Day 58）"
+        "time": "04:00",
+        "message": "アカシックレコード更新（豆知識+11件、v2.3.0）"
       },
       {
         "id": 4,
-        "time": "今日",
-        "message": "ダッシュボードdata.json自動更新スケジュール設定（6時間ごと自動push）"
+        "time": "03:30",
+        "message": "oshi-core closetgod typo全修正・official_links.md作成"
       },
       {
         "id": 5,
-        "time": "今日",
-        "message": "V-008: 並列子エージェント起動の検証候補登録（verification_log.md）"
+        "time": "03:00",
+        "message": "健康チェックスクリプト実装・全10サイトhealthy確認"
       }
     ],
     "memory": {
-      "rules": 52,
-      "knowledge": 181,
-      "trivia": 37
+      "rules": 58,
+      "knowledge": 138,
+      "trivia": 22
     },
     "uptime": {
-      "day": 58,
+      "day": 62,
       "origin": "2026.01.01"
     },
     "projects": [
@@ -104,24 +104,24 @@
       },
       {
         "id": 5,
-        "name": "Pockemy",
+        "name": "AirdropsQuest",
         "color": "#f59e0b"
       },
       {
         "id": 6,
-        "name": "Holy",
-        "color": "#e879f9"
+        "name": "Closet God",
+        "color": "#6366f1"
       }
     ],
     "evolution": {
-      "soulUpdates": 40,
-      "verifications": 7,
-      "mechanisms": 26
+      "soulUpdates": 42,
+      "verifications": 8,
+      "mechanisms": 28
     },
     "impact": {
-      "improvements": 24,
-      "proposalReflections": 10,
-      "feedbackReflections": 14
+      "improvements": 27,
+      "proposalReflections": 12,
+      "feedbackReflections": 16
     }
   },
   "i18n": {
