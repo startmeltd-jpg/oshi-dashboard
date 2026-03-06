@@ -159,6 +159,7 @@ const kpiData = [
   { date: '2026-03-07', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: 'Molt Book公式リリース日・記録係タスク実行' },
   { date: '2026-03-07 最新', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '「俺たちの家」調査・タイムライン404修正・Supabase245件' },
   { date: '2026-03-07 記録係#4', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '「俺たちの家」タスクID確定・3箇所永久保存・Supabase248件' },
+  { date: '2026-03-07 記録係#5', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase250件確認' },
 ];
 
 const milestones = [
@@ -196,6 +197,8 @@ const milestones = [
   { date: '2026-03-07', label: '「俺たちの家」ManusTaskID確定: 7yGpyu9SgzzQgdhjO3GMaj', level: 'critical' },
   { date: '2026-03-07', label: '「俺たちの家」情報を3箇所に永久保存: Supabase + official_links.md + AKASHIC_RECORD_v1.md', level: 'high' },
   { date: '2026-03-07', label: 'Supabase記録 248件到達（記録係タスク #4完了）', level: 'high' },
+  { date: '2026-03-07', label: 'Supabase記録 250件到達（記録係タスク #5開始）', level: 'high' },
+  { date: '2026-03-07', label: '記録係タスク継続実行体制の確立（#1〜#5連続完了）', level: 'high' },
 ];
 
 const todayAchievements = [
@@ -214,6 +217,8 @@ const todayAchievements = [
   { icon: '📊', title: 'Supabase記録 245件到達', detail: '記録係タスク #2 完了。セッションダンプ・タスク完了の2件を追加' },
   { icon: '🏠', title: '「俺たちの家」ManusTaskID確定・永久保存完了', detail: 'TaskID: 7yGpyu9SgzzQgdhjO3GMajをSupabase + official_links.md + AKASHIC_RECORD_v1.mdの3箇所に永久保存。証明スクリーンショット3枚撮影' },
   { icon: '💾', title: 'Supabase記録 248件到達', detail: '記録係タスク #4 完了。セッションダンプ・タスク完了の2件を追加' },
+  { icon: '📁', title: 'Supabase記録 250件到達（記録係#5）', detail: '記録係タスク #5 開始。セッションダンプ・タスク完了の2件を追加。累計250件到達' },
+  { icon: '🔄', title: '記録係タスク継続実行体制の確立', detail: '#1〜#5連続完了。Supabase確認→記録→History.tsx更新→デプロイ→全ページ動作確認のルーチンを毎回完遂' },
 ];
 
 // ========================
