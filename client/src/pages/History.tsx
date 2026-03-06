@@ -165,6 +165,7 @@ const kpiData = [
   { date: '2026-03-07 記録係#8', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase257件確認' },
   { date: '2026-03-07 記録係#9', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase259件確認' },
   { date: '2026-03-07 記録係#10', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase261件確認・本日+16件' },
+  { date: '2026-03-07 記録係#11', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase263件確認・本日+18件' },
 ];
 
 const milestones = [
@@ -210,6 +211,7 @@ const milestones = [
   { date: '2026-03-07', label: 'Supabase記録 257件到達（記録係タスク #8完了）', level: 'high' },
   { date: '2026-03-07', label: 'Supabase記録 259件到達（記録係タスク #9完了）', level: 'high' },
   { date: '2026-03-07', label: '記録係タスク #1〜#10 連続完了・本日Supabase+16件（245→261件）', level: 'high' },
+  { date: '2026-03-07', label: '記録係タスク #1〜#11 連続完了・Supabase263件到達・本日+18件', level: 'high' },
 ];
 
 const todayAchievements = [
@@ -236,6 +238,7 @@ const todayAchievements = [
   { icon: '💾', title: 'Supabase記録 257件到達（記録係#8）', detail: '記録係タスク #8 完了。セッションダンプ・タスク完了の2件を追加。累計257件到達' },
   { icon: '📝', title: 'Supabase記録 259件到達（記録係#9）', detail: '記録係タスク #9 完了。セッションダンプ・タスク完了の2件を追加。累計259件到達' },
   { icon: '🎉', title: '記録係タスク #1〜#10 連続完了！', detail: '本日だけでSupabase記録が245件→261件（+16件）増加。記録係タスク #1〜#10連続完了。完全定着化確認。' },
+  { icon: '📊', title: '記録係タスク #1〜#11 連続完了！', detail: '本日だけでSupabase記録が245件→263件（+18件）増加。記録係タスク #1〜#11連続完了。完全定着化。' },
 ];
 
 // ========================
