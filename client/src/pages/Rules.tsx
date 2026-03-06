@@ -145,6 +145,13 @@ export default function Rules() {
   const failureCases: FailureCase[] = [
     {
       date: '2026-03-06',
+      title: '/historyページ404事件（GitHubプッシュのみで完成報告した）',
+      what: 'Historyページを実装してGitHubにプッシュし「完成」と報告した。しかし実際のサイトには反映されておらず、ゆーだがアクセスしたら404が出る状態だった。',
+      cause: 'GitHubへのプッシュとデプロイは別の作業。ビルド成功・プッシュ成功だけで「完成」と報告してしまった。実際のURLでの動作確認を怠った。',
+      fix: '必ずデプロイコマンド実行→ログ確認→実際のURLにブラウザアクセス→スクリーンショット確認→ゆーだへ報告の順番を守る。',
+    },
+    {
+      date: '2026-03-06',
       title: 'TerminalTimeWidget混入事件',
       what: 'VCダッシュボード（analytics.airdropsquest.com）に「ゆーだのターミナルタイム」という個人ウィジェットが表示されていた。',
       cause: '「VCダッシュボードを整理して」という指示を受けた際、現在の状態を確認せずに作業した。TerminalTimeWidgetがすでにコードに含まれていたのを見落とした。',
@@ -261,6 +268,49 @@ export default function Rules() {
           </ul>
         </Card>
 
+        {/* Deploy Confirmation Rules */}
+        <Card title="鉄則：提出前確認ルール（デプロイ版）" color={RED} icon="⚠">
+          <p className="text-xs font-mono mb-5" style={{ color: `${RED}aa` }}>
+            GitHubにプッシュしただけでは完成ではない。「ユーザーが実際にアクセスできる状態」になって初めて完成。
+          </p>
+          <div className="mb-5">
+            <div className="text-xs font-mono font-bold mb-3 uppercase tracking-wider" style={{ color: CYAN }}>確認手順（この順番で必ず実行）</div>
+            <ol className="space-y-2">
+              {[
+                'デプロイコマンドを実行する',
+                'デプロイ完了のログを確認する',
+                '実際のURLにアクセスしてページが表示されることを確認する',
+                'スクリーンショットを撮って自分の目で確認する',
+                '問題がなければ初めてゆーだに報告する',
+              ].map((step, i) => (
+                <li
+                  key={i}
+                  className="flex items-center gap-4 p-3 border"
+                  style={{ borderColor: `${CYAN}33`, backgroundColor: `${CYAN}06` }}
+                >
+                  <span className="text-lg font-bold font-mono flex-shrink-0" style={{ color: CYAN }}>0{i + 1}</span>
+                  <span className="text-sm" style={{ color: '#ffffffcc' }}>{step}</span>
+                </li>
+              ))}
+            </ol>
+          </div>
+          <div>
+            <div className="text-xs font-mono font-bold mb-3 uppercase tracking-wider" style={{ color: RED }}>禁止（FORBIDDEN）</div>
+            <ul className="space-y-2">
+              {[
+                'ビルド成功・プッシュ成功だけで「完成」と報告すること',
+                '自分でアクセス確認せずにURLを伝えること',
+                '404が出るページをゆーだに渡すこと',
+              ].map((item, i) => (
+                <li key={i} className="flex items-start gap-3 text-sm" style={{ color: '#ffffffcc' }}>
+                  <span className="mt-0.5 font-bold flex-shrink-0" style={{ color: RED }}>✕</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </Card>
+
         {/* Failure Cases */}
         <Card title="失敗事例（学習記録）" color={RED} icon="✕">
           <p className="text-xs font-mono mb-4" style={{ color: `${RED}88` }}>
@@ -284,7 +334,7 @@ export default function Rules() {
 
       <footer className="border-t mt-16 py-8" style={{ borderColor: `${GREEN}22` }}>
         <div className="container mx-auto px-4 text-center text-xs font-mono" style={{ color: CYAN }}>
-          <p>SYSTEM_RULES_v1.1 — Last updated: 2026-03-06</p>
+          <p>SYSTEM_RULES_v1.2 — Last updated: 2026-03-06</p>
         </div>
       </footer>
     </div>
