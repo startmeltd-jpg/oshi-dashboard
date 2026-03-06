@@ -3,6 +3,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
 import AkashicRecord from "@/pages/AkashicRecord";
 import Rules from "@/pages/Rules";
+import History from "@/pages/History";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
@@ -15,6 +16,7 @@ function Router() {
       <Route path={"/"} component={Home} />
       <Route path={"/akashic"} component={AkashicRecord} />
       <Route path={"/rules"} component={Rules} />
+      <Route path={"/history"} component={History} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
