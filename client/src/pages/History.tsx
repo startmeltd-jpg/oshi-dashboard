@@ -162,6 +162,7 @@ const kpiData = [
   { date: '2026-03-07 記録係#5', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase250件確認' },
   { date: '2026-03-07 00:02', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: 'ギフト＆チアーズ合計10,000件突破！' },
   { date: '2026-03-07 記録係#7', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase255件確認' },
+  { date: '2026-03-07 記録係#8', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase257件確認' },
 ];
 
 const milestones = [
@@ -204,6 +205,7 @@ const milestones = [
   { date: '2026-03-07 00:02', label: 'AirdropsQuest ギフト＆チアーズ合計10,000件突破', level: 'critical' },
   { date: '2026-03-07', label: 'Supabase記録 255件到達（記録係タスク #7完了）', level: 'high' },
   { date: '2026-03-07', label: '記録係タスク #1〜#7 連続完了・完全定着化', level: 'high' },
+  { date: '2026-03-07', label: 'Supabase記録 257件到達（記録係タスク #8完了）', level: 'high' },
 ];
 
 const todayAchievements = [
@@ -227,6 +229,7 @@ const todayAchievements = [
   { icon: '🎁', title: 'AirdropsQuest ギフト＆チアーズ合計10,000件突破！', detail: '2026-03-07 00:02頃達成。ユーザー同士のエンゲージメントが累計1万件突破。Molt Book公式リリース日と同日の歴史的達成' },
   { icon: '📂', title: 'Supabase記録 255件到達（記録係#7）', detail: '記録係タスク #7 開始。セッションダンプ・タスク完了の2件を追加。累計255件到達' },
   { icon: '✅', title: '記録係タスク #1〜#7 連続完了', detail: 'Supabase確認→記録→History.tsx更新→デプロイ→全ページ動作確認のルーチンを毎回完遂。完全定着化' },
+  { icon: '💾', title: 'Supabase記録 257件到達（記録係#8）', detail: '記録係タスク #8 完了。セッションダンプ・タスク完了の2件を追加。累計257件到達' },
 ];
 
 // ========================
