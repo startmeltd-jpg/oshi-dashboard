@@ -11,6 +11,7 @@ export default function Header({ language, setLanguage, t }: HeaderProps) {
   const isAkashic = location === '/akashic';
   const isRules = location === '/rules';
   const isHistory = location === '/history';
+  const isTimeline = location === '/timeline';
 
   return (
     <header className="border-b border-foreground/20 backdrop-blur-sm sticky top-0 z-50">
@@ -95,6 +96,31 @@ export default function Header({ language, setLanguage, t }: HeaderProps) {
                 }}
               >
                 ◆ まとめ
+              </button>
+            </Link>
+            <Link href="/timeline">
+              <button
+                className="px-3 py-1.5 text-xs font-mono font-bold tracking-wider border transition-all duration-200"
+                style={{
+                  color: isTimeline ? '#F59E0B' : '#ffffff55',
+                  borderColor: isTimeline ? '#F59E0B66' : 'transparent',
+                  backgroundColor: isTimeline ? '#F59E0B11' : 'transparent',
+                  textShadow: isTimeline ? '0 0 8px #F59E0B' : 'none',
+                }}
+                onMouseEnter={(e) => {
+                  if (!isTimeline) {
+                    (e.currentTarget as HTMLElement).style.color = '#F59E0Baa';
+                    (e.currentTarget as HTMLElement).style.borderColor = '#F59E0B44';
+                  }
+                }}
+                onMouseLeave={(e) => {
+                  if (!isTimeline) {
+                    (e.currentTarget as HTMLElement).style.color = '#ffffff55';
+                    (e.currentTarget as HTMLElement).style.borderColor = 'transparent';
+                  }
+                }}
+              >
+                ✦ タイムライン
               </button>
             </Link>
             <Link href="/rules">

@@ -4,6 +4,7 @@ import NotFound from "@/pages/NotFound";
 import AkashicRecord from "@/pages/AkashicRecord";
 import Rules from "@/pages/Rules";
 import History from "@/pages/History";
+import Timeline from "@/pages/Timeline";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
@@ -17,6 +18,7 @@ function Router() {
       <Route path={"/akashic"} component={AkashicRecord} />
       <Route path={"/rules"} component={Rules} />
       <Route path={"/history"} component={History} />
+      <Route path={"/timeline"} component={Timeline} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
