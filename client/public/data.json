@@ -26,9 +26,7 @@
       { "id": 2, "time": "03/05", "message": "AirdropsQuestダッシュボードV30デプロイ — analytics.airdropsquest.com" },
       { "id": 3, "time": "03/04", "message": "LiveJoinFeed個別ユーザー表示実装 — recentRegistrations実データ接続" },
       { "id": 4, "time": "03/03", "message": "国別ランキング動的取得実装 — Indonesia 5,469 / Singapore 3,261 / Bangladesh 2,942" },
-      { "id": 5, "time": "03/02", "message": "Supabase直接取得移行完了 — JSONBin.io廃止・oshi_statsテーブル接続" },
-      { "id": 6, "time": "03/01", "message": "AirdropsQuest 20,000ユーザー突破 — 116カ国展開" },
-      { "id": 7, "time": "02/28", "message": "oshi-dashboard AirdropsQuestセクション追加 — KPIカード実装" }
+      { "id": 5, "time": "03/02", "message": "Supabase直接取得移行完了 — JSONBin.io廃止・oshi_statsテーブル接続" }
     ],
     "memory": {
       "rules": 58,

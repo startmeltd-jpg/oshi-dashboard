@@ -10,6 +10,7 @@ export default function Header({ language, setLanguage, t }: HeaderProps) {
   const [location] = useLocation();
   const isAkashic = location === '/akashic';
   const isRules = location === '/rules';
+  const isHistory = location === '/history';
 
   return (
     <header className="border-b border-foreground/20 backdrop-blur-sm sticky top-0 z-50">
@@ -32,7 +33,7 @@ export default function Header({ language, setLanguage, t }: HeaderProps) {
           </Link>
 
           {/* Navigation Links */}
-          <nav className="flex items-center gap-1">
+          <nav className="flex items-center gap-1 flex-wrap">
             <Link href="/">
               <button
                 className="px-3 py-1.5 text-xs font-mono font-bold tracking-wider border transition-all duration-200"
@@ -69,6 +70,31 @@ export default function Header({ language, setLanguage, t }: HeaderProps) {
                 }}
               >
                 ◈ アカシックレコード
+              </button>
+            </Link>
+            <Link href="/history">
+              <button
+                className="px-3 py-1.5 text-xs font-mono font-bold tracking-wider border transition-all duration-200"
+                style={{
+                  color: isHistory ? '#FFD700' : '#ffffff55',
+                  borderColor: isHistory ? '#FFD70066' : 'transparent',
+                  backgroundColor: isHistory ? '#FFD70011' : 'transparent',
+                  textShadow: isHistory ? '0 0 8px #FFD700' : 'none',
+                }}
+                onMouseEnter={(e) => {
+                  if (!isHistory) {
+                    (e.currentTarget as HTMLElement).style.color = '#FFD700aa';
+                    (e.currentTarget as HTMLElement).style.borderColor = '#FFD70044';
+                  }
+                }}
+                onMouseLeave={(e) => {
+                  if (!isHistory) {
+                    (e.currentTarget as HTMLElement).style.color = '#ffffff55';
+                    (e.currentTarget as HTMLElement).style.borderColor = 'transparent';
+                  }
+                }}
+              >
+                ◆ まとめ
               </button>
             </Link>
             <Link href="/rules">
