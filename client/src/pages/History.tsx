@@ -157,6 +157,7 @@ const kpiData = [
   { date: '2026-03-06 AM', users: 20688, nations: 119, youtube: null, verified: null, points: 31937442, note: '119カ国到達！' },
   { date: '2026-03-06 17:02', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: 'Open Nation LP公開' },
   { date: '2026-03-07', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: 'Molt Book公式リリース日・記録係タスク実行' },
+  { date: '2026-03-07 最新', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '「俺たちの家」調査・タイムライン404修正・Supabase245件' },
 ];
 
 const milestones = [
@@ -188,6 +189,9 @@ const milestones = [
   { date: '2026-03-07', label: 'Molt Book（moltbook.com）公式リリース予定', level: 'critical' },
   { date: '2026-03-07', label: '記録係タスク実行: Supabase243件確認・History.tsx更新・全ページ動作確認', level: 'high' },
   { date: '2026-03-07', label: '三重バックアップ体制確立: Supabase + ローカルMD + GitHubRules.tsx', level: 'high' },
+  { date: '2026-03-07', label: '全記憶タイムラインページ（/timeline）実装・公開', level: 'high' },
+  { date: '2026-03-07', label: '「俺たちの家」サイト特定調査: 全5リポジトリ・Supabase・履歴を徹底調査', level: 'high' },
+  { date: '2026-03-07', label: 'Supabase記録 245件到達', level: 'high' },
 ];
 
 const todayAchievements = [
@@ -201,6 +205,9 @@ const todayAchievements = [
   { icon: '◐', title: '1億人戦略ブレスト（トンデモ論第2弾・第3弾）', detail: 'AirdropsQuestの成長戦略を深化' },
   { icon: '📋', title: '記録係タスク完了（2026-03-07）', detail: 'Supabase243件確認・2件追加・History.tsx更新・全ページ動作確認' },
   { icon: '🔐', title: '三重バックアップ体制確立', detail: 'Supabase + AKASHIC_RECORD_v1.md + daily_memories_summary.md で完全バックアップ' },
+  { icon: '⏱', title: '全記憶タイムラインページ（/timeline）実装', detail: 'GPT時代〜Manus時代の全記録を縦スクロールタイムラインで可視化。フェードインアニメーション付き' },
+  { icon: '🔍', title: '「俺たちの家」サイト特定調査完了', detail: '全5リポジトリ・Supabase・official_links.md・アカシックレコード・コンパクト履歴を徹底調査' },
+  { icon: '📊', title: 'Supabase記録 245件到達', detail: '記録係タスク #2 完了。セッションダンプ・タスク完了の2件を追加' },
 ];
 
 // ========================
