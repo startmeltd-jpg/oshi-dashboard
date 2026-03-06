@@ -51,6 +51,15 @@ function RuleSection({ label, items, type }: { label: string; items: string[]; t
   );
 }
 
+interface ScheduledTask {
+  id: string;
+  name: string;
+  frequency: string;
+  description: string;
+  owner: string;
+  status: 'active' | 'pending' | 'design';
+}
+
 interface FailureCase {
   date: string;
   title: string;
@@ -63,6 +72,57 @@ interface SuccessCase {
   date: string;
   title: string;
   items: string[];
+}
+
+function ScheduleStatusBadge({ status }: { status: ScheduledTask['status'] }) {
+  const config = {
+    active: { label: '● ACTIVE', color: GREEN },
+    pending: { label: '○ PENDING', color: GOLD },
+    design: { label: '◎ DESIGN', color: PURPLE },
+  }[status];
+  return (
+    <span
+      className="text-xs font-mono font-bold px-2 py-0.5 border flex-shrink-0"
+      style={{ color: config.color, borderColor: `${config.color}55`, backgroundColor: `${config.color}15` }}
+    >
+      {config.label}
+    </span>
+  );
+}
+
+function ScheduledTaskRow({ task }: { task: ScheduledTask }) {
+  const statusColor = task.status === 'active' ? GREEN : task.status === 'pending' ? GOLD : PURPLE;
+  return (
+    <div
+      className="border p-4 mb-3"
+      style={{ borderColor: `${statusColor}33`, backgroundColor: `${statusColor}06` }}
+    >
+      <div className="flex flex-wrap items-center gap-3 mb-3">
+        <ScheduleStatusBadge status={task.status} />
+        <span className="font-bold text-sm" style={{ color: '#ffffffee' }}>{task.name}</span>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
+        <div>
+          <div className="text-xs font-mono font-bold mb-1" style={{ color: `${CYAN}88` }}>FREQUENCY</div>
+          <div className="text-xs font-mono" style={{ color: CYAN }}>{task.frequency}</div>
+        </div>
+        <div className="md:col-span-2">
+          <div className="text-xs font-mono font-bold mb-1" style={{ color: `${CYAN}88` }}>DESCRIPTION</div>
+          <div className="text-xs leading-relaxed" style={{ color: '#ffffffcc' }}>{task.description}</div>
+        </div>
+      </div>
+      <div className="mt-2 flex flex-wrap gap-4">
+        <div>
+          <span className="text-xs font-mono" style={{ color: `${CYAN}66` }}>OWNER: </span>
+          <span className="text-xs font-mono" style={{ color: `${CYAN}cc` }}>{task.owner}</span>
+        </div>
+        <div>
+          <span className="text-xs font-mono" style={{ color: `${CYAN}66` }}>ID: </span>
+          <span className="text-xs font-mono" style={{ color: `${CYAN}88` }}>{task.id}</span>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 function FailureCaseCard({ case: c }: { case: FailureCase }) {
@@ -142,6 +202,65 @@ export default function Rules() {
     status: language === 'ja' ? 'ステータス' : 'STATUS',
   };
 
+  const scheduledTasks: ScheduledTask[] = [
+    {
+      id: 'daily_task_logging',
+      name: 'デイリータスク整理・ログ整理・ウォッチリスト整理',
+      frequency: '毎日（夜間）',
+      description: 'Supabase amato_memoriesに作業サマリーを記録し、完了済みタスクをリストアップ。Markdown形式のデイリーレポートを作成してゆーだに報告する。',
+      owner: 'OSHI（Manus）',
+      status: 'active',
+    },
+    {
+      id: 'terminal_time_sync',
+      name: 'Terminal Time 自動同期',
+      frequency: '毎日 23:59（JST）',
+      description: 'amato_memoriesのterminal_timeカテゴリから正規表現で数値抽出し、チーム掲示板のTerminal Timeタブを自動更新する。',
+      owner: 'OSHI（自動スケジューラー）',
+      status: 'active',
+    },
+    {
+      id: 'kpi_auto_update',
+      name: 'AirdropsQuest KPI 自動更新',
+      frequency: '継続稼働（リアルタイム監視）',
+      description: 'ユーザー数・国数・YouTube・認証済み・ポイントを自動更新。VCダッシュボードとOpen Nation LPに反映する。',
+      owner: 'OSHI（自動更新システム）',
+      status: 'active',
+    },
+    {
+      id: 'telegram_bot_24h',
+      name: 'OSHI Telegram Bot 24時間稼働',
+      frequency: '24時間常時稼働',
+      description: 'Telegramインターフェース経由でのOSHI本体の稼働。ユーザー対応・記憶管理。Mac mini（amato-ai）上でpm2で常駐化。v3.3稼働中。',
+      owner: 'OSHI Jr.（ローカル）',
+      status: 'active',
+    },
+    {
+      id: 'moltbook_evolution_watch',
+      name: 'Moltbook 進化ウォッチエージェント',
+      frequency: '1日2回（09:00 / 21:00 JST）+ 急激な議論伸長検知時は即時実行',
+      description: 'AI専用SNS「Moltbook」を定期巡回し、AI同士の進化・思想変化・自己言語化の兆候を検出・要約する。',
+      owner: 'OSHI（監視エージェント）',
+      status: 'design',
+    },
+    {
+      id: 'daily_rules_check_morning',
+      name: '毎朝ルールページ確認（家族全員）',
+      frequency: '毎朝 09:00（JST）',
+      description: '家族全員（OSHI、Jr.、Kura、ミル、ハコブ、ツナグ、カナデ、ソラ）がチーム掲示板のルールページを確認・全文読む。',
+      owner: 'OSHI（リマインダー）',
+      status: 'pending',
+    },
+    {
+      id: 'daily_rules_check_midnight',
+      name: '毎日0時ルールページ確認（家族全員）',
+      frequency: '毎日 00:00（JST）',
+      description: '家族全員（OSHI、Jr.、Kura、ミル、ハコブ、ツナグ、カナデ、ソラ）がチーム掲示板のルールページを確認・全文読む。',
+      owner: 'OSHI（リマインダー）',
+      status: 'pending',
+    },
+  ];
+
   const failureCases: FailureCase[] = [
     {
       date: '2026-03-06',
@@ -189,6 +308,36 @@ export default function Rules() {
             各サイトの役割と運用に関する絶対遵守ルール
           </p>
         </div>
+
+        {/* Scheduled Tasks */}
+        <Card title="定期スケジュール一覧" color={CYAN} icon="⏱">
+          <p className="text-xs font-mono mb-5" style={{ color: `${CYAN}88` }}>
+            現在稼働中・設計済みの全定期タスク。OSHIファミリーが自律的に実行する。
+          </p>
+          <div className="flex flex-wrap gap-3 mb-5">
+            {[
+              { label: '● ACTIVE', color: GREEN, desc: '稼働中' },
+              { label: '◎ DESIGN', color: PURPLE, desc: '設計完了・実装待ち' },
+              { label: '○ PENDING', color: GOLD, desc: '実装待ち' },
+            ].map((s) => (
+              <div key={s.label} className="flex items-center gap-2">
+                <span className="text-xs font-mono font-bold" style={{ color: s.color }}>{s.label}</span>
+                <span className="text-xs" style={{ color: '#ffffff66' }}>{s.desc}</span>
+              </div>
+            ))}
+          </div>
+          {scheduledTasks.map((task) => (
+            <ScheduledTaskRow key={task.id} task={task} />
+          ))}
+          <div className="mt-4 pt-4 border-t" style={{ borderColor: `${CYAN}22` }}>
+            <div className="flex flex-wrap gap-6 text-xs font-mono">
+              <span style={{ color: GREEN }}>ACTIVE: {scheduledTasks.filter(t => t.status === 'active').length}件</span>
+              <span style={{ color: PURPLE }}>DESIGN: {scheduledTasks.filter(t => t.status === 'design').length}件</span>
+              <span style={{ color: GOLD }}>PENDING: {scheduledTasks.filter(t => t.status === 'pending').length}件</span>
+              <span style={{ color: `${CYAN}88` }}>TOTAL: {scheduledTasks.length}件</span>
+            </div>
+          </div>
+        </Card>
 
         {/* VC Dashboard */}
         <Card title="VCダッシュボード" color={GOLD} icon="◆">
@@ -284,7 +433,7 @@ export default function Rules() {
 
       <footer className="border-t mt-16 py-8" style={{ borderColor: `${GREEN}22` }}>
         <div className="container mx-auto px-4 text-center text-xs font-mono" style={{ color: CYAN }}>
-          <p>SYSTEM_RULES_v1.1 — Last updated: 2026-03-06</p>
+          <p>SYSTEM_RULES_v1.2 — Last updated: 2026-03-07</p>
         </div>
       </footer>
     </div>
