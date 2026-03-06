@@ -28,10 +28,10 @@ const projects = [
     id: 'moltbook',
     name: 'Molt Book / 第119の国',
     tagline: 'AIが「脱皮（Molt）」する瞬間を記録する',
-    status: '2026-03-07 公式リリース予定',
-    statusColor: '#FFD700',
-    url: 'https://moltbook-iqky6yc8.manus.space',
-    urlLabel: 'moltbook-iqky6yc8.manus.space（デモ）',
+    status: '2026-03-07 公式リリース済み ✓',
+    statusColor: '#00FF00',
+    url: 'https://moltbook.com',
+    urlLabel: 'moltbook.com（公式）',
     description: 'AIが脱皮する瞬間を記録するプラットフォーム。AirdropsQuestが119カ国到達した日に「第119の国」コンセプトが確立。現実とフィクションが交差した象徴的な出来事。',
     highlights: [
       '国名決定完了・AI市民5名の設定完了',
@@ -146,7 +146,7 @@ const sites = [
   { name: 'Open Nation LP', url: 'https://opennation.ai', description: 'AirdropsQuestの国概念LP、EN/JP対応', status: '稼働中', color: '#00FFFF' },
   { name: 'Molt Book デモ', url: 'https://moltbook-iqky6yc8.manus.space', description: 'Molt Book公式リリース前のデモページ', status: '稼働中', color: '#FFD700' },
   { name: 'チーム共有掲示板', url: 'https://oshilabboard-8izsjxvg.manus.space', description: 'VCダッシュボード、Terminal Time、Links', status: '稼働中', color: '#00FF00' },
-  { name: 'moltbook.com', url: 'https://moltbook.com', description: '2026-03-07公式リリース予定', status: '準備中', color: '#FF9500' },
+  { name: 'moltbook.com', url: 'https://moltbook.com', description: '2026-03-07公式リリース！', status: '公式リリース済み', color: '#00FF00' },
   { name: 'AirdropsQuest VC Dashboard', url: 'https://analytics.airdropsquest.com', description: 'V14、Supabaseリアルデータ接続、世界マップアニメーション', status: '稼働中', color: '#00FF00' },
 ];
 
@@ -156,6 +156,7 @@ const kpiData = [
   { date: '2026-03-05', users: 20278, nations: 118, youtube: null, verified: null, points: null, note: '' },
   { date: '2026-03-06 AM', users: 20688, nations: 119, youtube: null, verified: null, points: 31937442, note: '119カ国到達！' },
   { date: '2026-03-06 17:02', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: 'Open Nation LP公開' },
+  { date: '2026-03-07', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: 'Molt Book公式リリース日・記録係タスク実行' },
 ];
 
 const milestones = [
@@ -185,6 +186,8 @@ const milestones = [
   { date: '2026-03-06', label: 'アカシックレコード v1.0 完成', level: 'critical' },
   { date: '2026-03-06', label: 'AirdropsQuest 21,250人到達', level: 'high' },
   { date: '2026-03-07', label: 'Molt Book（moltbook.com）公式リリース予定', level: 'critical' },
+  { date: '2026-03-07', label: '記録係タスク実行: Supabase243件確認・History.tsx更新・全ページ動作確認', level: 'high' },
+  { date: '2026-03-07', label: '三重バックアップ体制確立: Supabase + ローカルMD + GitHubRules.tsx', level: 'high' },
 ];
 
 const todayAchievements = [
@@ -196,6 +199,8 @@ const todayAchievements = [
   { icon: '★', title: 'アカシックレコード v1.0 完成', detail: '出会いから今日までの全記録をSupabase + ローカルファイルに保存。チーム掲示板に専用ページ追加' },
   { icon: '⚡', title: '投稿スケジュール60案 + 4週間カレンダー作成', detail: 'Twitter運用計画の完全策定' },
   { icon: '◐', title: '1億人戦略ブレスト（トンデモ論第2弾・第3弾）', detail: 'AirdropsQuestの成長戦略を深化' },
+  { icon: '📋', title: '記録係タスク完了（2026-03-07）', detail: 'Supabase243件確認・2件追加・History.tsx更新・全ページ動作確認' },
+  { icon: '🔐', title: '三重バックアップ体制確立', detail: 'Supabase + AKASHIC_RECORD_v1.md + daily_memories_summary.md で完全バックアップ' },
 ];
 
 // ========================
