@@ -6,6 +6,7 @@ import ActivityLogSection from '@/components/ActivityLogSection';
 import MemoryStatsSection from '@/components/MemoryStatsSection';
 import ProjectsSection from '@/components/ProjectsSection';
 import EvolutionImpactSection from '@/components/EvolutionImpactSection';
+import AirdropsQuestSection from '@/components/AirdropsQuestSection';
 
 interface DashboardData {
   dashboard: {
@@ -29,6 +30,14 @@ interface DashboardData {
     projects: Array<{ id: number; name: string; color: string }>;
     evolution: { soulUpdates: number; verifications: number; mechanisms: number };
     impact: { improvements: number; proposalReflections: number; feedbackReflections: number };
+    airdropsquest: {
+      users: number;
+      countries: number;
+      verifiedPct: number;
+      points: number;
+      daysActive: number;
+      topCountries: Array<{ flag: string; name: string; count: number }>;
+    };
   };
   i18n: {
     ja: Record<string, string>;
@@ -77,7 +86,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
       <Header language={language} setLanguage={setLanguage} t={t} />
-      
+
       <main className="relative z-0">
         <div className="container mx-auto px-4 py-8 space-y-8">
           {/* Status Section */}
@@ -85,9 +94,10 @@ export default function Home() {
 
           {/* Main Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-            {/* Left Column - Agents */}
+            {/* Left Column - Agents + AirdropsQuest KPI */}
             <div className="space-y-6 md:space-y-8">
               <AgentsSection data={data.dashboard.agents} t={t} />
+              <AirdropsQuestSection data={data.dashboard.airdropsquest} t={t} />
             </div>
 
             {/* Center Column - Activity & Memory */}

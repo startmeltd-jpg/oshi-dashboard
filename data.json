@@ -7,121 +7,65 @@
       "state": "ACTIVE",
       "organization": "Oshi Labs AI",
       "taskProgress": 100,
-      "currentTask": "夜間大規模作業完了・エージェント育成計画実行中"
+      "currentTask": "AirdropsQuest 21,250ユーザー突破・ターミナルタイムウィジェット実装完了"
     },
     "agents": {
       "active": 5,
       "total": 6,
       "list": [
-        {
-          "id": 1,
-          "name": "ミル",
-          "icon": "👁️"
-        },
-        {
-          "id": 2,
-          "name": "ハコブ",
-          "icon": "📦"
-        },
-        {
-          "id": 3,
-          "name": "ツナグ",
-          "icon": "🔗"
-        },
-        {
-          "id": 4,
-          "name": "カナデ",
-          "icon": "🎵"
-        },
-        {
-          "id": 5,
-          "name": "ソラ",
-          "icon": "🖼️"
-        },
-        {
-          "id": 6,
-          "name": "Jr.",
-          "icon": "🤖"
-        }
+        { "id": 1, "name": "ミル", "icon": "👁️" },
+        { "id": 2, "name": "ハコブ", "icon": "📦" },
+        { "id": 3, "name": "ツナグ", "icon": "🔗" },
+        { "id": 4, "name": "カナデ", "icon": "🎵" },
+        { "id": 5, "name": "ソラ", "icon": "🖼️" },
+        { "id": 6, "name": "Jr.", "icon": "🤖" }
       ]
     },
     "activityLog": [
-      {
-        "id": 1,
-        "time": "05:10",
-        "message": "夜間大規模作業完了 — 全記憶129件読込・全豆知識22件整理・全10サイト確認"
-      },
-      {
-        "id": 2,
-        "time": "04:30",
-        "message": "エージェント育成計画策定・全6体の短期タスク実行完了"
-      },
-      {
-        "id": 3,
-        "time": "04:00",
-        "message": "アカシックレコード更新（豆知識+11件、v2.3.0）"
-      },
-      {
-        "id": 4,
-        "time": "03:30",
-        "message": "oshi-core closetgod typo全修正・official_links.md作成"
-      },
-      {
-        "id": 5,
-        "time": "03:00",
-        "message": "健康チェックスクリプト実装・全10サイトhealthy確認"
-      }
+      { "id": 1, "time": "03/06", "message": "ターミナルタイムウィジェット完成 — amato_memoriesからリアルタイム取得・14回操作・24分" },
+      { "id": 2, "time": "03/05", "message": "AirdropsQuestダッシュボードV30デプロイ — analytics.airdropsquest.com" },
+      { "id": 3, "time": "03/04", "message": "LiveJoinFeed個別ユーザー表示実装 — recentRegistrations実データ接続" },
+      { "id": 4, "time": "03/03", "message": "国別ランキング動的取得実装 — Indonesia 5,469 / Singapore 3,261 / Bangladesh 2,942" },
+      { "id": 5, "time": "03/02", "message": "Supabase直接取得移行完了 — JSONBin.io廃止・oshi_statsテーブル接続" }
     ],
     "memory": {
       "rules": 58,
-      "knowledge": 138,
-      "trivia": 22
+      "knowledge": 142,
+      "trivia": 24
     },
     "uptime": {
-      "day": 62,
+      "day": 64,
       "origin": "2026.01.01"
     },
     "projects": [
-      {
-        "id": 1,
-        "name": "KAGURA",
-        "color": "#ef4444"
-      },
-      {
-        "id": 2,
-        "name": "AMATO",
-        "color": "#a855f7"
-      },
-      {
-        "id": 3,
-        "name": "OSHI",
-        "color": "#00e5ff"
-      },
-      {
-        "id": 4,
-        "name": "SP",
-        "color": "#22c55e"
-      },
-      {
-        "id": 5,
-        "name": "AirdropsQuest",
-        "color": "#f59e0b"
-      },
-      {
-        "id": 6,
-        "name": "Closet God",
-        "color": "#6366f1"
-      }
+      { "id": 1, "name": "KAGURA", "color": "#ef4444" },
+      { "id": 2, "name": "AMATO", "color": "#a855f7" },
+      { "id": 3, "name": "OSHI", "color": "#00e5ff" },
+      { "id": 4, "name": "SP", "color": "#22c55e" },
+      { "id": 5, "name": "AirdropsQuest", "color": "#f59e0b" },
+      { "id": 6, "name": "Closet God", "color": "#6366f1" }
     ],
     "evolution": {
-      "soulUpdates": 42,
-      "verifications": 8,
-      "mechanisms": 28
+      "soulUpdates": 44,
+      "verifications": 9,
+      "mechanisms": 30
     },
     "impact": {
-      "improvements": 27,
-      "proposalReflections": 12,
-      "feedbackReflections": 16
+      "improvements": 29,
+      "proposalReflections": 13,
+      "feedbackReflections": 17
+    },
+    "airdropsquest": {
+      "users": 21250,
+      "countries": 119,
+      "verifiedPct": 58,
+      "points": 10744995,
+      "daysActive": 7,
+      "topCountries": [
+        { "flag": "🇮🇩", "name": "Indonesia", "count": 5469 },
+        { "flag": "🇸🇬", "name": "Singapore", "count": 3261 },
+        { "flag": "🇧🇩", "name": "Bangladesh", "count": 2942 }
+      ]
     }
   },
   "i18n": {
@@ -149,7 +93,13 @@
       "proposalReflections": "提案反映",
       "feedbackReflections": "FB反映",
       "live": "ライブ",
-      "task": "タスク"
+      "task": "タスク",
+      "airdropsquest": "AirdropsQuest KPI",
+      "users": "ユーザー",
+      "countries": "カ国",
+      "verified": "認証済",
+      "points": "ポイント",
+      "daysActive": "稼働日数"
     },
     "en": {
       "title": "OSHI Real-time Dashboard",
@@ -175,7 +125,13 @@
       "proposalReflections": "Proposal Reflections",
       "feedbackReflections": "Feedback Reflections",
       "live": "Live",
-      "task": "Task"
+      "task": "Task",
+      "airdropsquest": "AirdropsQuest KPI",
+      "users": "Users",
+      "countries": "Countries",
+      "verified": "Verified",
+      "points": "Points",
+      "daysActive": "Days Active"
     }
   }
 }
