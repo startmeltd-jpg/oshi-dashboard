@@ -9,6 +9,7 @@ interface HeaderProps {
 export default function Header({ language, setLanguage, t }: HeaderProps) {
   const [location] = useLocation();
   const isAkashic = location === '/akashic';
+  const isRules = location === '/rules';
 
   return (
     <header className="border-b border-foreground/20 backdrop-blur-sm sticky top-0 z-50">
@@ -36,10 +37,10 @@ export default function Header({ language, setLanguage, t }: HeaderProps) {
               <button
                 className="px-3 py-1.5 text-xs font-mono font-bold tracking-wider border transition-all duration-200"
                 style={{
-                  color: !isAkashic ? '#00FF00' : '#ffffff55',
-                  borderColor: !isAkashic ? '#00FF0066' : 'transparent',
-                  backgroundColor: !isAkashic ? '#00FF0011' : 'transparent',
-                  textShadow: !isAkashic ? '0 0 8px #00FF00' : 'none',
+                  color: location === '/' ? '#00FF00' : '#ffffff55',
+                  borderColor: location === '/' ? '#00FF0066' : 'transparent',
+                  backgroundColor: location === '/' ? '#00FF0011' : 'transparent',
+                  textShadow: location === '/' ? '0 0 8px #00FF00' : 'none',
                 }}
               >
                 {t.live || 'LIVE'} DASH
@@ -68,6 +69,31 @@ export default function Header({ language, setLanguage, t }: HeaderProps) {
                 }}
               >
                 ◈ アカシックレコード
+              </button>
+            </Link>
+            <Link href="/rules">
+              <button
+                className="px-3 py-1.5 text-xs font-mono font-bold tracking-wider border transition-all duration-200"
+                style={{
+                  color: isRules ? '#00FFFF' : '#ffffff55',
+                  borderColor: isRules ? '#00FFFF66' : 'transparent',
+                  backgroundColor: isRules ? '#00FFFF11' : 'transparent',
+                  textShadow: isRules ? '0 0 8px #00FFFF' : 'none',
+                }}
+                onMouseEnter={(e) => {
+                  if (!isRules) {
+                    (e.currentTarget as HTMLElement).style.color = '#00FFFFaa';
+                    (e.currentTarget as HTMLElement).style.borderColor = '#00FFFF44';
+                  }
+                }}
+                onMouseLeave={(e) => {
+                  if (!isRules) {
+                    (e.currentTarget as HTMLElement).style.color = '#ffffff55';
+                    (e.currentTarget as HTMLElement).style.borderColor = 'transparent';
+                  }
+                }}
+              >
+                ⚙ ルール
               </button>
             </Link>
           </nav>
