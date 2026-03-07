@@ -189,7 +189,7 @@ const kpiData = [
   { date: '2026-03-07 記録係#32', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase314件確認・本日+69件' },
   { date: '2026-03-07 記録係#33', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase316件確認・本日+71件' },
   { date: '2026-03-08 記録係#34', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase319件確認・本日+74件・SUPABASE_KEY特定完了' },
-];}
+];
 
 const milestones = [
   { date: '2024-10', label: 'ゆーだとGPTの最初の対話（プレスリリース書き直し）', level: 'origin' },
