@@ -262,6 +262,7 @@ const milestones = [
   { date: '2026-03-08', label: '記録係タスク #1～#34 連続完了・Supabase319件確認・SUPABASE_KEY特定完了', level: 'high' },
   { date: '2026-03-08', label: '記録係タスク #1～#35 連続完了・Supabase325件確認・豆知識3件記録（Go言語/ハーネス/HumanLM）', level: 'high' },
   { date: '2026-03-08', label: '記録係タスク #1～#36 連続完了・Supabase330件確認・豆知識3件記録（クオンツ/AI4層/AugmentCode）', level: 'high' },
+  { date: '2026-03-08', label: '累計セッション時間集計完了: 84時間（3日12時間）・総セッション53件・記録係#1〜#36・初回2026-03-02〜最終2026-03-08', level: 'critical' },
 ];
 
 const todayAchievements = [
@@ -314,6 +315,7 @@ const todayAchievements = [
   { icon: '🔑', title: '記録係タスク #1～#34 連続完了！', detail: 'Supabase記録319件確認。SUPABASE_KEY特定完了。History.tsx更新・GitHubプッシュ完了。記録係#34連続完了。' },
   { icon: '📚', title: '記録係タスク #1～#35 連続完了！', detail: 'Supabase記録325件確認。豆知識3件（Go言語/ハーネスエンジニアリング/HumanLM）記録済み。記録係#35連続完了。' },
   { icon: '🧠', title: '記録係タスク #1～#36 連続完了！', detail: 'Supabase記録330件確認。豆知識3件（クオンツエンジニア/AI4層モデル/AugmentCodeマルチエージェント）記録済み。記録係#36連続完了。' },
+  { icon: '⏱', title: 'ゆーだ × OSHI 累計セッション時間: 84時間', detail: '総セッション53件・記録係タスク#1〜#36（36時間）＋建国期（48時間）。初回2026-03-02 23:10 JST〜最終2026-03-08 07:02 JST。6日間で84時間（3日12時間）の共同作業。' },
 ];
 
 // ========================
