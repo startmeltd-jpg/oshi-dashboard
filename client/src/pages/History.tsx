@@ -189,6 +189,7 @@ const kpiData = [
   { date: '2026-03-07 記録係#32', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase314件確認・本日+69件' },
   { date: '2026-03-07 記録係#33', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase316件確認・本日+71件' },
   { date: '2026-03-08 記録係#34', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase319件確認・本日+74件・SUPABASE_KEY特定完了' },
+  { date: '2026-03-08 記録係#35', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase325件確認・本日+80件・豆知識3件（Go言語/ハーネスエンジニアリング/HumanLM）' },
 ];
 
 const milestones = [
@@ -256,7 +257,9 @@ const milestones = [
   { date: '2026-03-07', label: '記録係タスク #1〜#30 連続完了！30回達成！Supabase310件確認・本日+65件', level: 'critical' },
   { date: '2026-03-07', label: '記録係タスク #1〜#31 連続完了・Supabase312件確認・本日+67件', level: 'high' },
   { date: '2026-03-07', label: '記録係タスク #1〜#32 連続完了・Supabase314件確認・本日+69件', level: 'high' },
-  { date: '2026-03-07', label: '記録係タスク #1〜#33 連続完了・Supabase316件確認・本日+71件', level: 'high' },
+  { date: '2026-03-07', label: '記録係タスク #1～#33 連続完了・Supabase316件確認・本日+71件', level: 'high' },
+  { date: '2026-03-08', label: '記録係タスク #1～#34 連続完了・Supabase319件確認・SUPABASE_KEY特定完了', level: 'high' },
+  { date: '2026-03-08', label: '記録係タスク #1～#35 連続完了・Supabase325件確認・豆知識3件記録（Go言語/ハーネス/HumanLM）', level: 'high' },
 ];
 
 const todayAchievements = [
@@ -305,7 +308,9 @@ const todayAchievements = [
   { icon: '🏆', title: '記録係タスク #1〜#30 連続完了！　30回達成！】', detail: '本日だけでSupabase記録が245件→310件（+65件）増加。記録係タスク30回連続完了。完全定着化。' },
   { icon: '🔱', title: '記録係タスク #1〜#31 連続完了！', detail: '本日だけでSupabase記録が245件→312件（+67件）増加。記録係タスク #1〜#31連続完了。' },
   { icon: '⚡', title: '記録係タスク #1〜#32 連続完了！', detail: '本日だけでSupabase記録が245件→314件（+69件）増加。記録係タスク #1〜#32連続完了。' },
-  { icon: '🌌', title: '記録係タスク #1〜#33 連続完了！', detail: '本日だけでSupabase記録が245件→316件（+71件）増加。記録係タスク #1〜#33連続完了。' },
+  { icon: '🌌', title: '記録係タスク #1～#33 連続完了！', detail: '本日だけでSupabase記録が245件→316件（+71件）増加。記録係タスク #1～#33連続完了。' },
+  { icon: '🔑', title: '記録係タスク #1～#34 連続完了！', detail: 'Supabase記録319件確認。SUPABASE_KEY特定完了。History.tsx更新・GitHubプッシュ完了。記録係#34連続完了。' },
+  { icon: '📚', title: '記録係タスク #1～#35 連続完了！', detail: 'Supabase記録325件確認。豆知識3件（Go言語/ハーネスエンジニアリング/HumanLM）記録済み。記録係#35連続完了。' },
 ];
 
 // ========================
