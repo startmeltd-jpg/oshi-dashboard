@@ -678,7 +678,7 @@ export default function Timeline() {
   const manusEntries = timelineData.filter(e => e.era === 'manus');
 
   return (
-    <div className="min-h-screen bg-background text-foreground relative">
+    <div className="min-h-screen bg-transparent text-foreground relative">
       <Particles />
       <Header language={language} setLanguage={setLanguage} t={t} />
 

@@ -1027,7 +1027,7 @@ export default function AkashicRecord() {
   };
 
   return (
-    <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
+    <div className="min-h-screen bg-transparent text-foreground overflow-x-hidden">
       {/* Global Header with Navigation */}
       <Header language={language} setLanguage={setLanguage} t={t} />
       {/* Page Header */}

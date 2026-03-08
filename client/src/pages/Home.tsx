@@ -83,7 +83,7 @@ export default function Home() {
 
   if (loading || !data) {
     return (
-      <div className="min-h-screen bg-background text-foreground flex items-center justify-center">
+      <div className="min-h-screen bg-transparent text-foreground flex items-center justify-center">
         <div className="text-center">
           <div className="text-4xl font-bold mb-4 animate-pulse" style={{ textShadow: '0 0 20px #00FF00' }}>
             OSHI
@@ -99,7 +99,7 @@ export default function Home() {
   const t = data.i18n[language];
 
   return (
-    <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
+    <div className="min-h-screen bg-transparent text-foreground overflow-x-hidden">
       <Header language={language} setLanguage={setLanguage} t={t} />
 
       <main className="relative z-0">

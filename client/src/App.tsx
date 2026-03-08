@@ -6,10 +6,13 @@ import Rules from "@/pages/Rules";
 import AnimeRules from "@/pages/AnimeRules";
 import History from "@/pages/History";
 import Timeline from "@/pages/Timeline";
+import Login from "@/pages/Login";
+import Knowledge from "@/pages/Knowledge";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
+import Galaxy from "./components/Galaxy";
 
 
 function Router() {
@@ -21,6 +24,8 @@ function Router() {
       <Route path={"/anime-rules"} component={AnimeRules} />
       <Route path={"/history"} component={History} />
       <Route path={"/timeline"} component={Timeline} />
+      <Route path={"/login"} component={Login} />
+      <Route path={"/knowledge"} component={Knowledge} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
@@ -41,9 +46,12 @@ function App() {
         // switchable
       >
         <div className="dark">
+          <Galaxy />
           <TooltipProvider>
-            <Toaster />
-            <Router />
+            <div style={{ position: 'relative', zIndex: 1 }}>
+              <Toaster />
+              <Router />
+            </div>
           </TooltipProvider>
         </div>
       </ThemeProvider>

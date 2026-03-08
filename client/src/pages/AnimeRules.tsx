@@ -595,7 +595,7 @@ export default function AnimeRules() {
     : ANIME_RULES;
 
   return (
-    <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
+    <div className="min-h-screen bg-transparent text-foreground overflow-x-hidden">
       <Header language={language} setLanguage={setLanguage} t={t} />
 
       <main className="container mx-auto px-4 py-12 max-w-4xl">
