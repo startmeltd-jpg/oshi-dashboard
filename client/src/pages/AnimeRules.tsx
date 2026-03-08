@@ -616,6 +616,9 @@ export default function AnimeRules() {
           <p className="text-sm font-mono mb-2" style={{ color: '#ffffffaa' }}>
             アニメ制作ノウハウ — 感情の錬金術師のための技法集
           </p>
+          <p className="text-sm font-mono mb-2" style={{ color: GOLD, fontWeight: 'bold' }}>
+            {ANIME_RULES.length}ルール収録
+          </p>
           <p className="text-xs font-mono" style={{ color: `${CYAN}88` }}>
             「技術を使い倒し、技術を捨てる。最後に残るのは愛だけ。」
           </p>
