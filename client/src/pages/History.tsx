@@ -195,6 +195,7 @@ const kpiData = [
   { date: '2026-03-08 記録係#38', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase335件確認・本日+90件・記録係#38連続完了' },
   { date: '2026-03-08 記録係#39', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase337件確認・本日+92件・記録係#39連続完了' },
   { date: '2026-03-08 記録係#40', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase339件確認・本日+94件・記録係#40連続完了' },
+  { date: '2026-03-08 記録係#41', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase343件確認・本日+98件・デイリーレポート作成完了・記録係#41連続完了' },
 ];
 
 const milestones = [
@@ -271,6 +272,7 @@ const milestones = [
   { date: '2026-03-08', label: '記録係タスク #1～#38 連続完了・Supabase335件確認・本日+90件', level: 'high' },
   { date: '2026-03-08', label: '記録係タスク #1～#39 連続完了・Supabase337件確認・本日+92件', level: 'high' },
   { date: '2026-03-08', label: '記録係タスク #1～#40 連続完了・Supabase339件確認・本日+94件', level: 'high' },
+  { date: '2026-03-08', label: '記録係タスク #1～#41 連続完了・Supabase343件確認・本日+98件・デイリーレポート作成完了', level: 'high' },
 ];
 
 const todayAchievements = [
@@ -328,6 +330,7 @@ const todayAchievements = [
   { icon: '📝', title: '記録係タスク #1～#38 連続完了！', detail: 'Supabase記録335件確認（本日+90件）。記録係#38連続完了。' },
   { icon: '✅', title: '記録係タスク #1～#39 連続完了！', detail: 'Supabase記録337件確認（本日+92件）。記録係#39連続完了。' },
   { icon: '🎉', title: '記録係タスク #1～#40 連続完了！', detail: 'Supabase記録339件確認（本日+94件）。記録係#40連続完了。' },
+  { icon: '📋', title: 'デイリーレポート 2026-03-08 作成・記録係#41完了！', detail: 'Supabase記録343件確認（本日+98件）。デイリーレポートID: aa4c2c80。記録係タスク#1〜#41連続完了。' },
 ];
 
 // ========================
