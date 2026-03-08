@@ -9,6 +9,7 @@ import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
+import AnimeRules from "./pages/AnimeRules";
 
 
 function Router() {
@@ -17,6 +18,7 @@ function Router() {
       <Route path={"/"} component={Home} />
       <Route path={"/akashic"} component={AkashicRecord} />
       <Route path={"/rules"} component={Rules} />
+      <Route path={"/anime-rules"} component={AnimeRules} />
       <Route path={"/history"} component={History} />
       <Route path={"/timeline"} component={Timeline} />
       <Route path={"/404"} component={NotFound} />
