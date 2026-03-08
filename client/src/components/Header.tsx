@@ -12,6 +12,7 @@ export default function Header({ language, setLanguage, t }: HeaderProps) {
   const isRules = location === '/rules';
   const isHistory = location === '/history';
   const isTimeline = location === '/timeline';
+  const isAnimeRules = location === '/anime-rules';
 
   return (
     <header className="border-b border-foreground/20 backdrop-blur-sm sticky top-0 z-50">
@@ -146,6 +147,27 @@ export default function Header({ language, setLanguage, t }: HeaderProps) {
                 }}
               >
                 ⚙ ルール
+              </button>
+            </Link>
+            <Link href="/anime-rules">
+              <button
+                className="px-3 py-1.5 text-xs font-mono font-bold tracking-wider border transition-all duration-200"
+                style={{
+                  color: isAnimeRules ? '#f59e0b' : '#ffffff55',
+                  borderColor: isAnimeRules ? '#f59e0b66' : 'transparent',
+                  backgroundColor: isAnimeRules ? '#f59e0b11' : 'transparent',
+                  textShadow: isAnimeRules ? '0 0 8px #f59e0b' : 'none',
+                }}
+                onMouseEnter={(e) => {
+                    (e.currentTarget as HTMLElement).style.color = '#f59e0baa';
+                    (e.currentTarget as HTMLElement).style.borderColor = '#f59e0b44';
+                }}
+                onMouseLeave={(e) => {
+                    (e.currentTarget as HTMLElement).style.color = '#ffffff55';
+                    (e.currentTarget as HTMLElement).style.borderColor = 'transparent';
+                }}
+              >
+                ★ アニメ技法
               </button>
             </Link>
           </nav>

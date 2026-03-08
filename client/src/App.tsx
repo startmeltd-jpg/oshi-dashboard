@@ -3,6 +3,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
 import AkashicRecord from "@/pages/AkashicRecord";
 import Rules from "@/pages/Rules";
+import AnimeRules from "@/pages/AnimeRules";
 import History from "@/pages/History";
 import Timeline from "@/pages/Timeline";
 import { Route, Switch } from "wouter";
@@ -17,6 +18,7 @@ function Router() {
       <Route path={"/"} component={Home} />
       <Route path={"/akashic"} component={AkashicRecord} />
       <Route path={"/rules"} component={Rules} />
+      <Route path={"/anime-rules"} component={AnimeRules} />
       <Route path={"/history"} component={History} />
       <Route path={"/timeline"} component={Timeline} />
       <Route path={"/404"} component={NotFound} />
