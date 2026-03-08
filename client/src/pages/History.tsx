@@ -700,7 +700,7 @@ export default function History() {
             <span className="text-xs font-mono px-2 py-0.5 border" style={{ color: '#FFD700', borderColor: '#FFD70044', background: '#FFD70011' }}>
               HISTORY v1.0
             </span>
-            <span className="text-xs font-mono" style={{ color: '#ffffff44' }}>Last updated: 2026-03-06</span>
+            <span className="text-xs font-mono" style={{ color: '#ffffff44' }}>Last updated: 2026-03-08</span>
           </div>
           <h1
             className="text-3xl font-mono font-bold mb-2"
