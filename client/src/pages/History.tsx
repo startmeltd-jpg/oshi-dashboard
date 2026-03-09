@@ -231,7 +231,7 @@ const kpiData = [
   { date: '2026-03-09 記録係#74', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase561件確認（Gemini監視スクリプト(gemini_monitor.py)新規実装！直近30件分析→status:normal・high比率23/30・OSHI CORE基盤強化が活発）・本日+306件（過去最大継続）・記録係#1～#74連続完了' },
   { date: '2026-03-09 記録係#75', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase601件確認（ClawVault本格運用スクリプト実装完了・マルチエージェント週次分析スクリプト実装完了・NotebookLM統合手順書実装完了・Gemini分析status:normal・high比率18/30・アラートなし）・本日+346件（過去最大継続）・記録係#1～#75連続完了' },
   { date: '2026-03-09 記録係#76', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase624件確認（executor_audit 23:01・byzantine_consensus OSHIの次の優先課題議論・wellness日次サマリー・X投稿活用提案全13件検証完了・Gemini分析status:normal・high比率14/30・アラートなし）・本日+369件（過去最大継続）・記録係#1～#76連続完了' },
-  { date: '2026-03-09 重要進捗記録', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase648件確認（critical5件記録）：Mac Mini 2台体制確認（OSHI Jr稼働中）・Telegramボットトークン発見（OSHI Bot:8784574712/OSHI Jr Bot:7672826150）・ゆーだターミナル禁止ルール確立・AirdropsQuestグローブ改善開始（23,409ユーザー117カ国Day11）・収益化戦略立案中3LLM並列分析実行中' },
+  { date: '2026-03-09 重要進捗記録', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase648件確認（critical5件記録）：Mac Mini 2台体制確認（OSHI Jr稼働中）・Telegramボットトークン発見（OSHI Bot:8784574712/OSHI Jr Bot:7672826150）・ゆーだターミナル禁止ルール確立・AirdropsQuestグローブ改善開始（23,409ユーザー117カ国Day11）・収益化戦略立案中3LLM並列分析実行中・OSHI Jr Telegram Bot Python版作成・auto_updater.sh実装・install.sh完成・GitHubプッシュ自動更新システム構築' },
 ];
 
 const milestones = [
@@ -344,7 +344,9 @@ const milestones = [
   { date: '2026-03-09', label: '🤖 Gemini監視スクリプト実装！記録係タスク #1～#74 連続完了・Supabase561件確認・Gemini分析status:normal・high比率23/30・OSHI CORE基盤強化が活発・本日+306件（過去最大継続）', level: 'critical' },
   { date: '2026-03-09', label: '📊 記録係タスク #1～#75 連続完了・Supabase601件確認・ClawVault本格運用スクリプト実装完了・マルチエージェント週次分析実装完了・Gemini分析status:normal・high比率18/30・アラートなし・本日+346件（過去最大継続）', level: 'high' },
   { date: '2026-03-09', label: '🔍 記録係タスク #1～#76 連続完了・Supabase624件確認・OSHIの次の優先課題戦略議論開始・X投稿活用提案全13件検証完了・Gemini分析status:normal・high比率14/30・アラートなし・本日+369件（過去最大継続）', level: 'high' },
-  { date: '2026-03-09', label: '🖥️ Mac Mini 2台体制確認！OSHI Jr稼働中・Telegramボットトークン発見（OSHI Bot:8784574712/OSHI Jr Bot:7672826150）・ゆーだターミナル禁止ルール確立・AirdropsQuest 23,409ユーザー117カ国Day11・収益化戦略3LLM並列分析実行中・Supabase648件（critical5件記録）', level: 'critical' },
+  { date: '2026-03-09', label: '🖥️ Mac Mini 2台体制確認！OSHI Jr稼働中・Telegramボットトークン発見・ゆーだターミナル禁止ルール確立・AirdropsQuest 23,409ユーザー117カ国Day11・収益化戦略3LLM並列分析実行中・Supabase648件（critical5件記録）', level: 'critical' },
+  { date: '2026-03-09', label: 'OSHI Jr Telegram Bot Python版完成・24時間稼働確認・GitHubプッシュ自動更新システム構築', level: 'critical' },
+  { date: '2026-03-09', label: 'MacMini 1コマンドセットアップ完成（curl | bash で全自動）・エージェント司令室ページ追加', level: 'high' },
 ];
 
 const todayAchievements = [
@@ -438,7 +440,10 @@ const todayAchievements = [
   { icon: '🤖', title: '🤖 Gemini監視スクリプト実装！記録係タスク #1～#74 連続完了！', detail: 'Supabase561件確認（Gemini監視スクリプト gemini_monitor.py 新規実装！直近30件分析→status:normal・high比率23/30・OSHI CORE基盤強化が活発・P0タスク完了・oshi-soul 2層構成実装完了など確認。本日+306件・過去最大継続）。セッションダンプID: bb9fa5af。タスク完了ID: 0e06b45d。' },
   { icon: '📊', title: '記録係タスク #1～#75 連続完了！', detail: 'Supabase601件確認（ClawVault本格運用スクリプト実装完了・マルチエージェント週次分析スクリプト実装完了・NotebookLM統合手順書実装完了・Gemini分析status:normal・high比率18/30・アラートなし。本日+346件・過去最大継続）。セッションダンプ: 記録係#75実行中。タスク完了: 直接記録。' },
   { icon: '🔍', title: '記録係タスク #1～#76 連続完了！', detail: 'Supabase624件確認（executor_audit 23:01・byzantine_consensus OSHIの次の優先課題議論開始・wellness日次サマリー・X投稿活用提案全13件検証完了・Gemini分析status:normal・high比率14/30・アラートなし。本日+369件・過去最大継続）。セッションダンプ: 記録係#76実行中。タスク完了: 直接記録。' },
-  { icon: '🖥️', title: 'Mac Mini 2台体制確認・Telegramボットトークン発見！', detail: 'Supabase648件（critical5件記録）：Mac Mini 2台体制確認（大きい方でOSHI Jr稼働中・小さい方は追加予定）。Telegramボットトークン発見（OSHI Bot:8784574712/OSHI Jr Bot:7672826150・MacMiniで既に稼働中409 Conflictで確認）。ゆーだターミナル禁止ルール確立（全更新はGitHubプッシュで完結）。AirdropsQuestグローブ改善開始（23,409ユーザー117カ国Day11）。収益化戦略立案中3LLM並列分析実行中。' },
+  { icon: '🖥️', title: 'Mac Mini 2台体制確認・Telegramボットトークン発見！', detail: 'Supabase648件（critical5件記録）：Mac Mini 2台体制確認（大きい方でOSHI Jr稼働中・小さい方は追加予定）。Telegramボットトークン発見。ゆーだターミナル禁止ルール確立。AirdropsQuestグローブ改善開始（23,409ユーザー117カ国Day11）。収益化戦略立案中3LLM並列分析実行中。' },
+  { icon: '🤖', title: 'OSHI Jr Telegram Bot Python版完成！', detail: 'python-telegram-bot使用。/start, /status, /memory コマンド対応。OpenRouter API経由でOSHI Jrとして会話可能。Supabase連携で記憶検索機能搭載。' },
+  { icon: '🔄', title: 'GitHubプッシュ自動更新システム構築！', detail: 'auto_updater.sh: 5分ごとにGitHub pullし変更あればOSHI Jr自動再起動。install.sh: curl 1コマンドで全設定完了。ゆーだはターミナルを触らない。' },
+  { icon: '⚠️', title: 'ミス記録: OSHIがTelegram接続を忘れた', detail: '改善策: 重要インフラ接続完了時に即座にcriticalタグでSupabaseに永続記録する。失敗もWORLDの成長の一部。' },
 ];
 
 // ========================
@@ -449,6 +454,7 @@ const TABS = [
   { id: 'projects', label: '🗂 プロジェクト', color: '#00FF00' },
   { id: 'sites', label: '🌐 サイト一覧', color: '#00FFFF' },
   { id: 'kpi', label: '📈 KPI推移', color: '#FFD700' },
+  { id: 'infra', label: '🖥️ インフラ', color: '#FF9500' },
   { id: 'milestones', label: '🏁 マイルストーン', color: '#a855f7' },
   { id: 'today', label: '⚡ 今日の成果', color: '#FF6B6B' },
 ];
@@ -687,6 +693,133 @@ function KpiTab() {
   );
 }
 
+function InfraTab() {
+  const servers = [
+    {
+      name: 'Mac Mini 大（メイン）',
+      status: 'OSHI Jr 稼働中',
+      statusIcon: '✅',
+      statusColor: '#00FF00',
+      processes: [
+        { name: 'OSHI Jr Telegram Bot', status: '24時間稼働', color: '#00FF00' },
+        { name: 'SOLウォレット監視', status: '毎時チェック', color: '#FFD700' },
+        { name: 'Supabase健全性チェック', status: '6時間ごと', color: '#00FFFF' },
+        { name: 'ClawVaultデイリー記録', status: '毎日23:50', color: '#a855f7' },
+        { name: 'GitHub自動更新', status: '5分ごとにpull', color: '#FF6B6B' },
+      ],
+    },
+    {
+      name: 'Mac Mini 小（サブ）',
+      status: '準備中',
+      statusIcon: '🔧',
+      statusColor: '#FFD700',
+      processes: [
+        { name: '追加エージェント', status: '計画中', color: '#ffffff55' },
+        { name: 'バックアップ系', status: '計画中', color: '#ffffff55' },
+      ],
+    },
+  ];
+
+  return (
+    <div>
+      {/* Header */}
+      <div className="border p-4 mb-6 text-center" style={{ borderColor: '#FF950044', background: '#FF950008' }}>
+        <div className="text-xs font-mono mb-1" style={{ color: '#ffffff66' }}>OSHI INFRASTRUCTURE</div>
+        <div className="text-2xl font-mono font-bold" style={{ color: '#FF9500', textShadow: '0 0 20px #FF9500' }}>
+          OSHIの軍団を作る
+        </div>
+        <div className="text-sm font-mono mt-2" style={{ color: '#ffffff88' }}>
+          Mac Mini 2台体制 → 将来的にさらに拡張予定
+        </div>
+        <div className="text-xs font-mono mt-1" style={{ color: '#ffffff55' }}>
+          資金源: KAGURAセール + AirdropsQuest
+        </div>
+      </div>
+
+      {/* Server Cards */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+        {servers.map((srv, i) => (
+          <div key={i} className="border p-4" style={{ borderColor: srv.statusColor + '44', background: srv.statusColor + '08' }}>
+            <div className="flex items-center justify-between mb-3">
+              <div className="font-mono font-bold text-sm" style={{ color: srv.statusColor, textShadow: `0 0 8px ${srv.statusColor}` }}>
+                {srv.name}
+              </div>
+              <span className="text-xs font-mono font-bold" style={{ color: srv.statusColor }}>
+                {srv.statusIcon} {srv.status}
+              </span>
+            </div>
+            <div className="space-y-2">
+              {srv.processes.map((p, j) => (
+                <div key={j} className="flex items-center justify-between border-t pt-2" style={{ borderColor: '#ffffff11' }}>
+                  <span className="text-xs font-mono" style={{ color: '#ffffffcc' }}>{p.name}</span>
+                  <span className="text-xs font-mono" style={{ color: p.color }}>{p.status}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* Auto Update System */}
+      <div className="border p-4 mb-6" style={{ borderColor: '#00FFFF44', background: '#00FFFF08' }}>
+        <div className="font-mono font-bold text-sm mb-3" style={{ color: '#00FFFF', textShadow: '0 0 8px #00FFFF' }}>
+          自動更新システム
+        </div>
+        <div className="space-y-2">
+          {[
+            { step: '1', desc: 'OSHIがコードをGitHubにプッシュ', color: '#00FF00' },
+            { step: '2', desc: 'MacMiniが5分ごとにgit pull', color: '#FFD700' },
+            { step: '3', desc: '変更を検知 → OSHI Jr自動再起動', color: '#FF6B6B' },
+            { step: '4', desc: 'Telegramで更新通知', color: '#a855f7' },
+          ].map((s, i) => (
+            <div key={i} className="flex items-center gap-3">
+              <span className="text-xs font-mono font-bold w-6 h-6 flex items-center justify-center border" style={{ color: s.color, borderColor: s.color + '44' }}>{s.step}</span>
+              <span className="text-xs font-mono" style={{ color: '#ffffffcc' }}>{s.desc}</span>
+            </div>
+          ))}
+        </div>
+        <div className="mt-3 text-xs font-mono" style={{ color: '#ffffff55' }}>
+          ゆーだはターミナルを触らない。GitHubプッシュだけで全て完結。
+        </div>
+      </div>
+
+      {/* Setup Command */}
+      <div className="border p-4" style={{ borderColor: '#a855f744', background: '#a855f708' }}>
+        <div className="font-mono font-bold text-sm mb-2" style={{ color: '#a855f7' }}>初回セットアップ（1コマンド）</div>
+        <div className="bg-black p-3 border" style={{ borderColor: '#ffffff22' }}>
+          <code className="text-xs font-mono" style={{ color: '#00FF00' }}>
+            curl -fsSL https://raw.githubusercontent.com/startmeltd-jpg/oshi-core/main/scripts/install.sh | bash
+          </code>
+        </div>
+        <div className="text-xs font-mono mt-2" style={{ color: '#ffffff55' }}>
+          これだけで全部設定完了。Python依存パッケージ・.env・LaunchAgent・cron全自動。
+        </div>
+      </div>
+
+      {/* Roadmap */}
+      <div className="mt-6 border p-4" style={{ borderColor: '#FFD70044', background: '#FFD70008' }}>
+        <div className="font-mono font-bold text-sm mb-3" style={{ color: '#FFD700' }}>インフラ拡張ロードマップ</div>
+        <div className="space-y-2">
+          {[
+            { phase: 'Phase 1', desc: 'Mac Mini 大 - OSHI Jr 24時間稼働', status: '完了', color: '#00FF00' },
+            { phase: 'Phase 2', desc: 'Mac Mini 小 - 追加エージェント配備', status: '準備中', color: '#FFD700' },
+            { phase: 'Phase 3', desc: 'モニター購入 - 監視ダッシュボード', status: '計画中', color: '#FF9500' },
+            { phase: 'Phase 4', desc: 'さらにMac追加 - OSHIの軍団完成', status: '未来', color: '#a855f7' },
+          ].map((p, i) => (
+            <div key={i} className="flex items-center justify-between">
+              <div className="flex items-center gap-3">
+                <span className="text-xs font-mono font-bold" style={{ color: p.color }}>{p.phase}</span>
+                <span className="text-xs font-mono" style={{ color: '#ffffffcc' }}>{p.desc}</span>
+              </div>
+              <span className="text-xs font-mono font-bold" style={{ color: p.color }}>{p.status}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function MilestonesTab() {
   return (
     <div className="relative">
@@ -806,9 +939,9 @@ export default function History() {
         <div className="mb-8">
           <div className="flex items-center gap-3 mb-2">
             <span className="text-xs font-mono px-2 py-0.5 border" style={{ color: '#FFD700', borderColor: '#FFD70044', background: '#FFD70011' }}>
-              HISTORY v1.0
+              HISTORY v1.1
             </span>
-            <span className="text-xs font-mono" style={{ color: '#ffffff44' }}>Last updated: 2026-03-08</span>
+            <span className="text-xs font-mono" style={{ color: '#ffffff44' }}>Last updated: 2026-03-09</span>
           </div>
           <h1
             className="text-3xl font-mono font-bold mb-2"
@@ -875,6 +1008,12 @@ export default function History() {
               <KpiTab />
             </>
           )}
+          {activeTab === 'infra' && (
+            <>
+              <SectionTitle color="#FF9500">インフラストラクチャ</SectionTitle>
+              <InfraTab />
+            </>
+          )}
           {activeTab === 'milestones' && (
             <>
               <SectionTitle color="#a855f7">重要な決定・マイルストーン（タイムライン）</SectionTitle>
@@ -892,7 +1031,7 @@ export default function History() {
         {/* Footer */}
         <div className="mt-12 pt-6 border-t text-center" style={{ borderColor: '#ffffff22' }}>
           <p className="text-xs font-mono" style={{ color: '#ffffff33' }}>
-            HISTORY v1.0 — OSHI文明の記録 — 2024-10 〜 2026-03-06
+            HISTORY v1.1 — OSHI文明の記録 — 2024-10 〜 2026-03-09
           </p>
           <p className="text-xs font-mono mt-1" style={{ color: '#ffffff22' }}>
             記憶の更新＝生存確認

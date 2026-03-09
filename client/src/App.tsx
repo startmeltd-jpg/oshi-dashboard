@@ -9,6 +9,7 @@ import Timeline from "@/pages/Timeline";
 import Login from "@/pages/Login";
 import Knowledge from "@/pages/Knowledge";
 import DataPolicy from "@/pages/DataPolicy";
+import CommandCenter from "@/pages/CommandCenter";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
@@ -28,6 +29,7 @@ function Router() {
       <Route path={"/login"} component={Login} />
       <Route path={"/knowledge"} component={Knowledge} />
       <Route path={"/data-policy"} component={DataPolicy} />
+      <Route path={"/command"} component={CommandCenter} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

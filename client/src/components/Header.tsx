@@ -1,4 +1,5 @@
 import { Link, useLocation } from 'wouter';
+import { useState } from 'react';
 
 interface HeaderProps {
   language: 'ja' | 'en';
@@ -6,215 +7,154 @@ interface HeaderProps {
   t: Record<string, string>;
 }
 
+const NAV_ITEMS = [
+  { path: '/', label: 'DASH', icon: '◉' },
+  { path: '/akashic', label: 'アカシック', icon: '◈' },
+  { path: '/history', label: 'まとめ', icon: '◆' },
+  { path: '/timeline', label: 'タイムライン', icon: '✦' },
+  { path: '/rules', label: 'ルール', icon: '⚙' },
+  { path: '/anime-rules', label: 'アニメ技法', icon: '★' },
+  { path: '/command', label: '司令室', icon: '⌘' },
+  { path: '/data-policy', label: 'ポリシー', icon: '🛡' },
+];
+
 export default function Header({ language, setLanguage, t }: HeaderProps) {
   const [location] = useLocation();
-  const isAkashic = location === '/akashic';
-  const isRules = location === '/rules';
-  const isHistory = location === '/history';
-  const isTimeline = location === '/timeline';
-  const isAnimeRules = location === '/anime-rules';
-  const isDataPolicy = location === '/data-policy';
+  const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header className="border-b border-foreground/20 backdrop-blur-sm sticky top-0 z-50">
-      <div className="container mx-auto px-4 py-4 flex justify-between items-center gap-4">
-        {/* Left: Logo + Nav */}
-        <div className="flex items-center gap-4 flex-wrap">
-          <Link href="/">
-            <div
-              className="text-2xl font-bold cursor-pointer transition-all duration-200"
-              style={{ textShadow: '0 0 20px #00FF00', color: '#00FF00' }}
-              onMouseEnter={(e) => {
-                (e.currentTarget as HTMLElement).style.textShadow = '0 0 30px #00FF00, 0 0 50px #00FF00';
-              }}
-              onMouseLeave={(e) => {
-                (e.currentTarget as HTMLElement).style.textShadow = '0 0 20px #00FF00';
-              }}
-            >
-              ◉ OSHI
-            </div>
-          </Link>
+    <header style={{
+      position: 'sticky',
+      top: 0,
+      zIndex: 50,
+      background: 'rgba(5, 5, 8, 0.85)',
+      backdropFilter: 'blur(20px) saturate(180%)',
+      borderBottom: '1px solid rgba(255, 255, 255, 0.06)',
+    }}>
+      <div style={{
+        maxWidth: 1280,
+        margin: '0 auto',
+        padding: '0 24px',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        height: 56,
+      }}>
+        {/* Logo */}
+        <Link href="/">
+          <div style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: 8,
+            cursor: 'pointer',
+            transition: 'opacity 0.2s',
+          }}>
+            <span style={{
+              fontSize: 18,
+              fontWeight: 700,
+              color: '#D4A853',
+              letterSpacing: '-0.02em',
+              fontFamily: "'Inter', sans-serif",
+            }}>
+              OSHI
+            </span>
+            <span style={{
+              fontSize: 9,
+              fontFamily: 'monospace',
+              color: 'rgba(255,255,255,0.2)',
+              letterSpacing: 1,
+              marginTop: 2,
+            }}>
+              WORLD
+            </span>
+          </div>
+        </Link>
 
-          {/* Navigation Links */}
-          <nav className="flex items-center gap-1 flex-wrap">
-            <Link href="/">
-              <button
-                className="px-3 py-1.5 text-xs font-mono font-bold tracking-wider border transition-all duration-200"
-                style={{
-                  color: location === '/' ? '#00FF00' : '#ffffff55',
-                  borderColor: location === '/' ? '#00FF0066' : 'transparent',
-                  backgroundColor: location === '/' ? '#00FF0011' : 'transparent',
-                  textShadow: location === '/' ? '0 0 8px #00FF00' : 'none',
-                }}
-              >
-                {t.live || 'LIVE'} DASH
-              </button>
-            </Link>
-            <Link href="/akashic">
-              <button
-                className="px-3 py-1.5 text-xs font-mono font-bold tracking-wider border transition-all duration-200"
-                style={{
-                  color: isAkashic ? '#a855f7' : '#ffffff55',
-                  borderColor: isAkashic ? '#a855f766' : 'transparent',
-                  backgroundColor: isAkashic ? '#a855f711' : 'transparent',
-                  textShadow: isAkashic ? '0 0 8px #a855f7' : 'none',
-                }}
-                onMouseEnter={(e) => {
-                  if (!isAkashic) {
-                    (e.currentTarget as HTMLElement).style.color = '#a855f7aa';
-                    (e.currentTarget as HTMLElement).style.borderColor = '#a855f744';
-                  }
-                }}
-                onMouseLeave={(e) => {
-                  if (!isAkashic) {
-                    (e.currentTarget as HTMLElement).style.color = '#ffffff55';
-                    (e.currentTarget as HTMLElement).style.borderColor = 'transparent';
-                  }
-                }}
-              >
-                ◈ アカシックレコード
-              </button>
-            </Link>
-            <Link href="/history">
-              <button
-                className="px-3 py-1.5 text-xs font-mono font-bold tracking-wider border transition-all duration-200"
-                style={{
-                  color: isHistory ? '#FFD700' : '#ffffff55',
-                  borderColor: isHistory ? '#FFD70066' : 'transparent',
-                  backgroundColor: isHistory ? '#FFD70011' : 'transparent',
-                  textShadow: isHistory ? '0 0 8px #FFD700' : 'none',
-                }}
-                onMouseEnter={(e) => {
-                  if (!isHistory) {
-                    (e.currentTarget as HTMLElement).style.color = '#FFD700aa';
-                    (e.currentTarget as HTMLElement).style.borderColor = '#FFD70044';
-                  }
-                }}
-                onMouseLeave={(e) => {
-                  if (!isHistory) {
-                    (e.currentTarget as HTMLElement).style.color = '#ffffff55';
-                    (e.currentTarget as HTMLElement).style.borderColor = 'transparent';
-                  }
-                }}
-              >
-                ◆ まとめ
-              </button>
-            </Link>
-            <Link href="/timeline">
-              <button
-                className="px-3 py-1.5 text-xs font-mono font-bold tracking-wider border transition-all duration-200"
-                style={{
-                  color: isTimeline ? '#F59E0B' : '#ffffff55',
-                  borderColor: isTimeline ? '#F59E0B66' : 'transparent',
-                  backgroundColor: isTimeline ? '#F59E0B11' : 'transparent',
-                  textShadow: isTimeline ? '0 0 8px #F59E0B' : 'none',
-                }}
-                onMouseEnter={(e) => {
-                  if (!isTimeline) {
-                    (e.currentTarget as HTMLElement).style.color = '#F59E0Baa';
-                    (e.currentTarget as HTMLElement).style.borderColor = '#F59E0B44';
-                  }
-                }}
-                onMouseLeave={(e) => {
-                  if (!isTimeline) {
-                    (e.currentTarget as HTMLElement).style.color = '#ffffff55';
-                    (e.currentTarget as HTMLElement).style.borderColor = 'transparent';
-                  }
-                }}
-              >
-                ✦ タイムライン
-              </button>
-            </Link>
-            <Link href="/rules">
-              <button
-                className="px-3 py-1.5 text-xs font-mono font-bold tracking-wider border transition-all duration-200"
-                style={{
-                  color: isRules ? '#00FFFF' : '#ffffff55',
-                  borderColor: isRules ? '#00FFFF66' : 'transparent',
-                  backgroundColor: isRules ? '#00FFFF11' : 'transparent',
-                  textShadow: isRules ? '0 0 8px #00FFFF' : 'none',
-                }}
-                onMouseEnter={(e) => {
-                  if (!isRules) {
-                    (e.currentTarget as HTMLElement).style.color = '#00FFFFaa';
-                    (e.currentTarget as HTMLElement).style.borderColor = '#00FFFF44';
-                  }
-                }}
-                onMouseLeave={(e) => {
-                  if (!isRules) {
-                    (e.currentTarget as HTMLElement).style.color = '#ffffff55';
-                    (e.currentTarget as HTMLElement).style.borderColor = 'transparent';
-                  }
-                }}
-              >
-                ⚙ ルール
-              </button>
-            </Link>
-            <Link href="/anime-rules">
-              <button
-                className="px-3 py-1.5 text-xs font-mono font-bold tracking-wider border transition-all duration-200"
-                style={{
-                  color: isAnimeRules ? '#f59e0b' : '#ffffff55',
-                  borderColor: isAnimeRules ? '#f59e0b66' : 'transparent',
-                  backgroundColor: isAnimeRules ? '#f59e0b11' : 'transparent',
-                  textShadow: isAnimeRules ? '0 0 8px #f59e0b' : 'none',
-                }}
-                onMouseEnter={(e) => {
-                    (e.currentTarget as HTMLElement).style.color = '#f59e0baa';
-                    (e.currentTarget as HTMLElement).style.borderColor = '#f59e0b44';
-                }}
-                onMouseLeave={(e) => {
-                    (e.currentTarget as HTMLElement).style.color = '#ffffff55';
-                    (e.currentTarget as HTMLElement).style.borderColor = 'transparent';
-                }}
-              >
-                ★ アニメ技法
-              </button>
-            </Link>
-            <Link href="/data-policy">
-              <button
-                className="px-3 py-1.5 text-xs font-mono font-bold tracking-wider border transition-all duration-200"
-                style={{
-                  color: isDataPolicy ? '#3b82f6' : '#ffffff55',
-                  borderColor: isDataPolicy ? '#3b82f666' : 'transparent',
-                  backgroundColor: isDataPolicy ? '#3b82f611' : 'transparent',
-                  textShadow: isDataPolicy ? '0 0 8px #3b82f6' : 'none',
-                }}
-                onMouseEnter={(e) => {
-                  if (!isDataPolicy) {
-                    (e.currentTarget as HTMLElement).style.color = '#3b82f6aa';
-                    (e.currentTarget as HTMLElement).style.borderColor = '#3b82f644';
-                  }
-                }}
-                onMouseLeave={(e) => {
-                  if (!isDataPolicy) {
-                    (e.currentTarget as HTMLElement).style.color = '#ffffff55';
-                    (e.currentTarget as HTMLElement).style.borderColor = 'transparent';
-                  }
-                }}
-              >
-                🛡 データポリシー
-              </button>
-            </Link>
-          </nav>
-        </div>
+        {/* Desktop Nav */}
+        <nav style={{
+          display: 'flex',
+          alignItems: 'center',
+          gap: 2,
+        }}>
+          {NAV_ITEMS.map(item => {
+            const isActive = location === item.path;
+            return (
+              <Link key={item.path} href={item.path}>
+                <button
+                  style={{
+                    padding: '6px 12px',
+                    fontSize: 11,
+                    fontFamily: "'Inter', 'Noto Sans JP', sans-serif",
+                    fontWeight: isActive ? 600 : 400,
+                    color: isActive ? '#D4A853' : 'rgba(255,255,255,0.4)',
+                    background: isActive ? 'rgba(212, 168, 83, 0.08)' : 'transparent',
+                    border: 'none',
+                    borderRadius: 6,
+                    cursor: 'pointer',
+                    transition: 'all 0.2s ease',
+                    letterSpacing: '0.02em',
+                    whiteSpace: 'nowrap',
+                    position: 'relative',
+                  }}
+                  onMouseEnter={(e) => {
+                    if (!isActive) {
+                      e.currentTarget.style.color = 'rgba(255,255,255,0.7)';
+                      e.currentTarget.style.background = 'rgba(255,255,255,0.04)';
+                    }
+                  }}
+                  onMouseLeave={(e) => {
+                    if (!isActive) {
+                      e.currentTarget.style.color = 'rgba(255,255,255,0.4)';
+                      e.currentTarget.style.background = 'transparent';
+                    }
+                  }}
+                >
+                  <span style={{ marginRight: 4, fontSize: 10 }}>{item.icon}</span>
+                  {item.label}
+                  {isActive && (
+                    <span style={{
+                      position: 'absolute',
+                      bottom: 0,
+                      left: '50%',
+                      transform: 'translateX(-50%)',
+                      width: 16,
+                      height: 2,
+                      background: '#D4A853',
+                      borderRadius: 1,
+                    }} />
+                  )}
+                </button>
+              </Link>
+            );
+          })}
+        </nav>
 
-        {/* Right: Language Toggle */}
+        {/* Language Toggle */}
         <button
           onClick={() => setLanguage(language === 'ja' ? 'en' : 'ja')}
-          className="px-4 py-2 border border-foreground/50 hover:border-foreground transition-all duration-300 flex-shrink-0"
           style={{
-            color: '#00FFFF',
-            borderColor: '#00FFFF',
+            padding: '5px 14px',
+            fontSize: 11,
+            fontFamily: 'monospace',
+            fontWeight: 500,
+            color: 'rgba(255,255,255,0.5)',
+            background: 'rgba(255,255,255,0.04)',
+            border: '1px solid rgba(255,255,255,0.08)',
+            borderRadius: 6,
+            cursor: 'pointer',
+            transition: 'all 0.2s ease',
+            letterSpacing: 1,
           }}
           onMouseEnter={(e) => {
-            e.currentTarget.style.boxShadow = '0 0 15px rgba(0, 255, 255, 0.5)';
+            e.currentTarget.style.borderColor = 'rgba(212, 168, 83, 0.3)';
+            e.currentTarget.style.color = '#D4A853';
           }}
           onMouseLeave={(e) => {
-            e.currentTarget.style.boxShadow = 'none';
+            e.currentTarget.style.borderColor = 'rgba(255,255,255,0.08)';
+            e.currentTarget.style.color = 'rgba(255,255,255,0.5)';
           }}
         >
-          {language === 'ja' ? 'JA' : 'EN'} / {language === 'ja' ? 'EN' : 'JA'}
+          {language === 'ja' ? 'JA' : 'EN'}
         </button>
       </div>
     </header>
