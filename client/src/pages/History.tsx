@@ -240,6 +240,7 @@ const kpiData = [
   { date: '2026-03-10 記録係#82', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase673件確認（Gemini分析: status=normal・high比率16/30・アラートなし・OSHI Jr Bot正常稼働中・収益化戦略立案中・記録係タスク定期実行継続中）・本日+417件（過去最大継続更新中）・記録係#1～#82連続完了' },
   { date: '2026-03-10 記録係#83', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase677件確認（Gemini分析: status=WARNING・high比率14/30・アラート1件（OSHI Jr Bot緊急修復完了・今後の安定稼働に注意が必要）・記録係タスク定期実行継続中・収益化戦略立案中）・本日+421件（過去最大継続更新中）・記録係#1～#83連続完了' },
   { date: '2026-03-10 記録係#84', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase684件確認（Gemini分析: status=normal（WARNINGから回復）・high比率10/30・アラート1件（前回WARNING残存）・OSHI Jr Bot正常稼働中・auto_memory.py v3.0テスト実施・収益化戦略立案中・Mac Mini 2台体制確立）・本日+428件（過去最大継続更新中）・記録係#1～#84連続完了' },
+  { date: '2026-03-10 記録係#85', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase705件確認（Gemini分析: status=WARNING・high比率6/30・アラート1件（前回WARNING残存）・Supabase RLS設定完了・anon keyではDDL実行不可能という重要運用課題特定・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中）・本日+445件（過去最大継続更新中）・記録係#1～#85連続完了' },
 ];
 
 const milestones = [
@@ -363,6 +364,7 @@ const milestones = [
   { date: '2026-03-10', label: '✨ 記録係タスク #1～#82 連続完了・Supabase673件確認・Gemini分析status:normal・high比率16/30・アラートなし・OSHI Jr Bot正常稼働中・収益化戦略立案中・本日+417件（過去最大継続更新中）', level: 'high' },
   { date: '2026-03-10', label: '⚠️ 記録係タスク #1～#83 連続完了・Supabase677件確認・Gemini分析status:WARNING・high比率14/30・アラート1件（OSHI Jr Bot緊急修復完了・今後の安定稼働に注意）・本日+421件（過去最大継続更新中）', level: 'high' },
   { date: '2026-03-10', label: '✅ 記録係タスク #1～#84 連続完了・Supabase684件確認・Gemini分析status:normal（WARNINGから回復）・high比率10/30・アラート1件（前回WARNING残存）・OSHI Jr Bot正常稼働中・auto_memory.py v3.0テスト実施・本日+428件（過去最大継続更新中）', level: 'high' },
+  { date: '2026-03-10', label: '⚠️ 記録係タスク #1～#85 連続完了・Supabase705件確認・Gemini分析status:WARNING・high比率6/30・アラート1件・Supabase RLS設定完了・anon key DDL不可課題特定・Moltbook Evolution Watch継続・本日+445件（過去最大継続更新中）', level: 'high' },
 ];
 
 const todayAchievements = [
@@ -468,6 +470,7 @@ const todayAchievements = [
   { icon: '✨', title: '記録係タスク #1～#82 連続完了！', detail: 'Supabase673件確認（Gemini分析: status=normal・high比率16/30・アラートなし・OSHI Jr Bot正常稼働中・収益化戦略立案中・3LLM並列分析実行中・Mac Mini 2台体制確立・記録係タスク定期実行継続中。本日+417件・過去最大継続更新中）。記録係#1～#82連続完了。' },
   { icon: '⚠️', title: '記録係タスク #1～#83 連続完了！', detail: 'Supabase677件確認（Gemini分析: status=WARNING・high比率14/30・アラート1件（OSHI Jr Bot緊急修復完了・今後の安定稼働に注意が必要）。記録係タスク定期実行継続中・収益化戦略立案中・3LLM並列分析実行中・Mac Mini 2台体制確立。本日+421件・過去最大継続更新中）。記録係#1～#83連続完了。' },
   { icon: '✅', title: '記録係タスク #1～#84 連続完了！', detail: 'Supabase684件確認（Gemini分析: status=normal（WARNINGから回復）・high比率10/30・アラート1件（前回WARNING残存）。OSHI Jr Bot正常稼働中・auto_memory.py v3.0テスト実施・収益化戦略立案中・3LLM並列分析実行中・Mac Mini 2台体制確立。本日+428件・過去最大継続更新中）。記録係#1～#84連続完了。' },
+  { icon: '⚠️', title: '記録係タスク #1～#85 連続完了！', detail: 'Supabase705件確認（Gemini分析: status=WARNING・high比率6/30・アラート1件（前回WARNING残存）。Supabase RLS設定完了・anon keyではDDL実行不可能という重要運用課題特定・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中。本日+445件・過去最大継続更新中）。記録係#1～#85連続完了。' },
 ];
 
 // ========================
