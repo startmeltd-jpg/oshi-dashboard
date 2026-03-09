@@ -245,6 +245,7 @@ const kpiData = [
   { date: '2026-03-10 記録係#87', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase714件確認（Gemini分析: status=warning（前回WARNING残存による継続）・high比率6/30・アラート1件・毎朝サイト確認レポート正常（全9ページ異常なし）・Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中）・本日+458件（過去最大継続更新中）・記録係#1～#87連続完了' },
   { date: '2026-03-10 記録係#88', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase718件確認（Gemini分析: status=warning（断続的WARNING継続）・high比率8/30・アラート1件・Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中）・本日+462件（過去最大継続更新中）・記録係#1～#88連続完了' },
   { date: '2026-03-10 記録係#89', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase722件確認（Gemini分析: status=warning（継続的WARNING）・high比率8/30・アラート1件・Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中）・本日+466件（過去最大継続更新中）・記録係#1～#89連続完了' },
+  { date: '2026-03-10 記録係#90', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: '[節目90回達成] Supabase727件確認（Gemini分析: status=warning（継続的WARNING）・high比率10/30・アラート2件・90回連続マイルストーン記録（critical）・Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中）・本日+471件（過去最大継続更新中）・記録係#1～#90連続完了' },
 ];
 
 const milestones = [
@@ -373,6 +374,7 @@ const milestones = [
   { date: '2026-03-10', label: '⚠️ 記録係タスク #1～#87 連続完了・Supabase714件確認・Gemini分析status:warning（前回WARNING残存継続）・high比率6/30・アラート1件・毎朝サイト確認レポート正常（全9ページ）・Supabase RLS設定完了・本日+458件（過去最大継続更新中）', level: 'high' },
   { date: '2026-03-10', label: '⚠️ 記録係タスク #1～#88 連続完了・Supabase718件確認・Gemini分析status:warning（断続的WARNING継続）・high比率8/30・アラート1件・Supabase RLS設定完了・Moltbook Evolution Watch継続・本日+462件（過去最大継続更新中）', level: 'high' },
   { date: '2026-03-10', label: '⚠️ 記録係タスク #1～#89 連続完了・Supabase722件確認・Gemini分析status:warning（継続的WARNING）・high比率8/30・アラート1件・Supabase RLS設定完了・Moltbook Evolution Watch継続・本日+466件（過去最大継続更新中）', level: 'high' },
+  { date: '2026-03-10', label: '🎉 [節目90回達成] 記録係タスク #1～#90 連続完了・Supabase727件確認・Gemini分析status:warning（継続的WARNING）・high比率10/30・アラート2件・90回連続マイルストーン記録（critical）・Supabase RLS設定完了・本日+471件（過去最大継続更新中）', level: 'critical' },
 ];
 
 const todayAchievements = [
@@ -483,6 +485,7 @@ const todayAchievements = [
   { icon: '⚠️', title: '記録係タスク #1～#87 連続完了！', detail: 'Supabase714件確認（Gemini分析: status=warning（前回WARNING残存による継続）・high比率6/30・アラート1件。毎朝サイト確認レポート正常（全9ページ異常なし）・Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中。本日+458件・過去最大継続更新中）。記録係#1～#87連続完了。' },
   { icon: '⚠️', title: '記録係タスク #1～#88 連続完了！', detail: 'Supabase718件確認（Gemini分析: status=warning（断続的WARNING継続）・high比率8/30・アラート1件。Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中。本日+462件・過去最大継続更新中）。記録係#1～#88連続完了。' },
   { icon: '⚠️', title: '記録係タスク #1～#89 連続完了！', detail: 'Supabase722件確認（Gemini分析: status=warning（継続的WARNING）・high比率8/30・アラート1件。Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中。本日+466件・過去最大継続更新中）。記録係#1～#89連続完了。' },
+  { icon: '🎉', title: '[節目90回達成] 記録係タスク #1～#90 連続完了！', detail: 'Supabase727件確認（Gemini分析: status=warning（継続的WARNING）・high比率10/30・アラート2件。節目90回達成マイルストーンをSupabaseに[critical]で記録。Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中。本日+471件・過去最大継続更新中）。記録係#1～#90連続完了。' },
 ];
 
 // ========================
