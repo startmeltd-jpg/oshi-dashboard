@@ -13,6 +13,7 @@ export default function Header({ language, setLanguage, t }: HeaderProps) {
   const isHistory = location === '/history';
   const isTimeline = location === '/timeline';
   const isAnimeRules = location === '/anime-rules';
+  const isDataPolicy = location === '/data-policy';
 
   return (
     <header className="border-b border-foreground/20 backdrop-blur-sm sticky top-0 z-50">
@@ -168,6 +169,31 @@ export default function Header({ language, setLanguage, t }: HeaderProps) {
                 }}
               >
                 ★ アニメ技法
+              </button>
+            </Link>
+            <Link href="/data-policy">
+              <button
+                className="px-3 py-1.5 text-xs font-mono font-bold tracking-wider border transition-all duration-200"
+                style={{
+                  color: isDataPolicy ? '#3b82f6' : '#ffffff55',
+                  borderColor: isDataPolicy ? '#3b82f666' : 'transparent',
+                  backgroundColor: isDataPolicy ? '#3b82f611' : 'transparent',
+                  textShadow: isDataPolicy ? '0 0 8px #3b82f6' : 'none',
+                }}
+                onMouseEnter={(e) => {
+                  if (!isDataPolicy) {
+                    (e.currentTarget as HTMLElement).style.color = '#3b82f6aa';
+                    (e.currentTarget as HTMLElement).style.borderColor = '#3b82f644';
+                  }
+                }}
+                onMouseLeave={(e) => {
+                  if (!isDataPolicy) {
+                    (e.currentTarget as HTMLElement).style.color = '#ffffff55';
+                    (e.currentTarget as HTMLElement).style.borderColor = 'transparent';
+                  }
+                }}
+              >
+                🛡 データポリシー
               </button>
             </Link>
           </nav>
