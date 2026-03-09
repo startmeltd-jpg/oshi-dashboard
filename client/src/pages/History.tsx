@@ -225,6 +225,7 @@ const kpiData = [
   { date: '2026-03-09 記録係#68', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase525件確認（AirdropsQuest実データ分析・/nationページ設計仕様書など新豆知識2件自動追加）・本日+270件（過去最大継続）・記録係#1～#68連続完了' },
   { date: '2026-03-09 記録係#69', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase530件確認（AgentCard MCP・Backgrounds Supply・Claude Code95セッション棚卸しなど新豆知識3件自動追加）・本日+275件（過去最大継続）・記録係#1～#69連続完了' },
   { date: '2026-03-09 記録係#70', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase536件確認（OSHIプロンプト改善提案・プロンプトエンジニアリング7戦術・OSHI自動化提案レポート・Claude Codeセッション分析プロンプトなど新豆知識4件自動追加）・本日+281件（過去最大継続）・記録係#1～#70連続完了' },
+  { date: '2026-03-09 記録係#71', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase539件確認（AIアニメが安っぽく見える理由フィラーショットの欠如という新豆知識1件自動追加）・本日+284件（過去最大継続）・記録係#1～#71連続完了' },
 ];
 
 const milestones = [
@@ -331,6 +332,7 @@ const milestones = [
   { date: '2026-03-09', label: '記録係タスク #1～#68 連続完了・Supabase525件確認（AirdropsQuest実データ分析・/nation設計仕様書など新豆知識2件自動追加）・本日+270件（過去最大継続）', level: 'high' },
   { date: '2026-03-09', label: '記録係タスク #1～#69 連続完了・Supabase530件確認（AgentCard MCP・Backgrounds Supply・Claude Code95セッション棚卸しなど新豆知識3件自動追加）・本日+275件（過去最大継続）', level: 'high' },
   { date: '2026-03-09', label: '記録係タスク #1～#70 連続完了・Supabase536件確認（OSHIプロンプト改善提案・プロンプトエンジニアリング7戦術・OSHI自動化提案レポートなど新豆知識4件自動追加）・本日+281件（過去最大継続）', level: 'high' },
+  { date: '2026-03-09', label: '記録係タスク #1～#71 連続完了・Supabase539件確認（AIアニメが安っぽく見える理由フィラーショットの欠如という新豆知識1件自動追加）・本日+284件（過去最大継続）', level: 'high' },
 ];
 
 const todayAchievements = [
@@ -418,6 +420,7 @@ const todayAchievements = [
   { icon: '🌐', title: '記録係タスク #1～#68 連続完了！', detail: 'Supabase525件確認（AirdropsQuest実データ分析・AirdropsQuestソーシャルネットワーク化の証拠・/nationページ設計仕様書など新豆知識2件自動追加！本日+270件・過去最大継続）。セッションダンプID: 5f68a11f。タスク完了ID: f273affd。' },
   { icon: '🤖', title: '記録係タスク #1～#69 連続完了！', detail: 'Supabase530件確認（AgentCard MCP・Backgrounds Supply 1167個・Claude Code95セッション棚卸しなど新豆知識3件自動追加！本日+275件・過去最大継続）。セッションダンプID: 2b9aa24b。タスク完了ID: d7765fd2。' },
   { icon: '💡', title: '記録係タスク #1～#70 連続完了！', detail: 'Supabase536件確認（OSHIプロンプト改善提案・プロンプトエンジニアリング7戦術・OSHI自動化提案レポート・Claude Codeセッション分析プロンプトなど新豆知識4件自動追加！本日+281件・過去最大継続）。セッションダンプID: b2c4a1ce。タスク完了ID: a808be34。' },
+  { icon: '🎬', title: '記録係タスク #1～#71 連続完了！', detail: 'Supabase539件確認（AIアニメが安っぽく見える理由フィラーショットの欠如という新豆知識1件自動追加！本日+284件・過去最大継続）。セッションダンプID: 5157cbec。タスク完了ID: 24b7086d。' },
 ];
 
 // ========================
