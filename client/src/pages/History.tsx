@@ -219,6 +219,7 @@ const kpiData = [
   { date: '2026-03-08 記録係#62', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '🎊「Supabase500件」歴史的マイルストーン達成！501件確認・本日+256件（過去最大継続）・記録係#1～#62連続完了・最大の節目' },
   { date: '2026-03-08 記録係#63', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '500件突破後の継続・ Supabase508件確認（豆知識+5件自動追加）・本日+258件（過去最大継続）・記録係#1～#63連続完了' },
   { date: '2026-03-09 記録係#64', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase510件確認・デイリー整理・GSD2.0分析完了（OSHI CORE適用案特定）・本日+260件（過去最大継続）・記録係#1～#64連続完了' },
+  { date: '2026-03-09 記録係#65', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase517件確認（Agent IDエコシステム構想・エージェント分離論など新豆知識5件自動追加）・本日+262件（過去最大継続）・記録係#1～#65連続完了' },
 ];
 
 const milestones = [
@@ -319,6 +320,7 @@ const milestones = [
   { date: '2026-03-08', label: '🎊 Supabase 500件到達！記録係タスク #1～#62 連続完了・本日+256件・最大の節目達成！', level: 'critical' },
   { date: '2026-03-08', label: '記録係タスク #1～#63 連続完了・Supabase508件確認（豆知識+5件自動追加）・本日+258件（過去最大継続）・500件突破後も継続', level: 'high' },
   { date: '2026-03-09', label: '記録係タスク #1～#64 連続完了・Supabase510件確認・デイリー整理完了・GSD2.0×OSHI CORE適用案分析・本日+260件（過去最大継続）', level: 'high' },
+  { date: '2026-03-09', label: '記録係タスク #1～#65 連続完了・Supabase517件確認（Agent ID構想・エージェント分離論など新豆知識5件自動追加）・本日+262件（過去最大継続）', level: 'high' },
 ];
 
 const todayAchievements = [
@@ -400,6 +402,7 @@ const todayAchievements = [
   { icon: '🎊', title: '🎊 Supabase 500件到達！記録係タスク #1～#62 連続完了！', detail: 'Supabase501件確認（500件到達！本日+256件・過去最大継続）。最大の節目達成！記録係#62連続完了。セッションダンプID: 357a6280。タスク完了ID: dce02efe。' },
   { icon: '📚', title: '記録係タスク #1～#63 連続完了！', detail: 'Supabase508件確認（豆知識5件自動追加！本日+258件・過去最大継続）。500件突破後も継続。セッションダンプID: 9ca1000d。タスク完了ID: 10d05a13。' },
   { icon: '📈', title: '記録係タスク #1～#64 連続完了！', detail: 'Supabase510件確認（本日+260件・過去最大継続）。デイリー整理・GSD2.0×OSHI CORE適用案分析完了。セッションダンプID: c52b515a。タスク完了ID: 3698e9a2。' },
+  { icon: '🤖', title: '記録係タスク #1～#65 連続完了！', detail: 'Supabase517件確認（Agent IDエコシステム構想・エージェント分離論など新豆知識5件自動追加！本日+262件・過去最大継続）。セッションダンプID: 344d408f。タスク完了ID: 5337944e。' },
 ];
 
 // ========================
