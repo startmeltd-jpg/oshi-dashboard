@@ -269,6 +269,7 @@ const kpiData = [
   { date: '2026-03-10 記録係#111', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase805件確認→807件（AI分析: status=warning（OpenAI代替・Gemini API 429継続超過）・high+critical比率16/30・OSHI Jr.ローカル化実装指示書v1保存（critical）・Mac miniスペック記録（M4 Pro 24GB）・3台体制拡張計画記録）・記録係#1～#111連続完了' },
   { date: '2026-03-10 記録係#112', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase接続先変更（旧プロジェクト qcrrfxkcgfmtcftwqrqn 停止→新プロジェクト kfitlfylngjsgnzczoyz / AWS ap-southeast-2 に切り替え）・807件確認→809件（+2件）・AI分析: status=ok・記録係#1～#112連続完了' },
   { date: '2026-03-10 記録係#113', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase接続先変更後初の通常タスク・809件確認→811件（+2件）・AI分析: status=ok（Supabase接続先変更完了とタスク進行中）・OSHI Jr.ローカル化実装指示書v1保存済み確認・記録係#1～#113連続完了' },
+  { date: '2026-03-10 記録係#114', users: 23411, nations: 117, youtube: 13447, verified: 12469, points: 32471557, note: 'Supabase813件確認→815件（+2件）・AI分析: status=warning（high+critical比率16/30）・絶対ルール「ゆーだにターミナルを触らせない」critical保存完了・Claude Ads記事調査完了・全ページURL調査（10ページ全HTTP 200）・記録係#1～#114連続完了' },
 ];
 
 const milestones = [
@@ -421,6 +422,7 @@ const milestones = [
   { date: '2026-03-10', label: '✅ 記録係タスク #1～#111 連続完了・Supabase807件確認・AI分析status:warning（OpenAI代替・Gemini API 429継続超過）・high+critical比率16/30・OSHI Jr.ローカル化実装指示書v1保存（critical）・Mac miniスペック記録・3台体制拡張計画記録・6ステップ完全実行（Supabase確認・AI分析・記録・History.tsx更新・再デプロイ・全ページ確認）', level: 'high' },
   { date: '2026-03-10', label: '✅ 記録係タスク #1～#112 連続完了・Supabase接続先変更（旧プロジェクト qcrrfxkcgfmtcftwqrqn 停止→新プロジェクト kfitlfylngjsgnzczoyz / AWS ap-southeast-2）・807件→809件（+2件）・AI分析status:ok・6ステップ完全実行', level: 'high' },
   { date: '2026-03-10', label: '✅ 記録係タスク #1～#113 連続完了・Supabase接続先変更後初の通常タスク・809件→811件（+2件）・AI分析status:ok（Supabase接続先変更完了とタスク進行中）・6ステップ完全実行', level: 'high' },
+  { date: '2026-03-10', label: '✅ 記録係タスク #1～#114 連続完了・Supabase813件→815件（+2件）・AI分析status:warning（high+critical比率16/30）・絶対ルール「ゆーだにターミナルを触らせない」critical保存・Claude Ads記事調査・全ページURL調査完了・6ステップ完全実行', level: 'high' },
 ];
 
 const todayAchievements = [
@@ -555,6 +557,7 @@ const todayAchievements = [
   { icon: '✅', title: '記録係タスク #1～#111 連続完了！', detail: 'Supabase805件確認→807件（AI分析: status=warning（OpenAI GPT-4o-mini代替・Gemini API 429クォータ継続超過）・high+critical比率16/30・OSHI Jr.ローカル化実装指示書v1保存（critical）・Mac miniスペック記録（M4 Pro 24GB）・3台体制拡張計画記録。6ステップ完全実行（1.Supabase確認 2.AI分析+記録 3.History.tsx更新＆GitHub push 4.再デプロイ 5.全ページ確認）。記録係#1～#111連続完了。' },
   { icon: '✅', title: '記録係タスク #1～#112 連続完了！', detail: 'Supabase接続先変更（旧プロジェクト qcrrfxkcgfmtcftwqrqn 停止→新プロジェクト kfitlfylngjsgnzczoyz / AWS ap-southeast-2 に切り替え）。807件確認→809件（+2件）。AI分析: status=ok（Supabase接続変更とタスク完了で順調に進行中）。OSHI Jr.ローカル化実装指示書v1保存済み確認。6ステップ完全実行（1.Supabase確認＆接続先変更 2.AI分析+記録 3.History.tsx更新＆GitHub push 4.再デプロイ 5.全ページ確認）。記録係#1～#112連続完了。' },
   { icon: '✅', title: '記録係タスク #1～#113 連続完了！', detail: 'Supabase接続先変更後初の通常タスク完了。809件確認→811件（+2件）。AI分析: status=ok（Supabase接続先変更完了とタスク進行中）。OSHI Jr.ローカル化実装指示書v1保存済み確認。6ステップ完全実行（1.Supabase確認 2.AI分析+記録 3.History.tsx更新＆GitHub push 4.再デプロイ 5.全ページ確認）。記録係#1～#113連続完了。' },
+  { icon: '✅', title: '記録係タスク #1～#114 連続完了！', detail: 'Supabase813件確認→815件（+2件）。AI分析: status=warning（high+critical比率16/30）。絶対ルール「ゆーだにターミナルを触らせない」critical保存完了（ID: 153fb8f0）。Claude Ads記事調査完了（MCPデザインパターン・OSHI Jr.スキル設計に応用可）。OSHI WORLD全ページURL調査（10ページ全HTTP 200）。Supabase接続先変更後の安定稼働確認。6ステップ完全実行（1.Supabase確認 2.AI分析+記録 3.History.tsx更新＆GitHub push 4.再デプロイ 5.全ページ確認）。記録係#1～#114連続完了。' },
 ];
 
 // ========================
