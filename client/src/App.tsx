@@ -11,12 +11,12 @@ import Knowledge from "@/pages/Knowledge";
 import DataPolicy from "@/pages/DataPolicy";
 import CommandCenter from "@/pages/CommandCenter";
 import Diary from "@/pages/Diary";
+import ContentRoom from "@/pages/ContentRoom";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import Galaxy from "./components/Galaxy";
-import AnimeRules from "./pages/AnimeRules";
 
 
 function Router() {
@@ -33,6 +33,7 @@ function Router() {
       <Route path={"/data-policy"} component={DataPolicy} />
       <Route path={"/command"} component={CommandCenter} />
       <Route path={"/diary"} component={Diary} />
+      <Route path={"/content-room"} component={ContentRoom} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

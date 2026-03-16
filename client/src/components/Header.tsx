@@ -16,6 +16,7 @@ const NAV_ITEMS = [
   { path: '/anime-rules', label: 'アニメ技法', icon: '★' },
   { path: '/command', label: '司令室', icon: '⌘' },
   { path: '/diary', label: '日記', icon: '📖' },
+  { path: '/content-room', label: 'コンテンツ', icon: '💡' },
   { path: '/data-policy', label: 'ポリシー', icon: '🛡' },
 ];
 
