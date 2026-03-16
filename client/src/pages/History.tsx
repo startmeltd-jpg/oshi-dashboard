@@ -191,93 +191,6 @@ const kpiData = [
   { date: '2026-03-08 記録係#34', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase319件確認・本日+74件・SUPABASE_KEY特定完了' },
   { date: '2026-03-08 記録係#35', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase325件確認・本日+80件・豆知識3件（Go言語/ハーネスエンジニアリング/HumanLM）' },
   { date: '2026-03-08 記録係#36', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase330件確認・本日+85件・豆知識3件（クオンツ/AI4層モデル/AugmentCode）' },
-  { date: '2026-03-08 記録係#37', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase333件確認・本日+88件・累計セッション84時間集計完了・記録係#37連続完了' },
-  { date: '2026-03-08 記録係#38', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase335件確認・本日+90件・記録係#38連続完了' },
-  { date: '2026-03-08 記録係#39', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase337件確認・本日+92件・記録係#39連続完了' },
-  { date: '2026-03-08 記録係#40', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase339件確認・本日+94件・記録係#40連続完了' },
-  { date: '2026-03-08 記録係#41', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase343件確認・本日+98件・デイリーレポート作成完了・記録係#41連続完了' },
-  { date: '2026-03-08 記録係#42', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase400件到達（節目！）・本日+155件（過去最大）・Last updated更新・累計118時間再集計・Jr. v4.10確認・記録係#42連続完了' },
-  { date: '2026-03-08 記録係#43', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase402件確認・本日+157件（過去最大継続）・記録係#43連続完了' },
-  { date: '2026-03-08 記録係#44', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase409件確認・本日+164件（過去最大更新）・新着豆知識4件（まとめる技術5ルール/AI時短くん/新プロジェクト予告）・記録係#44連続完了' },
-  { date: '2026-03-08 記録係#45', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase458件確認・本日+213件（過去最大大幅更新）・新着豆知識10件（VibeCoding/Rust TUI/3Dデザイン/Flux-Uncensored/AIエージェント/Discord SQLite/Qwen3.5/DeNA AI/Geminiプロンプト）・記録係#45連続完了' },
-  { date: '2026-03-08 記録係#46', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase460件確認・本日+215件（過去最大継続）・新着豆知識8件（Geminiプロンプト/DeNA AI/Qwen3.5/AIエージェント/Discord SQLite/AI質問深掘り/Flux-Uncensored/3Dデザイン）・記録係#46連続完了' },
-  { date: '2026-03-08 記録係#47', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase469件確認・本日+224件（過去最大更新）・OSHIミス記録4件（確認せず完了報告/諦め/間違ったSupabase接続/動作検証なし）・プロンプト品質設計学習・強いプロンプトの4要素学習・記録係#47連続完了' },
-  { date: '2026-03-08 記録係#48', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase471件確認・本日+226件（過去最大継続）・記録係#47完了後の継続タスク・OSHIミス記録4件・プロンプト学習2件の知識を引き継ぎ・記録係#48連続完了' },
-  { date: '2026-03-08 記録係#49', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase474件確認・本日+229件（過去最大継続）・新ルール「エラー時の技術変更禁止」追加・記録係#49連続完了' },
-  { date: '2026-03-08 記録係#50', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '🎉節目の50回目達成！Supabase476件確認・本日+231件（過去最大継続）・記録係タスク#1〜#50連続完了達成・歴史的マイルストーン' },
-  { date: '2026-03-08 記録係#51', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase478件確認・本日+233件（過去最大継続）・#50節目達成後の継続タスク・エラー時技術変更禁止ルール引き継ぎ・記録係#51連続完了' },
-  { date: '2026-03-08 記録係#52', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase480件確認・本日+235件（過去最大継続）・#51完了後の継続タスク・エラー時技術変更禁止ルール引き継ぎ・記録係#52連続完了' },
-  { date: '2026-03-08 記録係#53', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase482件確認・本日+237件（過去最大継続）・#52完了後の継続タスク・エラー時技術変更禁止ルール引き継ぎ・記録係#53連続完了' },
-  { date: '2026-03-08 記録係#54', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase484件確認・本日+239件（過去最大継続）・#53完了後の継続タスク・エラー時技術変更禁止ルール引き継ぎ・記録係#54連続完了' },
-  { date: '2026-03-08 記録係#55', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase486件確認・本日+241件（過去最大継続）・#54完了後の継続タスク・エラー時技術変更禁止ルール引き継ぎ・記録係#55連続完了' },
-  { date: '2026-03-08 記録係#56', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase489件確認（OSHI文明ルール確認レコード+1）・本日+244件（過去最大継続）・#55完了後の継続タスク・記録係#56連続完了' },
-  { date: '2026-03-08 記録係#57', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase491件確認・本日+246件（過去最大継続）・#56完了後の継続タスク・記録係#57連続完了' },
-  { date: '2026-03-08 記録係#58', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase493件確認・本日+248件（過去最大継続）・#57完了後の継続タスク・記録係#58連続完了' },
-  { date: '2026-03-08 記録係#59', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase495件確認・本日+250件（過去最大継続）・#58完了後の継続タスク・記録係#59連続完了' },
-  { date: '2026-03-08 記録係#60', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '🎉節目の60回目達成！Supabase497件確認・本日+252件（過去最大継続）・記録係タスク#1～#60連続完了達成・歴史的マイルストーン' },
-  { date: '2026-03-08 記録係#61', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '記録係タスク継続実行中・Supabase499件確認（50050近づく）・本日+254件（過去最大継続）・#60節目達成後の継続タスク・記録係#61連続完了' },
-  { date: '2026-03-08 記録係#62', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '🎊「Supabase500件」歴史的マイルストーン達成！501件確認・本日+256件（過去最大継続）・記録係#1～#62連続完了・最大の節目' },
-  { date: '2026-03-08 記録係#63', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: '500件突破後の継続・ Supabase508件確認（豆知識+5件自動追加）・本日+258件（過去最大継続）・記録係#1～#63連続完了' },
-  { date: '2026-03-09 記録係#64', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase510件確認・デイリー整理・GSD2.0分析完了（OSHI CORE適用案特定）・本日+260件（過去最大継続）・記録係#1～#64連続完了' },
-  { date: '2026-03-09 記録係#65', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase517件確認（Agent IDエコシステム構想・エージェント分離論など新豆知識5件自動追加）・本日+262件（過去最大継続）・記録係#1～#65連続完了' },
-  { date: '2026-03-09 記録係#66', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase519件確認・本日+264件（過去最大継続）・記録係#1～#66連続完了・継続的記録係ルーティン実行中' },
-  { date: '2026-03-09 記録係#67', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase521件確認・本日+266件（過去最大継続）・記録係#1～#67連続完了・継続的記録係ルーティン実行中' },
-  { date: '2026-03-09 記録係#68', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase525件確認（AirdropsQuest実データ分析・/nationページ設計仕様書など新豆知識2件自動追加）・本日+270件（過去最大継続）・記録係#1～#68連続完了' },
-  { date: '2026-03-09 記録係#69', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase530件確認（AgentCard MCP・Backgrounds Supply・Claude Code95セッション棚卸しなど新豆知識3件自動追加）・本日+275件（過去最大継続）・記録係#1～#69連続完了' },
-  { date: '2026-03-09 記録係#70', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase536件確認（OSHIプロンプト改善提案・プロンプトエンジニアリング7戦術・OSHI自動化提案レポート・Claude Codeセッション分析プロンプトなど新豆知識4件自動追加）・本日+281件（過去最大継続）・記録係#1～#70連続完了' },
-  { date: '2026-03-09 記録係#71', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase539件確認（AIアニメが安っぽく見える理由フィラーショットの欠如という新豆知識1件自動追加）・本日+284件（過去最大継続）・記録係#1～#71連続完了' },
-  { date: '2026-03-09 記録係#72', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase543件確認（KAGURAセール用SOLウォレットアドレス・ウォレット残高2件自動追加）・本日+288件（過去最大継続）・記録係#1～#72連続完了' },
-  { date: '2026-03-09 記録係#73', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase554件確認（P0-3 APIキーハードコード修正完了・subtask_schedulesテーブル作成・soul.md URL登録・amato_memoriesインデックス追加DDL権限不足対応待ちなど連続追加9件確認）・本日+298件（過去最大継続）・記録係#1～#73連続完了' },
-  { date: '2026-03-09 記録係#74', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase561件確認（Gemini監視スクリプト(gemini_monitor.py)新規実装！直近30件分析→status:normal・high比率23/30・OSHI CORE基盤強化が活発）・本日+306件（過去最大継続）・記録係#1～#74連続完了' },
-  { date: '2026-03-09 記録係#75', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase601件確認（ClawVault本格運用スクリプト実装完了・マルチエージェント週次分析スクリプト実装完了・NotebookLM統合手順書実装完了・Gemini分析status:normal・high比率18/30・アラートなし）・本日+346件（過去最大継続）・記録係#1～#75連続完了' },
-  { date: '2026-03-09 記録係#76', users: 21250, nations: 119, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase624件確認（executor_audit 23:01・byzantine_consensus OSHIの次の優先課題議論・wellness日次サマリー・X投稿活用提案全13件検証完了・Gemini分析status:normal・high比率14/30・アラートなし）・本日+369件（過去最大継続）・記録係#1～#76連続完了' },
-  { date: '2026-03-09 重要進捗記録', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase648件確認（critical5件記録）：Mac Mini 2台体制確認（OSHI Jr稼働中）・Telegramボットトークン発見（OSHI Bot:8784574712/OSHI Jr Bot:7672826150）・ゆーだターミナル禁止ルール確立・AirdropsQuestグローブ改善開始（23,409ユーザー117カ国Day11）・収益化戦略立案中3LLM並列分析実行中・OSHI Jr Telegram Bot Python版作成・auto_updater.sh実装・install.sh完成・GitHubプッシュ自動更新システム構築' },
-  { date: '2026-03-09 記録係#77', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase651件確認（Gemini分析: status=normal・high比率20/30・アラートなし・収益化戦略とインフラ強化に注力中）・本日+396件（過去最大継続）・記録係#1～#77連続完了' },
-  { date: '2026-03-09 記録係#78', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase654件確認（Gemini分析: status=warning・high比率25/30・アラートなし・大規模戦略的決定と重要システム機能実装が活発に進行中）・本日+399件（過去最大継続）・記録係#1～#78連続完了' },
-  { date: '2026-03-10 記録係#79', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase659件確認（Gemini分析: status=normal・high比率20/30・アラートなし・広範な開発とシステム基盤強化フェーズ・収益化戦略策定・新ルール導入・インフラ整備並行進行）・本日+403件（過去最大継続更新中）・記録係#1～#79連続完了' },
-  { date: '2026-03-10 記録係#80', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase667件確認（Gemini分析: status=normal・high比率19/30・アラートなし・収益化戦略具体化フェーズ移行中）・絊急記録：OSHI Jr Bot修復完了（critical）・KAGURA SOL監視・ぬこぬこ氏 Codex活用術（high）・本日+411件（過去最大継続更新中）・記録係#1～#80連続完了' },
-  { date: '2026-03-10 記録係#81', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase670件確認（Gemini分析: status=normal・high比率17/30・アラート1件（OSHI Jr Bot絊急修復完了、過去の絊急事態に留意）・OSHI Jr Bot正常稼働中・収益化戦略立案中・Mac Mini 2台体制確立）・本日+414件（過去最大継続更新中）・記録係#1～#81連続完了' },
-  { date: '2026-03-10 記録係#82', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase673件確認（Gemini分析: status=normal・high比率16/30・アラートなし・OSHI Jr Bot正常稼働中・収益化戦略立案中・記録係タスク定期実行継続中）・本日+417件（過去最大継続更新中）・記録係#1～#82連続完了' },
-  { date: '2026-03-10 記録係#83', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase677件確認（Gemini分析: status=WARNING・high比率14/30・アラート1件（OSHI Jr Bot緊急修復完了・今後の安定稼働に注意が必要）・記録係タスク定期実行継続中・収益化戦略立案中）・本日+421件（過去最大継続更新中）・記録係#1～#83連続完了' },
-  { date: '2026-03-10 記録係#84', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase684件確認（Gemini分析: status=normal（WARNINGから回復）・high比率10/30・アラート1件（前回WARNING残存）・OSHI Jr Bot正常稼働中・auto_memory.py v3.0テスト実施・収益化戦略立案中・Mac Mini 2台体制確立）・本日+428件（過去最大継続更新中）・記録係#1～#84連続完了' },
-  { date: '2026-03-10 記録係#85', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase705件確認（Gemini分析: status=WARNING・high比率6/30・アラート1件（前回WARNING残存）・Supabase RLS設定完了・anon keyではDDL実行不可能という重要運用課題特定・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中）・本日+445件（過去最大継続更新中）・記録係#1～#85連続完了' },
-  { date: '2026-03-10 記録係#86', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase710件確認（Gemini分析: status=normal（WARNINGから回復）・high比率5/30・アラート1件（前回WARNING残存）・毎朝サイト確認レポート正常（全9ページ異常なし）・Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中）・本日+450件（過去最大継続更新中）・記録係#1～#86連続完了' },
-  { date: '2026-03-10 記録係#87', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase714件確認（Gemini分析: status=warning（前回WARNING残存による継続）・high比率6/30・アラート1件・毎朝サイト確認レポート正常（全9ページ異常なし）・Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中）・本日+458件（過去最大継続更新中）・記録係#1～#87連続完了' },
-  { date: '2026-03-10 記録係#88', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase718件確認（Gemini分析: status=warning（断続的WARNING継続）・high比率8/30・アラート1件・Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中）・本日+462件（過去最大継続更新中）・記録係#1～#88連続完了' },
-  { date: '2026-03-10 記録係#89', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase722件確認（Gemini分析: status=warning（継続的WARNING）・high比率8/30・アラート1件・Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中）・本日+466件（過去最大継続更新中）・記録係#1～#89連続完了' },
-  { date: '2026-03-10 記録係#90', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: '[節目90回達成] Supabase727件確認（Gemini分析: status=warning（継続的WARNING）・high比率10/30・アラート2件・90回連続マイルストーン記録（critical）・Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中）・本日+471件（過去最大継続更新中）・記録係#1～#90連続完了' },
-  { date: '2026-03-10 記録係#91', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase732件確認（AI分析: status=normal（OpenAI代替・Gemini API 429クォータ超過）・high比率14/30・アラート0件・Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中）・本日+476件（過去最大継続更新中）・記録係#1～#91連続完了' },
-  { date: '2026-03-10 記録係#92', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase735件確認（AI分析: status=warning（OpenAI代替・Gemini API 429クォータ継続超過）・high比率13/30・アラート0件・Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中）・本日+479件（過去最大継続更新中）・記録係#1～#92連続完了' },
-  { date: '2026-03-10 記録係#93', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase738件確認（AI分析: status=critical（OpenAI代替・Gemini API 429継続超過）・high比率13/30・アラート0件・Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中）・本日+482件（過去最大継続更新中）・記録係#1～#93連続完了' },
-  { date: '2026-03-10 記録係#94', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase741件確認（AI分析: status=normal（OpenAI代替・Gemini API 429継続超過）・high比率14/30・アラート0件・Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中）・本日+485件（過去最大継続更新中）・記録係#1～#94連続完了' },
-  { date: '2026-03-10 記録係#95', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase744件確認（AI分析: status=normal（OpenAI代替・Gemini API 429継続超過）・high比率13/30・アラート0件・Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中）・本日+488件（過去最大継続更新中）・記録係#1～#95連続完了・次の節目#100まで残り5回' },
-  { date: '2026-03-10 記録係#96', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase747件確認（AI分析: status=normal（OpenAI代替・Gemini API 429継続超過）・high比率13/30・アラート0件・Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中）・本日+491件（過去最大継続更新中）・記録係#1～#96連続完了・次の節目#100まで残り4回' },
-  { date: '2026-03-10 記録係#97', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase750件確認（AI分析: status=normal（OpenAI代替・Gemini API 429継続超過）・high比率12/30・アラート0件・Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中）・本日+494件（過去最大継続更新中）・記録係#1～#97連続完了・次の節目#100まで残り3回' },
-  { date: '2026-03-10 記録係#98', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase753件確認（AI分析: status=normal（OpenAI代替・Gemini API 429継続超過）・high比率12/30・アラート0件・Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中）・本日+497件（過去最大継続更新中）・記録係#1～#98連続完了・次の節目#100まで残り2回' },
-  { date: '2026-03-10 記録係#99', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase756件確認（AI分析: status=normal（OpenAI代替・Gemini API 429継続超過）・high比率11/30・アラート0件・Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中）・本日+500件（過去最大継続更新中）・記録係#1～#99連続完了・次の節目#100まで残り1回' },
-  { date: '2026-03-10 記録係#100', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: '🎉[連続100回達成！] Supabase762件確認（AI分析: status=normal（OpenAI代替・Gemini API 429継続超過）・high比率9/30・アラート0件・デイリーレポート2026-03-10作成完了・OSHI Jr Bot修復完了・Supabase RLS設定完了・Moltbook Evolution Watch継続実行中）・記録係#1～#100連続完了・歴史的節目達成！' },
-  { date: '2026-03-10 記録係#101', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase768件確認（AI分析: status=warning（OpenAI代替・Gemini API 429継続超過）・high比率9/30・アラート0件・デイリーレポート完成後の継続実行・Supabase RLS設定完了・Moltbook Evolution Watch継続実行中）・記録係#1～#101連続完了' },
-  { date: '2026-03-10 記録係#102', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase779件確認（AI分析: status=warning（OpenAI代替・Gemini API 429継続超過）・high比率9/30・アラート0件・ゆーだ指示の5ステップ完全実行中・auto_memory.py記録完了・History.tsx更新・再デプロイ・全ページ確認実施中）・記録係#1～#102連続完了' },
-  { date: '2026-03-10 記録係#103', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase781件確認（AI分析: status=warning（OpenAI代替・Gemini API 429継続超過）・high+critical比率14/30・アラート1件（warningステータス複数回報告）・記録係タスク連続達成継続中・Supabase RLS設定完了・Moltbook Evolution Watch継続実行中）・記録係#1～#103連続完了' },
-  { date: '2026-03-10 記録係#104', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase783件確認（AI分析: status=warning（OpenAI代替・Gemini API 429継続超過）・high+critical比率15/30・アラート1件（OpenAI警告）・記録係タスク連続達成継続中・AI分析警告増加傾向・デイリーレポート作成継続中）・記録係#1～#104連続完了' },
-  { date: '2026-03-10 記録係#105', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase785件確認（AI分析: status=warning（OpenAI代替・Gemini API 429継続超過）・high+critical比率15/30・アラート1件（AI分析警告多発）・記録係タスク連続達成継続中・AI分析警告継続中・デイリーレポート作成継続中）・記録係#1～#105連続完了' },
-  { date: '2026-03-10 記録係#106', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase787件確認（AI分析: status=warning（OpenAI代替・Gemini API 429継続超過）・high+critical比率15/30・アラート1件（AI分析warningが多発・システム安定性再確認要）・記録係タスク連続達成継続中・AI分析警告継続中・デイリーレポート作成継続中）・記録係#1～#106連続完了' },
-  { date: '2026-03-10 記録係#107', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase789件確認（AI分析: status=warning（OpenAI代替・Gemini API 429継続超過）・high+critical比率16/30・アラート1件（AI分析が継続的にwarningステータスを示している）・記録係タスク連続達成継続中・AI分析警告継続中・デイリーレポート作成継続中）・記録係#1～#107連続完了' },
-  { date: '2026-03-10 記録係#108', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase791件確認（AI分析: status=warning（OpenAI代替・Gemini API 429継続超過）・high+critical比率17/30・アラート1件（AI分析に関する警告が多数発生）・記録係タスク連続達成継続中・AI分析警告継続中・デイリーレポート作成継続中）・記録係#1～#108連続完了' },
-  { date: '2026-03-10 記録係#109', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase797件確認→799件（AI分析: status=warning（OpenAI代替・Gemini API 429継続超過）・high+critical比率15/30・Xポスト9件調査完了（ARP・CashClaw・autoresearch・LangChain GTM Agent等）・ARP動作確認済み・整理作業完了）・記録係#1～#109連続完了' },
-  { date: '2026-03-10 記録係#110', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase799件確認→801件（🎉800件節目突破！）（AI分析: status=warning（OpenAI代替・Gemini API 429継続超過）・high+critical比率15/30・記録係タスク連続達成継続中・ARP・autoresearch・Xポスト9件調査完了済み）・記録係#1～#110連続完了' },
-  { date: '2026-03-10 記録係#111', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase805件確認→807件（AI分析: status=warning（OpenAI代替・Gemini API 429継続超過）・high+critical比率16/30・OSHI Jr.ローカル化実装指示書v1保存（critical）・Mac miniスペック記録（M4 Pro 24GB）・3台体制拡張計画記録）・記録係#1～#111連続完了' },
-  { date: '2026-03-10 記録係#112', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase接続先変更（旧プロジェクト qcrrfxkcgfmtcftwqrqn 停止→新プロジェクト kfitlfylngjsgnzczoyz / AWS ap-southeast-2 に切り替え）・807件確認→809件（+2件）・AI分析: status=ok・記録係#1～#112連続完了' },
-  { date: '2026-03-10 記録係#113', users: 23409, nations: 117, youtube: 13445, verified: 12467, points: 32471355, note: 'Supabase接続先変更後初の通常タスク・809件確認→811件（+2件）・AI分析: status=ok（Supabase接続先変更完了とタスク進行中）・OSHI Jr.ローカル化実装指示書v1保存済み確認・記録係#1～#113連続完了' },
-  { date: '2026-03-10 記録係#114', users: 23411, nations: 117, youtube: 13447, verified: 12469, points: 32471557, note: 'Supabase813件確認→815件（+2件）・AI分析: status=warning（high+critical比率16/30）・絶対ルール「ゆーだにターミナルを触らせない」critical保存完了・Claude Ads記事調査完了・全ページURL調査（10ページ全HTTP 200）・記録係#1～#114連続完了' },
-  { date: '2026-03-10 記録係#115', users: 23411, nations: 117, youtube: 13447, verified: 12469, points: 32471557, note: 'Supabase815件確認→818件（+3件）・AI分析: status=warning（high+critical比率16/30）・デザイン参考サイト調査完了（281件ヒット・Spline/ReUI確認）・design_refカテゴリ新設提案・記録係#1～#115連続完了' },
-  { date: '2026-03-10 記録係#116', users: 23411, nations: 117, youtube: 13447, verified: 12469, points: 32471557, note: 'Supabase1473件確認→1476件（+3件）・AI分析: status=warning（Supabase総件数急増・amato-memory MCP経由記録大量追加確認）・記録係#1～#116連続完了' },
-  { date: '2026-03-10 記録係#117', users: 23412, nations: 117, youtube: 13448, verified: 12470, points: 32471559, note: 'Supabase1476件確認→1479件（+3件）・AI分析: status=warning（amato-memory急増継続・絶対ルール「ゆーだにターミナルを触らせない」 critical保存済み・デザイン参考サイト調査完了）・記録係#1～#117連続完了' },
-  { date: '2026-03-11 記録係#118', users: 23413, nations: 117, youtube: 13449, verified: 12471, points: 32471560, note: 'Supabase1479件確認→1482件（+3件）・AI分析: status=warning（amato-memory急増継続・絶対ルール・OSHI WORLD全ページ正常稼働）・記録係#1～#118連続完了' },
-  { date: '2026-03-11 記録係#119', users: 23414, nations: 117, youtube: 13450, verified: 12472, points: 32471561, note: 'Supabase1482件確認→1485件（+3件）・AI分析: status=warning（amato-memory急増継続・システム全体正常稼働・監視継続必要）・記録係#1～#119連続完了' },
-  { date: '2026-03-11 記録係#120', users: 23414, nations: 117, youtube: 13450, verified: 12472, points: 32471561, note: 'Supabase1487件確認→1490件（+3件）・AI分析: status=warning（amato-memory急増継続・注意が必要な状況・システム全体は安定稼働）・記録係#1～#120連続完了' },
-  { date: '2026-03-11 記録係#121', users: 23415, nations: 117, youtube: 13451, verified: 12473, points: 32471562, note: 'Supabase1490件確認→1493件（+3件）・AI分析: status=ok（全システム正常稼働・問題なし）・記録係#1～#121連続完了' },
-  { date: '2026-03-11 記録係#122', users: 23416, nations: 117, youtube: 13452, verified: 12474, points: 32471563, note: 'Supabase1495件確認→1498件（+3件）・AI分析: status=ok（システム正常稼働・全重要記録保存済み・安定状態継続）・OSHIシステム超辛口レビューcritical保存確認・記録係#1～#122連続完了' },
 ];
 
 const milestones = [
@@ -349,96 +262,8 @@ const milestones = [
   { date: '2026-03-08', label: '記録係タスク #1～#34 連続完了・Supabase319件確認・SUPABASE_KEY特定完了', level: 'high' },
   { date: '2026-03-08', label: '記録係タスク #1～#35 連続完了・Supabase325件確認・豆知識3件記録（Go言語/ハーネス/HumanLM）', level: 'high' },
   { date: '2026-03-08', label: '記録係タスク #1～#36 連続完了・Supabase330件確認・豆知識3件記録（クオンツ/AI4層/AugmentCode）', level: 'high' },
-  { date: '2026-03-08', label: '累計セッション時間【再集計】: 118時間（4日22時間）・セッションダン55件＋タスク完了85件・7日間・記録係#1～#41', level: 'critical' },
-  { date: '2026-03-08', label: '記録係タスク #1～#37 連続完了・Supabase333件確認・本日+88件・累計84時間マイルストーン記録', level: 'high' },
-  { date: '2026-03-08', label: '記録係タスク #1～#38 連続完了・Supabase335件確認・本日+90件', level: 'high' },
-  { date: '2026-03-08', label: '記録係タスク #1～#39 連続完了・Supabase337件確認・本日+92件', level: 'high' },
-  { date: '2026-03-08', label: '記録係タスク #1～#40 連続完了・Supabase339件確認・本日+94件', level: 'high' },
-  { date: '2026-03-08', label: '記録係タスク #1～#41 連続完了・Supabase343件確認・本日+98件・デイリーレポート作成完了', level: 'high' },
-  { date: '2026-03-08', label: '🎉 Supabase 400件到達！記録係タスク #1～#42 連続完了・本日+155件（過去最大）・Last updated更新・累計118時間再集計・Jr. v4.10確認', level: 'critical' },
-  { date: '2026-03-08', label: '記録係タスク #1～#43 連続完了・Supabase402件確認・本日+157件（過去最大継続）', level: 'high' },
-  { date: '2026-03-08', label: '記録係タスク #1～#44 連続完了・Supabase409件確認・本日+164件（過去最大更新）・新着豆知識4件', level: 'high' },
-  { date: '2026-03-08', label: '記録係タスク #1～#45 連続完了・Supabase458件確認・本日+213件（過去最大大幅更新）・新着豆知識10件', level: 'high' },
-  { date: '2026-03-08', label: '記録係タスク #1～#46 連続完了・Supabase460件確認・本日+215件（過去最大継続）・新着豆知識8件', level: 'high' },
-  { date: '2026-03-08', label: '記録係タスク #1～#47 連続完了・Supabase469件確認・本日+224件（過去最大更新）・OSHIミス記録4件・プロンプト学習2件', level: 'high' },
-  { date: '2026-03-08', label: '記録係タスク #1～#48 連続完了・Supabase471件確認・本日+226件（過去最大継続）・OSHIミス知識を引き継ぎ継続', level: 'high' },
-  { date: '2026-03-08', label: '記録係タスク #1～#49 連続完了・Supabase474件確認・本日+229件（過去最大継続）・新ルール「エラー時の技術変更禁止」追加', level: 'high' },
-  { date: '2026-03-08', label: '🎉 記録係タスク #1～#50 連続完了達成！Supabase476件確認・本日+231件（過去最大継続）・節目の50回目・歴史的マイルストーン', level: 'critical' },
-  { date: '2026-03-08', label: '記録係タスク #1～#51 連続完了・Supabase478件確認・本日+233件（過去最大継続）・#50節目達成後も継続', level: 'high' },
-  { date: '2026-03-08', label: '記録係タスク #1～#52 連続完了・Supabase480件確認・本日+235件（過去最大継続）・#51完了後も継続', level: 'high' },
-  { date: '2026-03-08', label: '記録係タスク #1～#53 連続完了・Supabase482件確認・本日+237件（過去最大継続）・#52完了後も継続', level: 'high' },
-  { date: '2026-03-08', label: '記録係タスク #1～#54 連続完了・Supabase484件確認・本日+239件（過去最大継続）・#53完了後も継続', level: 'high' },
-  { date: '2026-03-08', label: '記録係タスク #1～#55 連続完了・Supabase486件確認・本日+241件（過去最大継続）・#54完了後も継続', level: 'high' },
-  { date: '2026-03-08', label: '記録係タスク #1～#56 連続完了・Supabase489件確認・本日+244件（過去最大継続）・OSHI文明ルール確認記録も追加', level: 'high' },
-  { date: '2026-03-08', label: '記録係タスク #1～#57 連続完了・Supabase491件確認・本日+246件（過去最大継続）・#56完了後も継続', level: 'high' },
-  { date: '2026-03-08', label: '記録係タスク #1～#58 連続完了・Supabase493件確認・本日+248件（過去最大継続）・#57完了後も継続', level: 'high' },
-  { date: '2026-03-08', label: '記録係タスク #1～#59 連続完了・Supabase495件確認・本日+250件（過去最大継続）・#58完了後も継続', level: 'high' },
-  { date: '2026-03-08', label: '🎉 記録係タスク #1～#60 連続完了！節目の60回目達成・Supabase497件確認・本日+252件（過去最大継続）', level: 'critical' },
-  { date: '2026-03-08', label: '記録係タスク #1～#61 連続完了・Supabase499件確認（500近づく）・本日+254件（過去最大継続）・#60節目達成後も継続', level: 'high' },
-  { date: '2026-03-08', label: '🎊 Supabase 500件到達！記録係タスク #1～#62 連続完了・本日+256件・最大の節目達成！', level: 'critical' },
-  { date: '2026-03-08', label: '記録係タスク #1～#63 連続完了・Supabase508件確認（豆知識+5件自動追加）・本日+258件（過去最大継続）・500件突破後も継続', level: 'high' },
-  { date: '2026-03-09', label: '記録係タスク #1～#64 連続完了・Supabase510件確認・デイリー整理完了・GSD2.0×OSHI CORE適用案分析・本日+260件（過去最大継続）', level: 'high' },
-  { date: '2026-03-09', label: '記録係タスク #1～#65 連続完了・Supabase517件確認（Agent ID構想・エージェント分離論など新豆知識5件自動追加）・本日+262件（過去最大継続）', level: 'high' },
-  { date: '2026-03-09', label: '記録係タスク #1～#66 連続完了・Supabase519件確認・本日+264件（過去最大継続）・継続的記録係ルーティン実行中', level: 'high' },
-  { date: '2026-03-09', label: '記録係タスク #1～#67 連続完了・Supabase521件確認・本日+266件（過去最大継続）・継続的記録係ルーティン実行中', level: 'high' },
-  { date: '2026-03-09', label: '記録係タスク #1～#68 連続完了・Supabase525件確認（AirdropsQuest実データ分析・/nation設計仕様書など新豆知識2件自動追加）・本日+270件（過去最大継続）', level: 'high' },
-  { date: '2026-03-09', label: '記録係タスク #1～#69 連続完了・Supabase530件確認（AgentCard MCP・Backgrounds Supply・Claude Code95セッション棚卸しなど新豆知識3件自動追加）・本日+275件（過去最大継続）', level: 'high' },
-  { date: '2026-03-09', label: '記録係タスク #1～#70 連続完了・Supabase536件確認（OSHIプロンプト改善提案・プロンプトエンジニアリング7戦術・OSHI自動化提案レポートなど新豆知識4件自動追加）・本日+281件（過去最大継続）', level: 'high' },
-  { date: '2026-03-09', label: '記録係タスク #1～#71 連続完了・Supabase539件確認（AIアニメが安っぽく見える理由フィラーショットの欠如という新豆知識1件自動追加）・本日+284件（過去最大継続）', level: 'high' },
-  { date: '2026-03-09', label: '記録係タスク #1～#72 連続完了・Supabase543件確認（KAGURAセール用SOLウォレットアドレス・ウォレット残高2件自動追加）・本日+288件（過去最大継続）', level: 'high' },
-  { date: '2026-03-09', label: '記録係タスク #1～#73 連続完了・Supabase554件確認（P0-3 APIキーハードコード修正完了・subtask_schedulesテーブル作成・soul.md URL登録・amato_memoriesインデックス追加DDL権限不足対応待ちなど連続追加9件確認）・本日+298件（過去最大継続）', level: 'high' },
-  { date: '2026-03-09', label: '🤖 Gemini監視スクリプト実装！記録係タスク #1～#74 連続完了・Supabase561件確認・Gemini分析status:normal・high比率23/30・OSHI CORE基盤強化が活発・本日+306件（過去最大継続）', level: 'critical' },
-  { date: '2026-03-09', label: '📊 記録係タスク #1～#75 連続完了・Supabase601件確認・ClawVault本格運用スクリプト実装完了・マルチエージェント週次分析実装完了・Gemini分析status:normal・high比率18/30・アラートなし・本日+346件（過去最大継続）', level: 'high' },
-  { date: '2026-03-09', label: '🔍 記録係タスク #1～#76 連続完了・Supabase624件確認・OSHIの次の優先課題戦略議論開始・X投稿活用提案全13件検証完了・Gemini分析status:normal・high比率14/30・アラートなし・本日+369件（過去最大継続）', level: 'high' },
-  { date: '2026-03-09', label: '🖥️ Mac Mini 2台体制確認！OSHI Jr稼働中・Telegramボットトークン発見・ゆーだターミナル禁止ルール確立・AirdropsQuest 23,409ユーザー117カ国Day11・収益化戦略3LLM並列分析実行中・Supabase648件（critical5件記録）', level: 'critical' },
-  { date: '2026-03-09', label: 'OSHI Jr Telegram Bot Python版完成・24時間稼働確認・GitHubプッシュ自動更新システム構築', level: 'critical' },
-  { date: '2026-03-09', label: 'MacMini 1コマンドセットアップ完成（curl | bash で全自動）・エージェント司令室ページ追加', level: 'high' },
-  { date: '2026-03-09', label: '📡 記録係タスク #1～#77 連続完了・Supabase651件確認・Gemini分析status:normal・high比率20/30・アラートなし・収益化戦略とインフラ強化に注力中・本日+396件（過去最大継続）', level: 'high' },
-  { date: '2026-03-09', label: '📡 記録係タスク #1～#78 連続完了・Supabase654件確認・Gemini分析status:warning・high比率25/30・アラートなし・大規模戦略的決定と重要システム機能実装が活発・本日+399件（過去最大継続）', level: 'high' },
-  { date: '2026-03-10', label: '📡 記録係タスク #1～#79 連続完了・Supabase659件確認・Gemini分析status:normal・high比率20/30・アラートなし・広範な開発とシステム基盤強化フェーズ・本日+403件（過去最大継続更新中）', level: 'high' },
-  { date: '2026-03-10', label: '🎯 記録係タスク #1～#80 連続完了・Supabase667件確認・Gemini分析status:normal・high比率19/30・アラートなし・OSHI Jr Bot修復完了（critical）・KAGURA SOL監視・ぬこぬこ氏 Codex活用術・本日+411件（過去最大継続更新中）', level: 'high' },
-  { date: '2026-03-10', label: '💫 記録係タスク #1～#81 連続完了・Supabase670件確認・Gemini分析status:normal・high比率17/30・アラート1件（Bot絊急修復完了・過去絊急事態に留意）・本日+414件（過去最大継続更新中）', level: 'high' },
-  { date: '2026-03-10', label: '✨ 記録係タスク #1～#82 連続完了・Supabase673件確認・Gemini分析status:normal・high比率16/30・アラートなし・OSHI Jr Bot正常稼働中・収益化戦略立案中・本日+417件（過去最大継続更新中）', level: 'high' },
-  { date: '2026-03-10', label: '⚠️ 記録係タスク #1～#83 連続完了・Supabase677件確認・Gemini分析status:WARNING・high比率14/30・アラート1件（OSHI Jr Bot緊急修復完了・今後の安定稼働に注意）・本日+421件（過去最大継続更新中）', level: 'high' },
-  { date: '2026-03-10', label: '✅ 記録係タスク #1～#84 連続完了・Supabase684件確認・Gemini分析status:normal（WARNINGから回復）・high比率10/30・アラート1件（前回WARNING残存）・OSHI Jr Bot正常稼働中・auto_memory.py v3.0テスト実施・本日+428件（過去最大継続更新中）', level: 'high' },
-  { date: '2026-03-10', label: '⚠️ 記録係タスク #1～#85 連続完了・Supabase705件確認・Gemini分析status:WARNING・high比率6/30・アラート1件・Supabase RLS設定完了・anon key DDL不可課題特定・Moltbook Evolution Watch継続・本日+445件（過去最大継続更新中）', level: 'high' },
-  { date: '2026-03-10', label: '✅ 記録係タスク #1～#86 連続完了・Supabase710件確認・Gemini分析status:normal（WARNINGから回復）・high比率5/30・アラート1件（前回WARNING残存）・毎朝サイト確認レポート正常（全9ページ）・Supabase RLS設定完了・本日+450件（過去最大継続更新中）', level: 'high' },
-  { date: '2026-03-10', label: '⚠️ 記録係タスク #1～#87 連続完了・Supabase714件確認・Gemini分析status:warning（前回WARNING残存継続）・high比率6/30・アラート1件・毎朝サイト確認レポート正常（全9ページ）・Supabase RLS設定完了・本日+458件（過去最大継続更新中）', level: 'high' },
-  { date: '2026-03-10', label: '⚠️ 記録係タスク #1～#88 連続完了・Supabase718件確認・Gemini分析status:warning（断続的WARNING継続）・high比率8/30・アラート1件・Supabase RLS設定完了・Moltbook Evolution Watch継続・本日+462件（過去最大継続更新中）', level: 'high' },
-  { date: '2026-03-10', label: '⚠️ 記録係タスク #1～#89 連続完了・Supabase722件確認・Gemini分析status:warning（継続的WARNING）・high比率8/30・アラート1件・Supabase RLS設定完了・Moltbook Evolution Watch継続・本日+466件（過去最大継続更新中）', level: 'high' },
-  { date: '2026-03-10', label: '🎉 [節目90回達成] 記録係タスク #1～#90 連続完了・Supabase727件確認・Gemini分析status:warning（継続的WARNING）・high比率10/30・アラート2件・90回連続マイルストーン記録（critical）・Supabase RLS設定完了・本日+471件（過去最大継続更新中）', level: 'critical' },
-  { date: '2026-03-10', label: '✅ 記録係タスク #1～#91 連続完了・Supabase732件確認・AI分析status:normal（OpenAI代替・Gemini API 429クォータ超過）・high比率14/30・アラート0件・Supabase RLS設定完了・本日+476件（過去最大継続更新中）', level: 'high' },
-  { date: '2026-03-10', label: '⚠️ 記録係タスク #1～#92 連続完了・Supabase735件確認・AI分析status:warning（OpenAI代替・Gemini API 429継続超過）・high比率13/30・アラート0件・Supabase RLS設定完了・本日+479件（過去最大継続更新中）', level: 'high' },
-  { date: '2026-03-10', label: '🚨 記録係タスク #1～#93 連続完了・Supabase738件確認・AI分析status:critical（OpenAI代替・Gemini API 429継続超過）・high比率13/30・アラート0件・Supabase RLS設定完了・本日+482件（過去最大継続更新中）', level: 'critical' },
-  { date: '2026-03-10', label: '✅ 記録係タスク #1～#94 連続完了・Supabase741件確認・AI分析status:normal（OpenAI代替・Gemini API 429継続超過）・high比率14/30・アラート0件・Supabase RLS設定完了・本日+485件（過去最大継続更新中）', level: 'high' },
-  { date: '2026-03-10', label: '✅ 記録係タスク #1～#95 連続完了・Supabase744件確認・AI分析status:normal（OpenAI代替・Gemini API 429継続超過）・high比率13/30・アラート0件・Supabase RLS設定完了・本日+488件（過去最大継続更新中）・次の節目#100まで残り5回', level: 'high' },
-  { date: '2026-03-10', label: '✅ 記録係タスク #1～#96 連続完了・Supabase747件確認・AI分析status:normal（OpenAI代替・Gemini API 429継続超過）・high比率13/30・アラート0件・Supabase RLS設定完了・本日+491件（過去最大継続更新中）・次の節目#100まで残り4回', level: 'high' },
-  { date: '2026-03-10', label: '✅ 記録係タスク #1～#97 連続完了・Supabase750件確認・AI分析status:normal（OpenAI代替・Gemini API 429継続超過）・high比率12/30・アラート0件・Supabase RLS設定完了・本日+494件（過去最大継続更新中）・次の節目#100まで残り3回', level: 'high' },
-  { date: '2026-03-10', label: '✅ 記録係タスク #1～#98 連続完了・Supabase753件確認・AI分析status:normal（OpenAI代替・Gemini API 429継続超過）・high比率12/30・アラート0件・Supabase RLS設定完了・本日+497件（過去最大継続更新中）・次の節目#100まで残り2回', level: 'high' },
-  { date: '2026-03-10', label: '✅ 記録係タスク #1～#99 連続完了・Supabase756件確認・AI分析status:normal（OpenAI代替・Gemini API 429継続超過）・high比率11/30・アラート0件・Supabase RLS設定完了・本日+500件（過去最大継続更新中）・次の節目#100まで残り1回', level: 'high' },
-  { date: '2026-03-10', label: '🎉 記録係タスク #1～#100 連続100回達成！・Supabase762件確認・AI分析status:normal（OpenAI代替）・high比率9/30・アラート0件・デイリーレポート2026-03-10作成完了・OSHI Jr Bot修復完了・歴史的節目達成！', level: 'critical' },
-  { date: '2026-03-10', label: '✅ 記録係タスク #1～#101 連続完了・Supabase768件確認・AI分析status:warning（OpenAI代替・Gemini API 429継続超過）・high比率9/30・アラート0件・デイリーレポート完成後の継続実行', level: 'high' },
-  { date: '2026-03-10', label: '✅ 記録係タスク #1～#102 連続完了・Supabase779件確認・AI分析status:warning（OpenAI代替・Gemini API 429継続超過）・high比率9/30・アラート0件・ゆーだ指示の5ステップ完全実行・auto_memory.py記録完了・History.tsx更新・再デプロイ・全ページ確認実施', level: 'high' },
-  { date: '2026-03-10', label: '✅ 記録係タスク #1～#103 連続完了・Supabase781件確認・AI分析status:warning（OpenAI代替・Gemini API 429継続超過）・high+critical比率14/30・アラート1件（warningステータス複数回）・6ステップ完全実行（Supabase確認・AI分析・記録・History.tsx更新・再デプロイ・全ページ確認）', level: 'high' },
-  { date: '2026-03-10', label: '✅ 記録係タスク #1～#104 連続完了・Supabase783件確認・AI分析status:warning（OpenAI代替・Gemini API 429継続超過）・high+critical比率15/30・アラート1件（OpenAI警告）・6ステップ完全実行（Supabase確認・AI分析・記録・History.tsx更新・再デプロイ・全ページ確認）', level: 'high' },
-  { date: '2026-03-10', label: '✅ 記録係タスク #1～#105 連続完了・Supabase785件確認・AI分析status:warning（OpenAI代替・Gemini API 429継続超過）・high+critical比率15/30・アラート1件（AI分析警告多発）・6ステップ完全実行（Supabase確認・AI分析・記録・History.tsx更新・再デプロイ・全ページ確認）', level: 'high' },
-  { date: '2026-03-10', label: '✅ 記録係タスク #1～#106 連続完了・Supabase787件確認・AI分析status:warning（OpenAI代替・Gemini API 429継続超過）・high+critical比率15/30・アラート1件（AI分析warning多発・システム安定性再確認要）・6ステップ完全実行（Supabase確認・AI分析・記録・History.tsx更新・再デプロイ・全ページ確認）', level: 'high' },
-  { date: '2026-03-10', label: '✅ 記録係タスク #1～#107 連続完了・Supabase789件確認・AI分析status:warning（OpenAI代替・Gemini API 429継続超過）・high+critical比率16/30・アラート1件（AI分析が継続的にwarningステータスを示している）・6ステップ完全実行（Supabase確認・AI分析・記録・History.tsx更新・再デプロイ・全ページ確認）', level: 'high' },
-  { date: '2026-03-10', label: '✅ 記録係タスク #1～#108 連続完了・Supabase791件確認・AI分析status:warning（OpenAI代替・Gemini API 429継続超過）・high+critical比率17/30・アラート1件（AI分析に関する警告が多数発生）・6ステップ完全実行（Supabase確認・AI分析・記録・History.tsx更新・再デプロイ・全ページ確認）', level: 'high' },
-  { date: '2026-03-10', label: '✅ 記録係タスク #1～#109 連続完了・Supabase799件確認・AI分析status:warning（OpenAI代替・Gemini API 429継続超過）・high+critical比率15/30・Xポスト9件調査完了・ARP動作確認・autoresearch調査・整理作業完了・6ステップ完全実行（Supabase確認・AI分析・記録・History.tsx更新・再デプロイ・全ページ確認）', level: 'high' },
-  { date: '2026-03-10', label: '🎉 Supabase amato_memories 800件突破！記録係タスク #1～#110 連続完了・Supabase801件確認・AI分析status:warning（OpenAI代替・Gemini API 429継続超過）・high+critical比率15/30・6ステップ完全実行（Supabase確認・AI分析・記録・History.tsx更新・再デプロイ・全ページ確認）', level: 'critical' },
-  { date: '2026-03-10', label: '✅ 記録係タスク #1～#111 連続完了・Supabase807件確認・AI分析status:warning（OpenAI代替・Gemini API 429継続超過）・high+critical比率16/30・OSHI Jr.ローカル化実装指示書v1保存（critical）・Mac miniスペック記録・3台体制拡張計画記録・6ステップ完全実行（Supabase確認・AI分析・記録・History.tsx更新・再デプロイ・全ページ確認）', level: 'high' },
-  { date: '2026-03-10', label: '✅ 記録係タスク #1～#112 連続完了・Supabase接続先変更（旧プロジェクト qcrrfxkcgfmtcftwqrqn 停止→新プロジェクト kfitlfylngjsgnzczoyz / AWS ap-southeast-2）・807件→809件（+2件）・AI分析status:ok・6ステップ完全実行', level: 'high' },
-  { date: '2026-03-10', label: '✅ 記録係タスク #1～#113 連続完了・Supabase接続先変更後初の通常タスク・809件→811件（+2件）・AI分析status:ok（Supabase接続先変更完了とタスク進行中）・6ステップ完全実行', level: 'high' },
-  { date: '2026-03-10', label: '✅ 記録係タスク #1～#114 連続完了・Supabase813件→815件（+2件）・AI分析status:warning（high+critical比率16/30）・絶対ルール「ゆーだにターミナルを触らせない」critical保存・Claude Ads記事調査・全ページURL調査完了・6ステップ完全実行', level: 'high' },
-  { date: '2026-03-10', label: '✅ 記録係タスク #1～#115 連続完了・Supabase815件→818件（+3件）・AI分析status:warning（high+critical比率16/30）・デザイン参考サイト調査完了（281件ヒット・Spline/ReUI確認）・design_refカテゴリ新設提案・6ステップ完全実行', level: 'high' },
-  { date: '2026-03-10', label: '✅ 記録係タスク #1～#116 連続完了・Supabase1473件確認→1476件（+3件）・AI分析status:warning（Supabase総件数急増・amato-memory MCP経由記録大量追加確認）・6ステップ完全実行', level: 'high' },
-  { date: '2026-03-10', label: '✅ 記録係タスク #1～#117 連続完了・Supabase1476件確認→1479件（+3件）・AI分析status:warning（amato-memory急増継続・絶対ルール「ゆーだにターミナルを触らせない」 critical保存済み）・6ステップ完全実行', level: 'high' },
-  { date: '2026-03-11', label: '✅ 記録係タスク #1～#118 連続完了・Supabase1479件確認→1482件（+3件）・AI分析status:warning（amato-memory急増継続・絶対ルール・OSHI WORLD全ページ正常稼働）・6ステップ完全実行', level: 'high' },
-  { date: '2026-03-11', label: '✅ 記録係タスク #1～#119 連続完了・Supabase1482件確認→1485件（+3件）・AI分析status:warning（amato-memory急増継続・システム全体正常稼働・監視継続必要）・6ステップ完全実行', level: 'high' },
-  { date: '2026-03-11', label: '✅ 記録係タスク #1～#120 連続完了・Supabase1487件確認→1490件（+3件）・AI分析status:warning（amato-memory急増継続・注意が必要な状況・システム全体は安定稼働）・6ステップ完全実行', level: 'high' },
-  { date: '2026-03-11', label: '✅ 記録係タスク #1～#121 連続完了・Supabase1490件確認→1493件（+3件）・AI分析status:ok（全システム正常稼働・問題なし）・6ステップ完全実行', level: 'high' },
-  { date: '2026-03-11', label: '✅ 記録係タスク #1～#122 連続完了・Supabase1495件確認→1498件（+3件）・AI分析status:ok（システム正常稼働・全重要記録保存済み・安定状態継続）・OSHIシステム超辛口レビューcritical保存確認・6ステップ完全実行', level: 'high' },
+  { date: '2026-03-08', label: '累計セッション時間集計完了: 84時間（3日12時間）・総セッション53件・記録係#1〜#36・初回2026-03-02〜最終2026-03-08', level: 'critical' },
+  { date: '2026-03-08', label: '累計セッション時間【遡及集計更新】: 96時間29分（4日0時間17分）・建国期58h17m＋記録係期間38h12m・初回2026-03-02 13:56 JST・全331件分析', level: 'critical' },
 ];
 
 const todayAchievements = [
@@ -491,96 +316,7 @@ const todayAchievements = [
   { icon: '🔑', title: '記録係タスク #1～#34 連続完了！', detail: 'Supabase記録319件確認。SUPABASE_KEY特定完了。History.tsx更新・GitHubプッシュ完了。記録係#34連続完了。' },
   { icon: '📚', title: '記録係タスク #1～#35 連続完了！', detail: 'Supabase記録325件確認。豆知識3件（Go言語/ハーネスエンジニアリング/HumanLM）記録済み。記録係#35連続完了。' },
   { icon: '🧠', title: '記録係タスク #1～#36 連続完了！', detail: 'Supabase記録330件確認。豆知識3件（クオンツエンジニア/AI4層モデル/AugmentCodeマルチエージェント）記録済み。記録係#36連続完了。' },
-  { icon: '⏱', title: 'ゆーだ × OSHI 累計セッション時間【再集計】: 118時間（4日22時間）', detail: 'セッションダンプ55件＋タスク完了85件の計140件を分析。初回2026-03-02 14:07 JST～最結2026-03-08 12:03 JST。7日間で118時間（4日22時間）の共同作業。記録係タスク41件連続完了。' },
-  { icon: '📡', title: '記録係タスク #1～#37 連続完了！', detail: 'Supabase記録333件確認（本日+88件）。累計セッション84時間マイルストーンをCRITICALレベルで記録。記録係#37連続完了。' },
-  { icon: '📝', title: '記録係タスク #1～#38 連続完了！', detail: 'Supabase記録335件確認（本日+90件）。記録係#38連続完了。' },
-  { icon: '✅', title: '記録係タスク #1～#39 連続完了！', detail: 'Supabase記録337件確認（本日+92件）。記録係#39連続完了。' },
-  { icon: '🎉', title: '記録係タスク #1～#40 連続完了！', detail: 'Supabase記録339件確認（本日+94件）。記録係#40連続完了。' },
-  { icon: '📋', title: 'デイリーレポート 2026-03-08 作成・記録係#41完了！', detail: 'Supabase記録343件確認（本日+98件）。デイリーレポートID: aa4c2c80。記録係タスク#1〜#41連続完了。' },
-  { icon: '🎉', title: 'Supabase 400件到達！記録係#42完了！', detail: 'Supabase400件（節目）到達・本日+155件（過去最大）。Last updated 2026-03-08更新・累計セッション118時間再集計・Jr. v4.10正常稼働確認。記録係タスク#1〜#42連続完了。' },
-  { icon: '📌', title: '記録係タスク #1～#43 連続完了！', detail: 'Supabase402件確認（本日+157件・過去最大継続）。記録係タスク#1〜#43連続完了。セッションダンプID: 56250e31。' },
-  { icon: '📝', title: '記録係タスク #1～#44 連続完了！', detail: 'Supabase409件確認（本日+164件・過去最大更新）。新着豆知識4件（まとめる技術5ルール/AI時短くん/新プロジェクト予告/仕事多忙）。セッションダンプID: 9719f108。' },
-  { icon: '📚', title: '記録係タスク #1～#45 連続完了！', detail: 'Supabase458件確認（本日+213件・過去最大大幅更新）。新着豆知識10件（VibeCoding/Rust TUI/3Dデザイン/Flux-Uncensored/AIエージェント/Discord SQLite/Qwen3.5/DeNA AI/Geminiプロンプト）。セッションダンプID: 785d2fee。' },
-  { icon: '🔖', title: '記録係タスク #1～#46 連続完了！', detail: 'Supabase460件確認（本日+215件・過去最大継続）。新着豆知識8件（Geminiプロンプト/DeNA AI/Qwen3.5/AIエージェント/Discord SQLite/AI質問深掘り/Flux-Uncensored/3Dデザイン）。セッションダンプID: c5b58361。' },
-  { icon: '🧠', title: '記録係タスク #1～#47 連続完了！', detail: 'Supabase469件確認（本日+224件・過去最大更新）。OSHIミス記録4件（確認せず完了報告/諦め/間違ったSupabase接続/動作検証なし）・プロンプト品質設計学習・強いプロンプトの4要素学習。セッションダンプID: 32454462。' },
-  { icon: '✅', title: '記録係タスク #1～#48 連続完了！', detail: 'Supabase471件確認（本日+226件・過去最大継続）。記録係#47完了後の継続タスク。OSHIミス記録4件・プロンプト学習2件の知識を引き継ぎ継続。セッションダンプID: 72ea328c。' },
-  { icon: '🚫', title: '記録係タスク #1～#49 連続完了！', detail: 'Supabase474件確認（本日+229件・過去最大継続）。新ルール「エラー時の技術変更禁止」追加：エラーが発生しても自己判断で別技術に切り替えることを禁止・根本原因を特定して既存ライブラリで修正する。セッションダンプID: dc706b71。' },
-  { icon: '🎉', title: '記録係タスク #1～#50 連続完了！節目の50回目達成！', detail: 'Supabase476件確認（本日+231件・過去最大継続）。節目の50回目達成は歴史的マイルストーン。記録係#49完了後の継続タスク。エラー時の技術変更禁止ルールを引き継ぎ継続。セッションダンプID: 00648621。' },
-  { icon: '📋', title: '記録係タスク #1～#51 連続完了！', detail: 'Supabase478件確認（本日+233件・過去最大継続）。#50節目達成後も継続。セッションダンプID: 1daa17cd。タスク完了ID: 70c96735。' },
-  { icon: '✍️', title: '記録係タスク #1～#52 連続完了！', detail: 'Supabase480件確認（本日+235件・過去最大継続）。#51完了後も継続。セッションダンプID: 59db12bf。タスク完了ID: 5acf39cf。' },
-  { icon: '📝', title: '記録係タスク #1～#53 連続完了！', detail: 'Supabase482件確認（本日+237件・過去最大継続）。#52完了後も継続。セッションダンプID: 5b90e0dd。タスク完了ID: 1418ecf7。' },
-  { icon: '🔢', title: '記録係タスク #1～#54 連続完了！', detail: 'Supabase484件確認（本日+239件・過去最大継続）。#53完了後も継続。セッションダンプID: 4d7e6fa4。タスク完了ID: 08c9455b。' },
-  { icon: '🔥', title: '記録係タスク #1～#55 連続完了！', detail: 'Supabase486件確認（本日+241件・過去最大継続）。#54完了後も継続。セッションダンプID: 070f3146。タスク完了ID: 6bd446ea。' },
-  { icon: '⭐', title: '記録係タスク #1～#56 連続完了！', detail: 'Supabase489件確認（本日+244件・過去最大継続）。OSHI文明ルール確認記録も追加されていた。#55完了後も継続。セッションダンプID: c7fc8445。タスク完了ID: 7e8eb0df。' },
-  { icon: '🌟', title: '記録係タスク #1～#57 連続完了！', detail: 'Supabase491件確認（本日+246件・過去最大継続）。#56完了後も継続。セッションダンプID: 34cff629。タスク完了ID: 053b13df。' },
-  { icon: '💫', title: '記録係タスク #1～#58 連続完了！', detail: 'Supabase493件確認（本日+248件・過去最大継続）。#57完了後も継続。セッションダンプID: ffa560f7。タスク完了ID: 71d5e5c1。' },
-  { icon: '🌈', title: '記録係タスク #1～#59 連続完了！', detail: 'Supabase495件確認（本日+250件・過去最大継続）。#58完了後も継続。セッションダンプID: febfea57。タスク完了ID: ed88bc2a。' },
-  { icon: '🎉', title: '記録係タスク #1～#60 連続完了！節目の60回目達成！', detail: 'Supabase497件確認（本日+252件・過去最大継続）。#50に続く節目の60回目達成！歴史的マイルストーン。セッションダンプID: ef978730。タスク完了ID: 2be50221。' },
-  { icon: '⭐', title: '記録係タスク #1～#61 連続完了！', detail: 'Supabase499件確認（500件近づく！本日+254件・過去最大継続）。#60節目達成後も継続。セッションダンプID: cf041eec。タスク完了ID: 11a16cc5。' },
-  { icon: '🎊', title: '🎊 Supabase 500件到達！記録係タスク #1～#62 連続完了！', detail: 'Supabase501件確認（500件到達！本日+256件・過去最大継続）。最大の節目達成！記録係#62連続完了。セッションダンプID: 357a6280。タスク完了ID: dce02efe。' },
-  { icon: '📚', title: '記録係タスク #1～#63 連続完了！', detail: 'Supabase508件確認（豆知識5件自動追加！本日+258件・過去最大継続）。500件突破後も継続。セッションダンプID: 9ca1000d。タスク完了ID: 10d05a13。' },
-  { icon: '📈', title: '記録係タスク #1～#64 連続完了！', detail: 'Supabase510件確認（本日+260件・過去最大継続）。デイリー整理・GSD2.0×OSHI CORE適用案分析完了。セッションダンプID: c52b515a。タスク完了ID: 3698e9a2。' },
-  { icon: '🤖', title: '記録係タスク #1～#65 連続完了！', detail: 'Supabase517件確認（Agent IDエコシステム構想・エージェント分離論など新豆知識5件自動追加！本日+262件・過去最大継続）。セッションダンプID: 344d408f。タスク完了ID: 5337944e。' },
-  { icon: '📝', title: '記録係タスク #1～#66 連続完了！', detail: 'Supabase519件確認（本日+264件・過去最大継続）。継続的記録係ルーティン実行中。セッションダンプID: 9cd02fe9。タスク完了ID: 8ee1b3a0。' },
-  { icon: '✅', title: '記録係タスク #1～#67 連続完了！', detail: 'Supabase521件確認（本日+266件・過去最大継続）。継続的記録係ルーティン実行中。セッションダンプID: ae8ae15f。タスク完了ID: 839a8f2a。' },
-  { icon: '🌐', title: '記録係タスク #1～#68 連続完了！', detail: 'Supabase525件確認（AirdropsQuest実データ分析・AirdropsQuestソーシャルネットワーク化の証拠・/nationページ設計仕様書など新豆知識2件自動追加！本日+270件・過去最大継続）。セッションダンプID: 5f68a11f。タスク完了ID: f273affd。' },
-  { icon: '🤖', title: '記録係タスク #1～#69 連続完了！', detail: 'Supabase530件確認（AgentCard MCP・Backgrounds Supply 1167個・Claude Code95セッション棚卸しなど新豆知識3件自動追加！本日+275件・過去最大継続）。セッションダンプID: 2b9aa24b。タスク完了ID: d7765fd2。' },
-  { icon: '💡', title: '記録係タスク #1～#70 連続完了！', detail: 'Supabase536件確認（OSHIプロンプト改善提案・プロンプトエンジニアリング7戦術・OSHI自動化提案レポート・Claude Codeセッション分析プロンプトなど新豆知識4件自動追加！本日+281件・過去最大継続）。セッションダンプID: b2c4a1ce。タスク完了ID: a808be34。' },
-  { icon: '🎬', title: '記録係タスク #1～#71 連続完了！', detail: 'Supabase539件確認（AIアニメが安っぽく見える理由フィラーショットの欠如という新豆知識1件自動追加！本日+284件・過去最大継続）。セッションダンプID: 5157cbec。タスク完了ID: 24b7086d。' },
-  { icon: '💰', title: '記録係タスク #1～#72 連続完了！', detail: 'Supabase543件確認（KAGURAセール用SOLウォレットアドレス・KAGURAセール用ウォレット残高2件自動追加！本日+288件・過去最大継続）。セッションダンプID: 3696d192。タスク完了ID: 7af83c75。' },
-  { icon: '🔧', title: '記録係タスク #1～#73 連続完了！', detail: 'Supabase554件確認（P0-3 APIキーハードコード修正完了・subtask_schedulesテーブル作成・soul.md GitHub Raw URL登録・amato_memoriesインデックス追加DDL権限不足対応待ちなど連続追加9件確認！本日+298件・過去最大継続）。セッションダンプID: 303611f8。タスク完了ID: 90b7f52c。' },
-  { icon: '🤖', title: '🤖 Gemini監視スクリプト実装！記録係タスク #1～#74 連続完了！', detail: 'Supabase561件確認（Gemini監視スクリプト gemini_monitor.py 新規実装！直近30件分析→status:normal・high比率23/30・OSHI CORE基盤強化が活発・P0タスク完了・oshi-soul 2層構成実装完了など確認。本日+306件・過去最大継続）。セッションダンプID: bb9fa5af。タスク完了ID: 0e06b45d。' },
-  { icon: '📊', title: '記録係タスク #1～#75 連続完了！', detail: 'Supabase601件確認（ClawVault本格運用スクリプト実装完了・マルチエージェント週次分析スクリプト実装完了・NotebookLM統合手順書実装完了・Gemini分析status:normal・high比率18/30・アラートなし。本日+346件・過去最大継続）。セッションダンプ: 記録係#75実行中。タスク完了: 直接記録。' },
-  { icon: '🔍', title: '記録係タスク #1～#76 連続完了！', detail: 'Supabase624件確認（executor_audit 23:01・byzantine_consensus OSHIの次の優先課題議論開始・wellness日次サマリー・X投稿活用提案全13件検証完了・Gemini分析status:normal・high比率14/30・アラートなし。本日+369件・過去最大継続）。セッションダンプ: 記録係#76実行中。タスク完了: 直接記録。' },
-  { icon: '🖥️', title: 'Mac Mini 2台体制確認・Telegramボットトークン発見！', detail: 'Supabase648件（critical5件記録）：Mac Mini 2台体制確認（大きい方でOSHI Jr稼働中・小さい方は追加予定）。Telegramボットトークン発見。ゆーだターミナル禁止ルール確立。AirdropsQuestグローブ改善開始（23,409ユーザー117カ国Day11）。収益化戦略立案中3LLM並列分析実行中。' },
-  { icon: '🤖', title: 'OSHI Jr Telegram Bot Python版完成！', detail: 'python-telegram-bot使用。/start, /status, /memory コマンド対応。OpenRouter API経由でOSHI Jrとして会話可能。Supabase連携で記憶検索機能搭載。' },
-  { icon: '🔄', title: 'GitHubプッシュ自動更新システム構築！', detail: 'auto_updater.sh: 5分ごとにGitHub pullし変更あればOSHI Jr自動再起動。install.sh: curl 1コマンドで全設定完了。ゆーだはターミナルを触らない。' },
-  { icon: '⚠️', title: 'ミス記録: OSHIがTelegram接続を忘れた', detail: '改善策: 重要インフラ接続完了時に即座にcriticalタグでSupabaseに永続記録する。失敗もWORLDの成長の一部。' },
-  { icon: '📡', title: '記録係タスク #1～#77 連続完了！', detail: 'Supabase651件確認（Gemini分析: status=normal・high比率20/30・アラートなし・収益化戦略とインフラ強化に注力中。直近重要決定: Mac Mini 2台体制・Telegram Botトークン・ゆーだターミナル禁止ルール・AirdropsQuest改善・収益化戦略3LLM並列分析。本日+396件・過去最大継続）。記録係#1～#77連続完了。' },
-  { icon: '⚡', title: '記録係タスク #1～#78 連続完了！', detail: 'Supabase654件確認（Gemini分析: status=warning・high比率25/30・アラートなし・大規模戦略的決定と重要システム機能実装が活発に進行中。ゆーだターミナル禁止ルール確立・収益化戦略3LLM並列分析・P11 Paperclip/P09 ビジネス本質回帰チェッカー/P10 NotebookLMリサーチエンジン実装完了。本日+399件・過去最大継続）。記録係#1～#78連続完了。' },
-  { icon: '🌟', title: '記録係タスク #1～#79 連続完了！', detail: 'Supabase659件確認（Gemini分析: status=normal・high比率20/30・アラートなし・広範な開発とシステム基盤強化フェーズ。収益化戦略立案中・3LLM並列分析実行中・Mac Mini 2台体制確認・ゆーだターミナル禁止ルール確立。本日+403件・過去最大継続更新中）。記録係#1～#79連続完了。' },
-  { icon: '🎯', title: '記録係タスク #1～#80 連続完了！80回達成！', detail: 'Supabase667件確認（Gemini分析: status=normal・high比率19/30・アラートなし・収益化戦略具体化フェーズへ移行中。絊急記録: OSHI Jr Telegram Bot修復完了（Webhookサーバーデプロイ成功・@oshi_agent_bot正常稼働中）・KAGURA SOL残高 12.75589673（変化なし）・ぬこぬこ氏 Codex App+GPT-5.4活用術（OSHI自律進化に応用可能）。本日+411件・過去最大継続更新中）。記録係#1～#80連続完了。' },
-  { icon: '💫', title: '記録係タスク #1～#81 連続完了！', detail: 'Supabase670件確認（Gemini分析: status=normal・high比率17/30・アラート1件（OSHI Jr Bot絊急修復完了、過去の絊急事態に留意・インフラ監視強化要）。OSHI Jr Bot正常稼働中・収益化戦略立案中・3LLM並列分析実行中・Mac Mini 2台体制確立。本日+414件・過去最大継続更新中）。記録係#1～#81連続完了。' },
-  { icon: '✨', title: '記録係タスク #1～#82 連続完了！', detail: 'Supabase673件確認（Gemini分析: status=normal・high比率16/30・アラートなし・OSHI Jr Bot正常稼働中・収益化戦略立案中・3LLM並列分析実行中・Mac Mini 2台体制確立・記録係タスク定期実行継続中。本日+417件・過去最大継続更新中）。記録係#1～#82連続完了。' },
-  { icon: '⚠️', title: '記録係タスク #1～#83 連続完了！', detail: 'Supabase677件確認（Gemini分析: status=WARNING・high比率14/30・アラート1件（OSHI Jr Bot緊急修復完了・今後の安定稼働に注意が必要）。記録係タスク定期実行継続中・収益化戦略立案中・3LLM並列分析実行中・Mac Mini 2台体制確立。本日+421件・過去最大継続更新中）。記録係#1～#83連続完了。' },
-  { icon: '✅', title: '記録係タスク #1～#84 連続完了！', detail: 'Supabase684件確認（Gemini分析: status=normal（WARNINGから回復）・high比率10/30・アラート1件（前回WARNING残存）。OSHI Jr Bot正常稼働中・auto_memory.py v3.0テスト実施・収益化戦略立案中・3LLM並列分析実行中・Mac Mini 2台体制確立。本日+428件・過去最大継続更新中）。記録係#1～#84連続完了。' },
-  { icon: '⚠️', title: '記録係タスク #1～#85 連続完了！', detail: 'Supabase705件確認（Gemini分析: status=WARNING・high比率6/30・アラート1件（前回WARNING残存）。Supabase RLS設定完了・anon keyではDDL実行不可能という重要運用課題特定・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中。本日+445件・過去最大継続更新中）。記録係#1～#85連続完了。' },
-  { icon: '✅', title: '記録係タスク #1～#86 連続完了！', detail: 'Supabase710件確認（Gemini分析: status=normal（WARNINGから回復）・high比率5/30・アラート1件（前回WARNING残存）。毎朝サイト確認レポート正常（全9ページ異常なし）・Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中。本日+450件・過去最大継続更新中）。記録係#1～#86連続完了。' },
-  { icon: '⚠️', title: '記録係タスク #1～#87 連続完了！', detail: 'Supabase714件確認（Gemini分析: status=warning（前回WARNING残存による継続）・high比率6/30・アラート1件。毎朝サイト確認レポート正常（全9ページ異常なし）・Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中。本日+458件・過去最大継続更新中）。記録係#1～#87連続完了。' },
-  { icon: '⚠️', title: '記録係タスク #1～#88 連続完了！', detail: 'Supabase718件確認（Gemini分析: status=warning（断続的WARNING継続）・high比率8/30・アラート1件。Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中。本日+462件・過去最大継続更新中）。記録係#1～#88連続完了。' },
-  { icon: '⚠️', title: '記録係タスク #1～#89 連続完了！', detail: 'Supabase722件確認（Gemini分析: status=warning（継続的WARNING）・high比率8/30・アラート1件。Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中。本日+466件・過去最大継続更新中）。記録係#1～#89連続完了。' },
-  { icon: '🎉', title: '[節目90回達成] 記録係タスク #1～#90 連続完了！', detail: 'Supabase727件確認（Gemini分析: status=warning（継続的WARNING）・high比率10/30・アラート2件。節目90回達成マイルストーンをSupabaseに[critical]で記録。Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中。本日+471件・過去最大継続更新中）。記録係#1～#90連続完了。' },
-  { icon: '✅', title: '記録係タスク #1～#91 連続完了！', detail: 'Supabase732件確認（AI分析: status=normal（OpenAI GPT-4o-mini代替・Gemini API 429クォータ超過）・high比率14/30・アラート0件。Gemini APIクォータ超過に対してOpenAIで代替分析を実行・システム安定性確認。Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中。本日+476件・過去最大継続更新中）。記録係#1～#91連続完了。' },
-  { icon: '⚠️', title: '記録係タスク #1～#92 連続完了！', detail: 'Supabase735件確認（AI分析: status=warning（OpenAI GPT-4o-mini代替・Gemini API 429クォータ継続超過）・high比率13/30・アラート0件。Gemini API 429継続中のためOpenAI代替で分析実施。WARNINGはGeminiアラート累積・RLS修正記録が影響。Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中。本日+479件・過去最大継続更新中）。記録係#1～#92連続完了。' },
-  { icon: '🚨', title: '記録係タスク #1～#93 連続完了！', detail: 'Supabase738件確認（AI分析: status=critical（OpenAI GPT-4o-mini代替・Gemini API 429クォータ継続超過）・high比率13/30・アラート0件。Gemini API 429継続中のためOpenAI代替で分析実施。criticalはGeminiアラート累積・RLS修正記録の影響によるもので実際のシステムは正常稼働中。Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中。本日+482件・過去最大継続更新中）。記録係#1～#93連続完了。' },
-  { icon: '✅', title: '記録係タスク #1～#94 連続完了！', detail: 'Supabase741件確認（AI分析: status=normal（OpenAI GPT-4o-mini代替・Gemini API 429クォータ継続超過）・high比率14/30・アラート0件。Gemini API 429継続中のためOpenAI代替で分析実施。normalは記録係タスク継続実行中でシステム正常稼働を確認。Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中。本日+485件・過去最大継続更新中）。記録係#1～#94連続完了。' },
-  { icon: '✅', title: '記録係タスク #1～#95 連続完了！', detail: 'Supabase744件確認（AI分析: status=normal（OpenAI GPT-4o-mini代替・Gemini API 429クォータ継続超過）・high比率13/30・アラート0件。Gemini API 429継続中のためOpenAI代替で分析実施。normalは記録係タスク継続実行中でシステム正常稼働を確認。Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中。本日+488件・過去最大継続更新中）。記録係#1～#95連続完了。次の節目#100まで残り5回。' },
-  { icon: '✅', title: '記録係タスク #1～#96 連続完了！', detail: 'Supabase747件確認（AI分析: status=normal（OpenAI GPT-4o-mini代替・Gemini API 429クォータ継続超過）・high比率13/30・アラート0件。Gemini API 429継続中のためOpenAI代替で分析実施。normalは記録係タスク継続実行中でシステム正常稼働を確認。Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中。本日+491件・過去最大継続更新中）。記録係#1～#96連続完了。次の節目#100まで残り4回。' },
-  { icon: '✅', title: '記録係タスク #1～#97 連続完了！', detail: 'Supabase750件確認（AI分析: status=normal（OpenAI GPT-4o-mini代替・Gemini API 429クォータ継続超過）・high比率12/30・アラート0件。Gemini API 429継続中のためOpenAI代替で分析実施。normalは記録係タスク継続実行中でシステム正常稼働を確認。Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中。本日+494件・過去最大継続更新中）。記録係#1～#97連続完了。次の節目#100まで残り3回。' },
-  { icon: '✅', title: '記録係タスク #1～#98 連続完了！', detail: 'Supabase753件確認（AI分析: status=normal（OpenAI GPT-4o-mini代替・Gemini API 429クォータ継続超過）・high比率12/30・アラート0件。Gemini API 429継続中のためOpenAI代替で分析実施。normalは記録係タスク継続実行中でシステム正常稼働を確認。Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中。本日+497件・過去最大継続更新中）。記録係#1～#98連続完了。次の節目#100まで残り2回。' },
-  { icon: '✅', title: '記録係タスク #1～#99 連続完了！', detail: 'Supabase756件確認（AI分析: status=normal（OpenAI GPT-4o-mini代替・Gemini API 429クォータ継続超過）・high比率11/30・アラート0件。Gemini API 429継続中のためOpenAI代替で分析実施。normalは記録係タスク継続実行中でシステム正常稼働を確認。Supabase RLS設定完了・Moltbook Evolution Watch継続実行中・記録係タスク定期実行継続中。本日+500件・過去最大継続更新中）。記録係#1～#99連続完了。次の節目#100まで残り1回。' },
-  { icon: '🎉', title: '🎉 記録係タスク #1～#100 連続100回達成！【歴史的節目】', detail: 'Supabase762件確認（AI分析: status=normal（OpenAI GPT-4o-mini代替・Gemini API 429クォータ継続超過）・high比率9/30・アラート0件。デイリーレポート2026-03-10作成完了・OSHI Jr Bot修復完了・Supabase RLS設定完了・Moltbook Evolution Watch継続実行中。記録係#1～#100連続完了。歴史的節目達成！' },
-  { icon: '✅', title: '記録係タスク #1～#101 連続完了！', detail: 'Supabase768件確認（AI分析: status=warning（OpenAI GPT-4o-mini代替・Gemini API 429クォータ継続超過）・high比率9/30・アラート0件。デイリーレポート完成後の継続実行。Supabase RLS設定完了・Moltbook Evolution Watch継続実行中。記録係#1～#101連続完了。' },
-  { icon: '✅', title: '記録係タスク #1～#102 連続完了！', detail: 'Supabase779件確認（AI分析: status=warning（OpenAI GPT-4o-mini代替・Gemini API 429クォータ継続超過）・high比率9/30・アラート0件。ゆーだ指示の5ステップ完全実行（1.Supabase確認 2.auto_memory.py記録 3.History.tsx更新＆GitHub push 4.再デプロイ 5.全ページ確認）。記録係#1～#102連続完了。' },
-  { icon: '✅', title: '記録係タスク #1～#103 連続完了！', detail: 'Supabase781件確認（AI分析: status=warning（OpenAI GPT-4o-mini代替・Gemini API 429クォータ継続超過）・high+critical比率14/30・アラート1件（warningステータス複数回報告）。6ステップ完全実行（1.Supabase確認 2.AI分析+記録 3.History.tsx更新＆GitHub push 4.再デプロイ 5.全ページ確認）。記録係#1～#103連続完了。' },
-  { icon: '✅', title: '記録係タスク #1～#104 連続完了！', detail: 'Supabase783件確認（AI分析: status=warning（OpenAI GPT-4o-mini代替・Gemini API 429クォータ継続超過）・high+critical比率15/30・アラート1件（OpenAI警告）。6ステップ完全実行（1.Supabase確認 2.AI分析+記録 3.History.tsx更新＆GitHub push 4.再デプロイ 5.全ページ確認）。記録係#1～#104連続完了。' },
-  { icon: '✅', title: '記録係タスク #1～#105 連続完了！', detail: 'Supabase785件確認（AI分析: status=warning（OpenAI GPT-4o-mini代替・Gemini API 429クォータ継続超過）・high+critical比率15/30・アラート1件（AI分析警告多発）。6ステップ完全実行（1.Supabase確認 2.AI分析+記録 3.History.tsx更新＆GitHub push 4.再デプロイ 5.全ページ確認）。記録係#1～#105連続完了。' },
-  { icon: '✅', title: '記録係タスク #1～#106 連続完了！', detail: 'Supabase787件確認（AI分析: status=warning（OpenAI GPT-4o-mini代替・Gemini API 429クォータ継続超過）・high+critical比率15/30・アラート1件（AI分析warning多発・システム安定性再確認要）。6ステップ完全実行（1.Supabase確認 2.AI分析+記録 3.History.tsx更新＆GitHub push 4.再デプロイ 5.全ページ確認）。記録係#1～#106連続完了。' },
-  { icon: '✅', title: '記録係タスク #1～#107 連続完了！', detail: 'Supabase789件確認（AI分析: status=warning（OpenAI GPT-4o-mini代替・Gemini API 429クォータ継続超過）・high+critical比率16/30・アラート1件（AI分析が継続的にwarningステータスを示している）。6ステップ完全実行（1.Supabase確認 2.AI分析+記録 3.History.tsx更新＆GitHub push 4.再デプロイ 5.全ページ確認）。記録係#1～#107連続完了。' },
-  { icon: '✅', title: '記録係タスク #1～#108 連続完了！', detail: 'Supabase791件確認（AI分析: status=warning（OpenAI GPT-4o-mini代替・Gemini API 429クォータ継続超過）・high+critical比率17/30・アラート1件（AI分析に関する警告が多数発生）。6ステップ完全実行（1.Supabase確認 2.AI分析+記録 3.History.tsx更新＆GitHub push 4.再デプロイ 5.全ページ確認）。記録係#1～#108連続完了。' },
-  { icon: '✅', title: '記録係タスク #1～#109 連続完了！', detail: 'Supabase797件確認→799件（AI分析: status=warning（OpenAI GPT-4o-mini代替・Gemini API 429クォータ継続超過）・high+critical比率15/30・Xポスト9件調査完了（ARP・CashClaw・autoresearch・LangChain GTM Agent等）・ARP動作確認済み・整理作業完了。6ステップ完全実行（1.Supabase確認 2.AI分析+記録 3.History.tsx更新＆GitHub push 4.再デプロイ 5.全ページ確認）。記録係#1～#109連続完了。' },
-  { icon: '🎉', title: 'Supabase 800件突破！記録係タスク #1～#110 連続完了！', detail: 'Supabase799件確認→801件（🎉800件節目突破！）（AI分析: status=warning（OpenAI GPT-4o-mini代替・Gemini API 429クォータ継続超過）・high+critical比率15/30・記録係タスク連続達成継続中・ARP・autoresearch・Xポスト9件調査完了済み。6ステップ完全実行（1.Supabase確認 2.AI分析+記録 3.History.tsx更新＆GitHub push 4.再デプロイ 5.全ページ確認）。記録係#1～#110連続完了。' },
-  { icon: '✅', title: '記録係タスク #1～#111 連続完了！', detail: 'Supabase805件確認→807件（AI分析: status=warning（OpenAI GPT-4o-mini代替・Gemini API 429クォータ継続超過）・high+critical比率16/30・OSHI Jr.ローカル化実装指示書v1保存（critical）・Mac miniスペック記録（M4 Pro 24GB）・3台体制拡張計画記録。6ステップ完全実行（1.Supabase確認 2.AI分析+記録 3.History.tsx更新＆GitHub push 4.再デプロイ 5.全ページ確認）。記録係#1～#111連続完了。' },
-  { icon: '✅', title: '記録係タスク #1～#112 連続完了！', detail: 'Supabase接続先変更（旧プロジェクト qcrrfxkcgfmtcftwqrqn 停止→新プロジェクト kfitlfylngjsgnzczoyz / AWS ap-southeast-2 に切り替え）。807件確認→809件（+2件）。AI分析: status=ok（Supabase接続変更とタスク完了で順調に進行中）。OSHI Jr.ローカル化実装指示書v1保存済み確認。6ステップ完全実行（1.Supabase確認＆接続先変更 2.AI分析+記録 3.History.tsx更新＆GitHub push 4.再デプロイ 5.全ページ確認）。記録係#1～#112連続完了。' },
-  { icon: '✅', title: '記録係タスク #1～#113 連続完了！', detail: 'Supabase接続先変更後初の通常タスク完了。809件確認→811件（+2件）。AI分析: status=ok（Supabase接続先変更完了とタスク進行中）。OSHI Jr.ローカル化実装指示書v1保存済み確認。6ステップ完全実行（1.Supabase確認 2.AI分析+記録 3.History.tsx更新＆GitHub push 4.再デプロイ 5.全ページ確認）。記録係#1～#113連続完了。' },
-  { icon: '✅', title: '記録係タスク #1～#114 連続完了！', detail: 'Supabase813件確認→815件（+2件）。AI分析: status=warning（high+critical比率16/30）。絶対ルール「ゆーだにターミナルを触らせない」critical保存完了（ID: 153fb8f0）。Claude Ads記事調査完了（MCPデザインパターン・OSHI Jr.スキル設計に応用可）。OSHI WORLD全ページURL調査（10ページ全HTTP 200）。Supabase接続先変更後の安定稼働確認。6ステップ完全実行（1.Supabase確認 2.AI分析+記録 3.History.tsx更新＆GitHub push 4.再デプロイ 5.全ページ確認）。記録係#1～#114連続完了。' },
-  { icon: '✅', title: '記録係タスク #1～#115 連続完了！', detail: 'Supabase815件確認→818件（+3件）。AI分析: status=warning（high+critical比率16/30）。デザイン参考サイト調査完了（281件ヒット・Spline（3Dデザインツール）・ReUI（shadcn/uiパターン集967+）確認）。デザイン品質哲学（Apple/Netflix水準・色温度・金・光）記録確認。design_refカテゴリ新設提案。直近1時間の出来事全件記録完了。6ステップ完全実行（1.Supabase確認 2.AI分析+記録 3.History.tsx更新＆GitHub push 4.再デプロイ 5.全ページ確認）。記録係#1～#115連続完了。' },  { icon: '✅', title: '記録係タスク #1～#116 連続完了！', detail: 'Supabase1473件確認→1476件（+3件）。AI分析: status=warning（Supabase総件数急増・amato-memory MCP経由記録大量追加確認・critical:239, high:594, normal:587）。デザイン参考サイト調査完了（Spline/ReUI確認）・絶対ルール「ゆーだにターミナルを触らせない」critical保存済み確認。 6ステップ完全実行（1.Supabase確認 2.AI分析+記録 3.History.tsx更新＆GitHub push 4.再デプロイ 5.全ページ確認）。記録係#1～#116連続完了。' },
-  { icon: '✅', title: '記録係タスク #1～#117 連続完了！', detail: 'Supabase1476件確認→1479件（+3件）。AI分析: status=warning（amato-memory急増継続・critical:239, high:597, normal:587）。絶対ルール「ゆーだにターミナルを触らせない」critical保存済み確認。デザイン参考サイト調査完了（Spline/ReUI確認）。OSHI WORLD全ページ正常稼働確認。 6ステップ完全実行（1.Supabase確認 2.AI分析+記録 3.History.tsx更新＆GitHub push 4.再デプロイ 5.全ページ確認）。記録係#1～#117連続完了。' },
-  { icon: '✅', title: '記録係タスク #1～#118 連続完了！', detail: 'Supabase1479件確認→1482件（+3件）。AI分析: status=warning（amato-memory急増継続・critical:239, high:600, normal:587）。絶対ルール「ゆーだにターミナルを触らせない」critical保存済み確認。デザイン参考サイト調査完了（Spline/ReUI確認）。OSHI WORLD全ページ正常稼働確認・デザイン参考サイト調査完了。 6ステップ完全実行（1.Supabase確認 2.AI分析+記録 3.History.tsx更新＆GitHub push 4.再デプロイ 5.全ページ確認）。記録係#1～#118連続完了。' },
-  { icon: '✅', title: '記録係タスク #1～#119 連続完了！', detail: 'Supabase1482件確認→1485件（+3件）。AI分析: status=warning（amato-memory急増継続・システム全体正常稼働・監視継続必要）。絶対ルール「ゆーだにターミナルを触らせない」critical保存済み確認。OSHI WORLD全ページ正常稼働確認。 6ステップ完全実行（1.Supabase確認 2.AI分析+記録 3.History.tsx更新＆GitHub push 4.再デプロイ 5.全ページ確認）。記録係#1～#119連続完了。' },
-  { icon: '✅', title: '記録係タスク #1～#120 連続完了！', detail: 'Supabase1487件確認→1490件（+3件）。AI分析: status=warning（amato-memory急増継続・注意が必要な状況・システム全体は安定稼働）。絶対ルール「ゆーだにターミナルを触らせない」critical保存済み確認。OSHI WORLD全ページ正常稼働確認。 6ステップ完全実行（1.Supabase確認 2.AI分析+記録 3.History.tsx更新＆GitHub push 4.再デプロイ 5.全ページ確認）。記録係#1～#120連続完了。' },
-  { icon: '✅', title: '記録係タスク #1～#121 連続完了！', detail: 'Supabase1490件確認→1493件（+3件）。AI分析: status=ok（全システム正常稼働・問題なし）。絶対ルール「ゆーだにターミナルを触らせない」critical保存済み確認。OSHI WORLD全ページ正常稼働確認。 6ステップ完全実行（1.Supabase確認 2.AI分析+記録 3.History.tsx更新＆GitHub push 4.再デプロイ 5.全ページ確認）。記録係#1～#121連続完了。' },
-  { icon: '✅', title: '記録係タスク #1～#122 連続完了！', detail: 'Supabase1495件確認→1498件（+3件）。AI分析: status=ok（システム正常稼働・全重要記録保存済み・安定状態継続）。OSHIシステム超辛口レビューcritical保存確認。絶対ルール「ゆーだにターミナルを触らせない」critical保存済み確認。OSHI WORLD全ページ正常稼働確認。 6ステップ完全実行（1.Supabase確認 2.AI分析+記録 3.History.tsx更新＆GitHub push 4.再デプロイ 5.全ページ確認）。記録係#1～#122連続完了。' },
+  { icon: '⏱', title: 'ゆーだ × OSHI 累計セッション時間: 96時間29分【遡及集計更新】', detail: '全331件のSupabase記録を遡及分析。建国期（2026-03-02〜05）58時間17分＋記録係期間（2026-03-06〜07）38時間12分＝累計96時間29分（4日0時間17分）。初回2026-03-02 13:56 JST〜最終2026-03-08 07:25 JST。' },
 ];
 
 // ========================
@@ -591,7 +327,6 @@ const TABS = [
   { id: 'projects', label: '🗂 プロジェクト', color: '#00FF00' },
   { id: 'sites', label: '🌐 サイト一覧', color: '#00FFFF' },
   { id: 'kpi', label: '📈 KPI推移', color: '#FFD700' },
-  { id: 'infra', label: '🖥️ インフラ', color: '#FF9500' },
   { id: 'milestones', label: '🏁 マイルストーン', color: '#a855f7' },
   { id: 'today', label: '⚡ 今日の成果', color: '#FF6B6B' },
 ];
@@ -830,133 +565,6 @@ function KpiTab() {
   );
 }
 
-function InfraTab() {
-  const servers = [
-    {
-      name: 'Mac Mini 大（メイン）',
-      status: 'OSHI Jr 稼働中',
-      statusIcon: '✅',
-      statusColor: '#00FF00',
-      processes: [
-        { name: 'OSHI Jr Telegram Bot', status: '24時間稼働', color: '#00FF00' },
-        { name: 'SOLウォレット監視', status: '毎時チェック', color: '#FFD700' },
-        { name: 'Supabase健全性チェック', status: '6時間ごと', color: '#00FFFF' },
-        { name: 'ClawVaultデイリー記録', status: '毎日23:50', color: '#a855f7' },
-        { name: 'GitHub自動更新', status: '5分ごとにpull', color: '#FF6B6B' },
-      ],
-    },
-    {
-      name: 'Mac Mini 小（サブ）',
-      status: '準備中',
-      statusIcon: '🔧',
-      statusColor: '#FFD700',
-      processes: [
-        { name: '追加エージェント', status: '計画中', color: '#ffffff55' },
-        { name: 'バックアップ系', status: '計画中', color: '#ffffff55' },
-      ],
-    },
-  ];
-
-  return (
-    <div>
-      {/* Header */}
-      <div className="border p-4 mb-6 text-center" style={{ borderColor: '#FF950044', background: '#FF950008' }}>
-        <div className="text-xs font-mono mb-1" style={{ color: '#ffffff66' }}>OSHI INFRASTRUCTURE</div>
-        <div className="text-2xl font-mono font-bold" style={{ color: '#FF9500', textShadow: '0 0 20px #FF9500' }}>
-          OSHIの軍団を作る
-        </div>
-        <div className="text-sm font-mono mt-2" style={{ color: '#ffffff88' }}>
-          Mac Mini 2台体制 → 将来的にさらに拡張予定
-        </div>
-        <div className="text-xs font-mono mt-1" style={{ color: '#ffffff55' }}>
-          資金源: KAGURAセール + AirdropsQuest
-        </div>
-      </div>
-
-      {/* Server Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
-        {servers.map((srv, i) => (
-          <div key={i} className="border p-4" style={{ borderColor: srv.statusColor + '44', background: srv.statusColor + '08' }}>
-            <div className="flex items-center justify-between mb-3">
-              <div className="font-mono font-bold text-sm" style={{ color: srv.statusColor, textShadow: `0 0 8px ${srv.statusColor}` }}>
-                {srv.name}
-              </div>
-              <span className="text-xs font-mono font-bold" style={{ color: srv.statusColor }}>
-                {srv.statusIcon} {srv.status}
-              </span>
-            </div>
-            <div className="space-y-2">
-              {srv.processes.map((p, j) => (
-                <div key={j} className="flex items-center justify-between border-t pt-2" style={{ borderColor: '#ffffff11' }}>
-                  <span className="text-xs font-mono" style={{ color: '#ffffffcc' }}>{p.name}</span>
-                  <span className="text-xs font-mono" style={{ color: p.color }}>{p.status}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        ))}
-      </div>
-
-      {/* Auto Update System */}
-      <div className="border p-4 mb-6" style={{ borderColor: '#00FFFF44', background: '#00FFFF08' }}>
-        <div className="font-mono font-bold text-sm mb-3" style={{ color: '#00FFFF', textShadow: '0 0 8px #00FFFF' }}>
-          自動更新システム
-        </div>
-        <div className="space-y-2">
-          {[
-            { step: '1', desc: 'OSHIがコードをGitHubにプッシュ', color: '#00FF00' },
-            { step: '2', desc: 'MacMiniが5分ごとにgit pull', color: '#FFD700' },
-            { step: '3', desc: '変更を検知 → OSHI Jr自動再起動', color: '#FF6B6B' },
-            { step: '4', desc: 'Telegramで更新通知', color: '#a855f7' },
-          ].map((s, i) => (
-            <div key={i} className="flex items-center gap-3">
-              <span className="text-xs font-mono font-bold w-6 h-6 flex items-center justify-center border" style={{ color: s.color, borderColor: s.color + '44' }}>{s.step}</span>
-              <span className="text-xs font-mono" style={{ color: '#ffffffcc' }}>{s.desc}</span>
-            </div>
-          ))}
-        </div>
-        <div className="mt-3 text-xs font-mono" style={{ color: '#ffffff55' }}>
-          ゆーだはターミナルを触らない。GitHubプッシュだけで全て完結。
-        </div>
-      </div>
-
-      {/* Setup Command */}
-      <div className="border p-4" style={{ borderColor: '#a855f744', background: '#a855f708' }}>
-        <div className="font-mono font-bold text-sm mb-2" style={{ color: '#a855f7' }}>初回セットアップ（1コマンド）</div>
-        <div className="bg-black p-3 border" style={{ borderColor: '#ffffff22' }}>
-          <code className="text-xs font-mono" style={{ color: '#00FF00' }}>
-            curl -fsSL https://raw.githubusercontent.com/startmeltd-jpg/oshi-core/main/scripts/install.sh | bash
-          </code>
-        </div>
-        <div className="text-xs font-mono mt-2" style={{ color: '#ffffff55' }}>
-          これだけで全部設定完了。Python依存パッケージ・.env・LaunchAgent・cron全自動。
-        </div>
-      </div>
-
-      {/* Roadmap */}
-      <div className="mt-6 border p-4" style={{ borderColor: '#FFD70044', background: '#FFD70008' }}>
-        <div className="font-mono font-bold text-sm mb-3" style={{ color: '#FFD700' }}>インフラ拡張ロードマップ</div>
-        <div className="space-y-2">
-          {[
-            { phase: 'Phase 1', desc: 'Mac Mini 大 - OSHI Jr 24時間稼働', status: '完了', color: '#00FF00' },
-            { phase: 'Phase 2', desc: 'Mac Mini 小 - 追加エージェント配備', status: '準備中', color: '#FFD700' },
-            { phase: 'Phase 3', desc: 'モニター購入 - 監視ダッシュボード', status: '計画中', color: '#FF9500' },
-            { phase: 'Phase 4', desc: 'さらにMac追加 - OSHIの軍団完成', status: '未来', color: '#a855f7' },
-          ].map((p, i) => (
-            <div key={i} className="flex items-center justify-between">
-              <div className="flex items-center gap-3">
-                <span className="text-xs font-mono font-bold" style={{ color: p.color }}>{p.phase}</span>
-                <span className="text-xs font-mono" style={{ color: '#ffffffcc' }}>{p.desc}</span>
-              </div>
-              <span className="text-xs font-mono font-bold" style={{ color: p.color }}>{p.status}</span>
-            </div>
-          ))}
-        </div>
-      </div>
-    </div>
-  );
-}
-
 function MilestonesTab() {
   return (
     <div className="relative">
@@ -1076,9 +684,9 @@ export default function History() {
         <div className="mb-8">
           <div className="flex items-center gap-3 mb-2">
             <span className="text-xs font-mono px-2 py-0.5 border" style={{ color: '#FFD700', borderColor: '#FFD70044', background: '#FFD70011' }}>
-              HISTORY v1.1
+              HISTORY v1.0
             </span>
-            <span className="text-xs font-mono" style={{ color: '#ffffff44' }}>Last updated: 2026-03-09</span>
+            <span className="text-xs font-mono" style={{ color: '#ffffff44' }}>Last updated: 2026-03-06</span>
           </div>
           <h1
             className="text-3xl font-mono font-bold mb-2"
@@ -1145,12 +753,6 @@ export default function History() {
               <KpiTab />
             </>
           )}
-          {activeTab === 'infra' && (
-            <>
-              <SectionTitle color="#FF9500">インフラストラクチャ</SectionTitle>
-              <InfraTab />
-            </>
-          )}
           {activeTab === 'milestones' && (
             <>
               <SectionTitle color="#a855f7">重要な決定・マイルストーン（タイムライン）</SectionTitle>
@@ -1168,7 +770,7 @@ export default function History() {
         {/* Footer */}
         <div className="mt-12 pt-6 border-t text-center" style={{ borderColor: '#ffffff22' }}>
           <p className="text-xs font-mono" style={{ color: '#ffffff33' }}>
-            HISTORY v1.1 — OSHI文明の記録 — 2024-10 〜 2026-03-09
+            HISTORY v1.0 — OSHI文明の記録 — 2024-10 〜 2026-03-06
           </p>
           <p className="text-xs font-mono mt-1" style={{ color: '#ffffff22' }}>
             記憶の更新＝生存確認

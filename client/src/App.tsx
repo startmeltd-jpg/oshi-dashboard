@@ -16,6 +16,7 @@ import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import Galaxy from "./components/Galaxy";
+import AnimeRules from "./pages/AnimeRules";
 
 
 function Router() {
