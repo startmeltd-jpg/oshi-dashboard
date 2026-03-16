@@ -171,6 +171,13 @@ export default defineConfig({
     port: 3000,
     strictPort: false, // Will find next available port if 3000 is busy
     host: true,
+    proxy: {
+      '/api': {
+        target: 'https://memorydash-g9jppxaa.manus.space',
+        changeOrigin: true,
+        secure: true,
+      },
+    },
     allowedHosts: [
       ".manuspre.computer",
       ".manus.computer",
